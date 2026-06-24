@@ -97,7 +97,7 @@
 
       window.DOCMD_APPEARANCE = "system";
       window.DOCMD_VERSION_ROOT = "/";
-      window.DOCMD_BASE = "/";
+      window.DOCMD_BASE = "/user-guide/";
       window.DOCMD_LOCALE = "";
       window.DOCMD_DEFAULT_LOCALE = "";
     </script>
@@ -105,10 +105,10 @@
       Patients : MedOps HMS
     </title>
     
-    <link rel="stylesheet" href="../../assets/css/docmd-main.css?v=mqrxuyi3">
+    <link rel="stylesheet" href="../../assets/css/docmd-main.css?v=mqrygv4p">
     
-    <link rel="stylesheet" href="../../assets/css/docmd-highlight-light.css?v=mqrxuyi3" id="hljs-light" >
-    <link rel="stylesheet" href="../../assets/css/docmd-highlight-dark.css?v=mqrxuyi3" id="hljs-dark" disabled>
+    <link rel="stylesheet" href="../../assets/css/docmd-highlight-light.css?v=mqrygv4p" id="hljs-light" >
+    <link rel="stylesheet" href="../../assets/css/docmd-highlight-dark.css?v=mqrygv4p" id="hljs-dark" disabled>
     
     
 <meta name="description" content="Register patients in MedOps HMS, give each a unique Medical Record Number, search and update records, and view a full visit and prescription history.">
@@ -123,11 +123,11 @@
 
 
 
-<link rel="stylesheet" href="../../assets/css/docmd-git.css?v=mqrxuyi3" >
-<link rel="stylesheet" href="../../assets/css/docmd-openapi.css?v=mqrxuyi3" >
+<link rel="stylesheet" href="../../assets/css/docmd-git.css?v=mqrygv4p" >
+<link rel="stylesheet" href="../../assets/css/docmd-openapi.css?v=mqrygv4p" >
 
     
-      <link rel="stylesheet" href="../../assets/css/brand.css?v=mqrxuyi3">
+      <link rel="stylesheet" href="../../assets/css/brand.css?v=mqrygv4p">
     
     <script>/**
  * --------------------------------------------------------------------
@@ -1851,7 +1851,7 @@
             <div class="content-layout">
               <div class="main-content">
                 <div class="docmd-breadcrumbs-row">
-                  <div id="docmd-raw-markdown" data-content="---%0Atitle%3A%20Patients%0Adescription%3A%20Register%20patients%20in%20MedOps%20HMS%2C%20give%20each%20a%20unique%20Medical%20Record%20Number%2C%20search%20and%20update%20records%2C%20and%20view%20a%20full%20visit%20and%20prescription%20history.%0A---%0A%0A%23%20Patients%0A%0AEverything%20in%20MedOps%20starts%20with%20the%20patient%20record.%20A%20patient%20is%20registered%0A**once**%2C%20and%20every%20appointment%2C%20consultation%2C%20prescription%2C%20admission%20and%0Abill%20links%20back%20to%20that%20single%20record.%0A%0A%3A%3A%3A%20callout%20info%20%22Who%20manages%20this%22%20icon%3Ashield%0A**Operations**%20staff%20and%20the%20**Tenant%20Admin**%20register%20and%20manage%20patients.%0ADoctors%20see%20patient%20information%20through%20the%20appointments%20and%20consultations%0Athey&#039;re%20part%20of.%0A%3A%3A%3A%0A%0A%23%23%20Registering%20a%20patient%0A%0AWhen%20you%20register%20a%20patient%2C%20you%20capture%3A%0A%0A-%20**Full%20name**%0A-%20**Gender**%20%E2%80%94%20male%2C%20female%20or%20other%0A-%20**Date%20of%20birth**%0A-%20**Phone%20number**%0A-%20**Email**%20%E2%80%94%20optional%0A-%20**Address**%20%E2%80%94%20optional%0A-%20**Aadhaar%20number**%20%E2%80%94%20optional%0A-%20**Hospital**%20%E2%80%94%20where%20the%20patient%20is%20registered%0A%0A%3A%3A%3A%20callout%20success%20%22A%20unique%20MRN%2C%20automatically%22%20icon%3Auser-round%0AMedOps%20gives%20every%20patient%20a%20unique%20**Medical%20Record%20Number%20(MRN)**%20the%0Amoment%20they&#039;re%20registered.%20You%20never%20have%20to%20assign%20one%20yourself%2C%20and%20it%0Astays%20with%20the%20patient%20for%20life.%0A%3A%3A%3A%0A%0A%23%23%20Finding%20patients%0A%0AYou%20can%20browse%20all%20patients%20or%20search%20to%20jump%20straight%20to%20the%20right%20person.%0ASearch%20looks%20across%3A%0A%0A-%20**Name**%0A-%20**MRN**%0A-%20**Phone%20number**%0A-%20**Email**%0A%0AYou%20can%20also%20filter%20the%20list%20by%20hospital%2C%20and%20page%20through%20large%20lists.%0A%0A%23%23%20Viewing%20a%20patient%0A%0AOpen%20a%20patient%20to%20see%20their%20full%20profile%20along%20with%20their%20history%3A%0A%0A-%20**Visit%20timeline**%20%E2%80%94%20their%20recent%20appointments%2C%20each%20showing%20the%20visit%0A%20%20type%20and%20status%2C%20the%20doctor&#039;s%20consultation%20notes%2C%20any%20follow-up%20date%2C%20and%0A%20%20the%20medicines%20that%20were%20prescribed%0A-%20**Prescription%20history**%20%E2%80%94%20every%20prescription%20issued%20to%20the%20patient%2C%20with%0A%20%20the%20prescribing%20doctor%2C%20the%20date%2C%20and%20each%20medicine&#039;s%20dosage%2C%20frequency%2C%0A%20%20duration%20and%20instructions%0A%0AThis%20gives%20anyone%20caring%20for%20the%20patient%20the%20full%20picture%20at%20a%20glance.%0A%0A%23%23%20Updating%20a%20patient%0A%0AYou%20can%20update%20a%20patient&#039;s%20details%20%E2%80%94%20name%2C%20gender%2C%20date%20of%20birth%2C%20phone%2C%0Aemail%2C%20address%20and%20Aadhaar%20number%20%E2%80%94%20at%20any%20time.%0A%0A%3A%3A%3A%20callout%20info%20%22The%20hospital%20stays%20fixed%22%20icon%3Alock%0AA%20patient&#039;s%20**registered%20hospital**%20can&#039;t%20be%20changed%20after%20registration%2C%20so%0Atheir%20records%20stay%20anchored%20to%20where%20they%20were%20first%20seen.%0A%3A%3A%3A%0A%0A%23%23%20Related%20pages%0A%0A-%20%5BAppointments%5D(%2Ffeatures%2Fappointments)%20%E2%80%94%20book%20a%20visit%20for%20a%20patient%0A-%20%5BAn%20Outpatient%20Visit%5D(%2Fworkflows%2Foutpatient-visit)%20%E2%80%94%20the%20end-to-end%20flow%0A" style="display: none;"></div>
+                  <div id="docmd-raw-markdown" data-content="---%0Atitle%3A%20Patients%0Adescription%3A%20Register%20patients%20in%20MedOps%20HMS%2C%20give%20each%20a%20unique%20Medical%20Record%20Number%2C%20search%20and%20update%20records%2C%20and%20view%20a%20full%20visit%20and%20prescription%20history.%0A---%0A%0A%23%20Patients%0A%0AEverything%20in%20MedOps%20starts%20with%20the%20patient%20record.%20A%20patient%20is%20registered%0A**once**%2C%20and%20every%20appointment%2C%20consultation%2C%20prescription%2C%20admission%20and%0Abill%20links%20back%20to%20that%20single%20record.%0A%0A%3A%3A%3A%20callout%20info%20%22Who%20manages%20this%22%20icon%3Ashield%0A**Operations**%20staff%20and%20the%20**Tenant%20Admin**%20register%20and%20manage%20patients.%0ADoctors%20see%20patient%20information%20through%20the%20appointments%20and%20consultations%0Athey&#039;re%20part%20of.%0A%3A%3A%3A%0A%0A%23%23%20Registering%20a%20patient%0A%0AWhen%20you%20register%20a%20patient%2C%20you%20capture%3A%0A%0A-%20**Full%20name**%0A-%20**Gender**%20%E2%80%94%20male%2C%20female%20or%20other%0A-%20**Date%20of%20birth**%0A-%20**Phone%20number**%0A-%20**Email**%20%E2%80%94%20optional%0A-%20**Address**%20%E2%80%94%20optional%0A-%20**Aadhaar%20number**%20%E2%80%94%20optional%0A-%20**Hospital**%20%E2%80%94%20where%20the%20patient%20is%20registered%0A%0A%3A%3A%3A%20callout%20success%20%22A%20unique%20MRN%2C%20automatically%22%20icon%3Auser-round%0AMedOps%20gives%20every%20patient%20a%20unique%20**Medical%20Record%20Number%20(MRN)**%20the%0Amoment%20they&#039;re%20registered.%20You%20never%20have%20to%20assign%20one%20yourself%2C%20and%20it%0Astays%20with%20the%20patient%20for%20life.%0A%3A%3A%3A%0A%0A%23%23%20Finding%20patients%0A%0AYou%20can%20browse%20all%20patients%20or%20search%20to%20jump%20straight%20to%20the%20right%20person.%0ASearch%20looks%20across%3A%0A%0A-%20**Name**%0A-%20**MRN**%0A-%20**Phone%20number**%0A-%20**Email**%0A%0AYou%20can%20also%20filter%20the%20list%20by%20hospital%2C%20and%20page%20through%20large%20lists.%0A%0A%23%23%20Viewing%20a%20patient%0A%0AOpen%20a%20patient%20to%20see%20their%20full%20profile%20along%20with%20their%20history%3A%0A%0A-%20**Visit%20timeline**%20%E2%80%94%20their%20recent%20appointments%2C%20each%20showing%20the%20visit%0A%20%20type%20and%20status%2C%20the%20doctor&#039;s%20consultation%20notes%2C%20any%20follow-up%20date%2C%20and%0A%20%20the%20medicines%20that%20were%20prescribed%0A-%20**Prescription%20history**%20%E2%80%94%20every%20prescription%20issued%20to%20the%20patient%2C%20with%0A%20%20the%20prescribing%20doctor%2C%20the%20date%2C%20and%20each%20medicine&#039;s%20dosage%2C%20frequency%2C%0A%20%20duration%20and%20instructions%0A%0AThis%20gives%20anyone%20caring%20for%20the%20patient%20the%20full%20picture%20at%20a%20glance.%0A%0A%23%23%20Updating%20a%20patient%0A%0AYou%20can%20update%20a%20patient&#039;s%20details%20%E2%80%94%20name%2C%20gender%2C%20date%20of%20birth%2C%20phone%2C%0Aemail%2C%20address%20and%20Aadhaar%20number%20%E2%80%94%20at%20any%20time.%0A%0A%3A%3A%3A%20callout%20info%20%22The%20hospital%20stays%20fixed%22%20icon%3Alock%0AA%20patient&#039;s%20**registered%20hospital**%20can&#039;t%20be%20changed%20after%20registration%2C%20so%0Atheir%20records%20stay%20anchored%20to%20where%20they%20were%20first%20seen.%0A%3A%3A%3A%0A%0A%23%23%20Related%20pages%0A%0A-%20%5BAppointments%5D(appointments.md)%20%E2%80%94%20book%20a%20visit%20for%20a%20patient%0A-%20%5BAn%20Outpatient%20Visit%5D(..%2Fworkflows%2Foutpatient-visit.md)%20%E2%80%94%20the%20end-to-end%20flow%0A" style="display: none;"></div>
                   
                     <nav aria-label="breadcrumb" class="docmd-breadcrumbs">
                       <ol>
@@ -2043,8 +2043,8 @@ their records stay anchored to where they were first seen.</p>
 </div></div>
 <h2 id="patients-related-pages" class="docmd-heading"><a href="#patients-related-pages" class="heading-anchor" aria-label="Permalink to this section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-link2-icon lucide-link-2"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a>Related pages</h2>
 <ul>
-<li><a href="/features/appointments/">Appointments</a> — book a visit for a patient</li>
-<li><a href="/workflows/outpatient-visit/">An Outpatient Visit</a> — the end-to-end flow</li>
+<li><a href="../appointments/">Appointments</a> — book a visit for a patient</li>
+<li><a href="../../workflows/outpatient-visit/">An Outpatient Visit</a> — the end-to-end flow</li>
 </ul>
 
                 
@@ -2173,13 +2173,13 @@ their records stay anchored to where they were first seen.</p>
         </div>
       </div>
       
-      <script src="../../assets/js/docmd-main.js?v=mqrxuyi3"></script>
+      <script src="../../assets/js/docmd-main.js?v=mqrygv4p"></script>
       
-      <script src="../../assets/js/docmd-git.js?v=mqrxuyi3"></script>
-      <script src="../../assets/js/docmd-image-lightbox.js?v=mqrxuyi3" ></script>
+      <script src="../../assets/js/docmd-git.js?v=mqrygv4p"></script>
+      <script src="../../assets/js/docmd-image-lightbox.js?v=mqrygv4p" ></script>
 <script src="https://cdn.jsdelivr.net/npm/minisearch@7.2.0/dist/umd/index.min.js" ></script>
-<script src="../../assets/js/docmd-search.js?v=mqrxuyi3" ></script>
-<script src="../../assets/js/docmd-git.js?v=mqrxuyi3" type="module"></script>
+<script src="../../assets/js/docmd-search.js?v=mqrygv4p" ></script>
+<script src="../../assets/js/docmd-git.js?v=mqrygv4p" type="module"></script>
 
   <!-- Search Modal (Injected by @docmd/plugin-search) -->
   <div id="docmd-search-modal" class="docmd-search-modal" style="display: none;" data-show-confidence="false" data-show-filters="false"

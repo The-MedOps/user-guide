@@ -97,7 +97,7 @@
 
       window.DOCMD_APPEARANCE = "system";
       window.DOCMD_VERSION_ROOT = "/";
-      window.DOCMD_BASE = "/";
+      window.DOCMD_BASE = "/user-guide/";
       window.DOCMD_LOCALE = "";
       window.DOCMD_DEFAULT_LOCALE = "";
     </script>
@@ -105,10 +105,10 @@
       An Inpatient Admission : MedOps HMS
     </title>
     
-    <link rel="stylesheet" href="../../assets/css/docmd-main.css?v=mqrxuyi3">
+    <link rel="stylesheet" href="../../assets/css/docmd-main.css?v=mqrygv4p">
     
-    <link rel="stylesheet" href="../../assets/css/docmd-highlight-light.css?v=mqrxuyi3" id="hljs-light" >
-    <link rel="stylesheet" href="../../assets/css/docmd-highlight-dark.css?v=mqrxuyi3" id="hljs-dark" disabled>
+    <link rel="stylesheet" href="../../assets/css/docmd-highlight-light.css?v=mqrygv4p" id="hljs-light" >
+    <link rel="stylesheet" href="../../assets/css/docmd-highlight-dark.css?v=mqrygv4p" id="hljs-dark" disabled>
     
     
 <meta name="description" content="The end-to-end inpatient flow in MedOps HMS — admitting a patient to a bed, ward rounds and medications, transfers, and discharge.">
@@ -123,11 +123,11 @@
 
 
 
-<link rel="stylesheet" href="../../assets/css/docmd-git.css?v=mqrxuyi3" >
-<link rel="stylesheet" href="../../assets/css/docmd-openapi.css?v=mqrxuyi3" >
+<link rel="stylesheet" href="../../assets/css/docmd-git.css?v=mqrygv4p" >
+<link rel="stylesheet" href="../../assets/css/docmd-openapi.css?v=mqrygv4p" >
 
     
-      <link rel="stylesheet" href="../../assets/css/brand.css?v=mqrxuyi3">
+      <link rel="stylesheet" href="../../assets/css/brand.css?v=mqrygv4p">
     
     <script>/**
  * --------------------------------------------------------------------
@@ -1851,7 +1851,7 @@
             <div class="content-layout">
               <div class="main-content">
                 <div class="docmd-breadcrumbs-row">
-                  <div id="docmd-raw-markdown" data-content="---%0Atitle%3A%20An%20Inpatient%20Admission%0Adescription%3A%20The%20end-to-end%20inpatient%20flow%20in%20MedOps%20HMS%20%E2%80%94%20admitting%20a%20patient%20to%20a%20bed%2C%20ward%20rounds%20and%20medications%2C%20transfers%2C%20and%20discharge.%0A---%0A%0A%23%20An%20Inpatient%20Admission%0A%0AThis%20guide%20follows%20an%20inpatient%20(IP)%20stay%20from%20admission%20to%20discharge%2C%20and%0Awho%20does%20what%20along%20the%20way.%0A%0A%3A%3A%3A%20callout%20info%20%22Who&#039;s%20involved%22%20icon%3Ausers%0A**Operations**%20(front%20desk)%2C%20the%20**Doctor**%2C%20and%20**Nurses**.%20Make%20sure%20your%0Award%20layout%20%E2%80%94%20floors%2C%20rooms%20and%20beds%20%E2%80%94%20is%20set%20up%20first.%0A%5BSet%20up%20beds%20%E2%86%92%5D(%2Ffeatures%2Fhospitals-and-departments)%0A%3A%3A%3A%0A%0A%23%23%20The%20journey%0A%0A%3A%3A%3A%20steps%0A1.%20**Find%20or%20register%20the%20patient**%20*(Operations)*%0A%20%20%20Search%20for%20the%20patient%2C%20or%20register%20them%20if%20they&#039;re%20new.%0A%20%20%20%5BPatients%20%E2%86%92%5D(%2Ffeatures%2Fpatients)%0A2.%20**Admit%20to%20a%20bed**%20*(Operations)*%0A%20%20%20Choose%20a%20vacant%20bed%20and%20the%20admitting%20doctor%2C%20record%20the%20reason%20for%0A%20%20%20admission%2C%20and%20capture%20any%20advance%20deposit%2C%20payment%20type%20and%20insurance%0A%20%20%20details.%20The%20bed%20is%20marked%20occupied.%0A%20%20%20%5BAdmitted%20Patients%20%E2%86%92%5D(%2Ffeatures%2Fadmitted-patients)%0A3.%20**Round%20on%20the%20patient**%20*(Doctor)*%0A%20%20%20Record%20each%20ward%20round%20with%20notes%2C%20vitals%2C%20your%20assessment%20and%20the%20plan.%0A%20%20%20The%20whole%20care%20team%20can%20see%20the%20history.%0A4.%20**Manage%20medications**%20*(Doctor)*%0A%20%20%20Add%20and%20adjust%20inpatient%20medicines%20as%20treatment%20changes%20during%20the%20stay.%0A5.%20**Transfer%20if%20needed**%20*(Operations)*%0A%20%20%20If%20the%20patient%20needs%20a%20different%20bed%20(for%20example%2C%20the%20ICU)%2C%20transfer%20them%0A%20%20%20to%20another%20vacant%20bed.%20The%20same%20admission%20continues%20with%20all%20its%20history.%0A6.%20**Discharge**%20*(Operations)*%0A%20%20%20When%20the%20patient%20is%20ready%20to%20leave%2C%20process%20the%20discharge.%20MedOps%20records%0A%20%20%20the%20discharge%20date%20and%20frees%20the%20bed%20for%20cleaning.%0A7.%20**Settle%20charges**%20*(Operations)*%0A%20%20%20The%20room&#039;s%20daily%20tariff%20and%20the%20advance%20deposit%20inform%20the%20final%0A%20%20%20settlement%3B%20any%20dispensed%20medicines%20are%20billed%20by%20the%20pharmacy.%0A%20%20%20%5BBilling%20%26%20Payments%20%E2%86%92%5D(%2Ffeatures%2Fbills)%0A%3A%3A%3A%0A%0A%3A%3A%3A%20callout%20tip%20%22Beds%20look%20after%20themselves%22%20icon%3Abed%0AAfter%20a%20discharge%20or%20transfer%2C%20the%20bed%20is%20automatically%20flagged%20for%20cleaning%2C%0Aso%20the%20front%20desk%20only%20ever%20assigns%20beds%20that%20are%20truly%20ready.%0A%3A%3A%3A%0A%0A%23%23%20Related%20guides%0A%0A-%20%5BAn%20Outpatient%20Visit%5D(%2Fworkflows%2Foutpatient-visit)%0A-%20%5BPharmacy%20Dispensing%5D(%2Fworkflows%2Fpharmacy-dispensing)%0A" style="display: none;"></div>
+                  <div id="docmd-raw-markdown" data-content="---%0Atitle%3A%20An%20Inpatient%20Admission%0Adescription%3A%20The%20end-to-end%20inpatient%20flow%20in%20MedOps%20HMS%20%E2%80%94%20admitting%20a%20patient%20to%20a%20bed%2C%20ward%20rounds%20and%20medications%2C%20transfers%2C%20and%20discharge.%0A---%0A%0A%23%20An%20Inpatient%20Admission%0A%0AThis%20guide%20follows%20an%20inpatient%20(IP)%20stay%20from%20admission%20to%20discharge%2C%20and%0Awho%20does%20what%20along%20the%20way.%0A%0A%3A%3A%3A%20callout%20info%20%22Who&#039;s%20involved%22%20icon%3Ausers%0A**Operations**%20(front%20desk)%2C%20the%20**Doctor**%2C%20and%20**Nurses**.%20Make%20sure%20your%0Award%20layout%20%E2%80%94%20floors%2C%20rooms%20and%20beds%20%E2%80%94%20is%20set%20up%20first.%0A%5BSet%20up%20beds%20%E2%86%92%5D(..%2Ffeatures%2Fhospitals-and-departments.md)%0A%3A%3A%3A%0A%0A%23%23%20The%20journey%0A%0A%3A%3A%3A%20steps%0A1.%20**Find%20or%20register%20the%20patient**%20*(Operations)*%0A%20%20%20Search%20for%20the%20patient%2C%20or%20register%20them%20if%20they&#039;re%20new.%0A%20%20%20%5BPatients%20%E2%86%92%5D(..%2Ffeatures%2Fpatients.md)%0A2.%20**Admit%20to%20a%20bed**%20*(Operations)*%0A%20%20%20Choose%20a%20vacant%20bed%20and%20the%20admitting%20doctor%2C%20record%20the%20reason%20for%0A%20%20%20admission%2C%20and%20capture%20any%20advance%20deposit%2C%20payment%20type%20and%20insurance%0A%20%20%20details.%20The%20bed%20is%20marked%20occupied.%0A%20%20%20%5BAdmitted%20Patients%20%E2%86%92%5D(..%2Ffeatures%2Fadmitted-patients.md)%0A3.%20**Round%20on%20the%20patient**%20*(Doctor)*%0A%20%20%20Record%20each%20ward%20round%20with%20notes%2C%20vitals%2C%20your%20assessment%20and%20the%20plan.%0A%20%20%20The%20whole%20care%20team%20can%20see%20the%20history.%0A4.%20**Manage%20medications**%20*(Doctor)*%0A%20%20%20Add%20and%20adjust%20inpatient%20medicines%20as%20treatment%20changes%20during%20the%20stay.%0A5.%20**Transfer%20if%20needed**%20*(Operations)*%0A%20%20%20If%20the%20patient%20needs%20a%20different%20bed%20(for%20example%2C%20the%20ICU)%2C%20transfer%20them%0A%20%20%20to%20another%20vacant%20bed.%20The%20same%20admission%20continues%20with%20all%20its%20history.%0A6.%20**Discharge**%20*(Operations)*%0A%20%20%20When%20the%20patient%20is%20ready%20to%20leave%2C%20process%20the%20discharge.%20MedOps%20records%0A%20%20%20the%20discharge%20date%20and%20frees%20the%20bed%20for%20cleaning.%0A7.%20**Settle%20charges**%20*(Operations)*%0A%20%20%20The%20room&#039;s%20daily%20tariff%20and%20the%20advance%20deposit%20inform%20the%20final%0A%20%20%20settlement%3B%20any%20dispensed%20medicines%20are%20billed%20by%20the%20pharmacy.%0A%20%20%20%5BBilling%20%26%20Payments%20%E2%86%92%5D(..%2Ffeatures%2Fbills.md)%0A%3A%3A%3A%0A%0A%3A%3A%3A%20callout%20tip%20%22Beds%20look%20after%20themselves%22%20icon%3Abed%0AAfter%20a%20discharge%20or%20transfer%2C%20the%20bed%20is%20automatically%20flagged%20for%20cleaning%2C%0Aso%20the%20front%20desk%20only%20ever%20assigns%20beds%20that%20are%20truly%20ready.%0A%3A%3A%3A%0A%0A%23%23%20Related%20guides%0A%0A-%20%5BAn%20Outpatient%20Visit%5D(outpatient-visit.md)%0A-%20%5BPharmacy%20Dispensing%5D(pharmacy-dispensing.md)%0A" style="display: none;"></div>
                   
                     <nav aria-label="breadcrumb" class="docmd-breadcrumbs">
                       <ol>
@@ -1964,17 +1964,17 @@ who does what along the way.</p>
 Who’s involved</div><div class="callout-content">
 <p><strong>Operations</strong> (front desk), the <strong>Doctor</strong>, and <strong>Nurses</strong>. Make sure your<br>
 ward layout — floors, rooms and beds — is set up first.<br>
-<a href="/features/hospitals-and-departments/">Set up beds →</a></p>
+<a href="../../features/hospitals-and-departments/">Set up beds →</a></p>
 </div></div>
 <h2 id="an-inpatient-admission-the-journey" class="docmd-heading"><a href="#an-inpatient-admission-the-journey" class="heading-anchor" aria-label="Permalink to this section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-link2-icon lucide-link-2"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a>The journey</h2>
 <div class="docmd-container steps steps-reset"><ol class="steps-list"><li class="step-item" id="step-60"><a href="#step-60" class="step-permalink" aria-label="Permalink to this step"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a><strong>Find or register the patient</strong> <em>(Operations)</em><br>
 Search for the patient, or register them if they’re new.<br>
-<a href="/features/patients/">Patients →</a></li>
+<a href="../../features/patients/">Patients →</a></li>
 <li class="step-item" id="step-61"><a href="#step-61" class="step-permalink" aria-label="Permalink to this step"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a><strong>Admit to a bed</strong> <em>(Operations)</em><br>
 Choose a vacant bed and the admitting doctor, record the reason for<br>
 admission, and capture any advance deposit, payment type and insurance<br>
 details. The bed is marked occupied.<br>
-<a href="/features/admitted-patients/">Admitted Patients →</a></li>
+<a href="../../features/admitted-patients/">Admitted Patients →</a></li>
 <li class="step-item" id="step-62"><a href="#step-62" class="step-permalink" aria-label="Permalink to this step"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a><strong>Round on the patient</strong> <em>(Doctor)</em><br>
 Record each ward round with notes, vitals, your assessment and the plan.<br>
 The whole care team can see the history.</li>
@@ -1989,7 +1989,7 @@ the discharge date and frees the bed for cleaning.</li>
 <li class="step-item" id="step-66"><a href="#step-66" class="step-permalink" aria-label="Permalink to this step"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a><strong>Settle charges</strong> <em>(Operations)</em><br>
 The room’s daily tariff and the advance deposit inform the final<br>
 settlement; any dispensed medicines are billed by the pharmacy.<br>
-<a href="/features/bills/">Billing &amp; Payments →</a></li>
+<a href="../../features/bills/">Billing &amp; Payments →</a></li>
 </ol>
 </div><div class="docmd-container callout callout-tip"><div class="callout-title">
 <svg class="lucide-icon icon-bed callout-icon-heading" width="1em" height="1em" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
@@ -2015,8 +2015,8 @@ so the front desk only ever assigns beds that are truly ready.</p>
 </div></div>
 <h2 id="an-inpatient-admission-related-guides" class="docmd-heading"><a href="#an-inpatient-admission-related-guides" class="heading-anchor" aria-label="Permalink to this section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-link2-icon lucide-link-2"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a>Related guides</h2>
 <ul>
-<li><a href="/workflows/outpatient-visit/">An Outpatient Visit</a></li>
-<li><a href="/workflows/pharmacy-dispensing/">Pharmacy Dispensing</a></li>
+<li><a href="../outpatient-visit/">An Outpatient Visit</a></li>
+<li><a href="../pharmacy-dispensing/">Pharmacy Dispensing</a></li>
 </ul>
 
                 
@@ -2133,13 +2133,13 @@ so the front desk only ever assigns beds that are truly ready.</p>
         </div>
       </div>
       
-      <script src="../../assets/js/docmd-main.js?v=mqrxuyi3"></script>
+      <script src="../../assets/js/docmd-main.js?v=mqrygv4p"></script>
       
-      <script src="../../assets/js/docmd-git.js?v=mqrxuyi3"></script>
-      <script src="../../assets/js/docmd-image-lightbox.js?v=mqrxuyi3" ></script>
+      <script src="../../assets/js/docmd-git.js?v=mqrygv4p"></script>
+      <script src="../../assets/js/docmd-image-lightbox.js?v=mqrygv4p" ></script>
 <script src="https://cdn.jsdelivr.net/npm/minisearch@7.2.0/dist/umd/index.min.js" ></script>
-<script src="../../assets/js/docmd-search.js?v=mqrxuyi3" ></script>
-<script src="../../assets/js/docmd-git.js?v=mqrxuyi3" type="module"></script>
+<script src="../../assets/js/docmd-search.js?v=mqrygv4p" ></script>
+<script src="../../assets/js/docmd-git.js?v=mqrygv4p" type="module"></script>
 
   <!-- Search Modal (Injected by @docmd/plugin-search) -->
   <div id="docmd-search-modal" class="docmd-search-modal" style="display: none;" data-show-confidence="false" data-show-filters="false"

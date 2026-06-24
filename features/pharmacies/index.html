@@ -97,7 +97,7 @@
 
       window.DOCMD_APPEARANCE = "system";
       window.DOCMD_VERSION_ROOT = "/";
-      window.DOCMD_BASE = "/";
+      window.DOCMD_BASE = "/user-guide/";
       window.DOCMD_LOCALE = "";
       window.DOCMD_DEFAULT_LOCALE = "";
     </script>
@@ -105,10 +105,10 @@
       Pharmacies : MedOps HMS
     </title>
     
-    <link rel="stylesheet" href="../../assets/css/docmd-main.css?v=mqrxuyi3">
+    <link rel="stylesheet" href="../../assets/css/docmd-main.css?v=mqrygv4p">
     
-    <link rel="stylesheet" href="../../assets/css/docmd-highlight-light.css?v=mqrxuyi3" id="hljs-light" >
-    <link rel="stylesheet" href="../../assets/css/docmd-highlight-dark.css?v=mqrxuyi3" id="hljs-dark" disabled>
+    <link rel="stylesheet" href="../../assets/css/docmd-highlight-light.css?v=mqrygv4p" id="hljs-light" >
+    <link rel="stylesheet" href="../../assets/css/docmd-highlight-dark.css?v=mqrygv4p" id="hljs-dark" disabled>
     
     
 <meta name="description" content="Set up pharmacies in MedOps HMS with their tax rates and manage who can sign in to each pharmacy's portal.">
@@ -123,11 +123,11 @@
 
 
 
-<link rel="stylesheet" href="../../assets/css/docmd-git.css?v=mqrxuyi3" >
-<link rel="stylesheet" href="../../assets/css/docmd-openapi.css?v=mqrxuyi3" >
+<link rel="stylesheet" href="../../assets/css/docmd-git.css?v=mqrygv4p" >
+<link rel="stylesheet" href="../../assets/css/docmd-openapi.css?v=mqrygv4p" >
 
     
-      <link rel="stylesheet" href="../../assets/css/brand.css?v=mqrxuyi3">
+      <link rel="stylesheet" href="../../assets/css/brand.css?v=mqrygv4p">
     
     <script>/**
  * --------------------------------------------------------------------
@@ -1851,7 +1851,7 @@
             <div class="content-layout">
               <div class="main-content">
                 <div class="docmd-breadcrumbs-row">
-                  <div id="docmd-raw-markdown" data-content="---%0Atitle%3A%20Pharmacies%0Adescription%3A%20Set%20up%20pharmacies%20in%20MedOps%20HMS%20with%20their%20tax%20rates%20and%20manage%20who%20can%20sign%20in%20to%20each%20pharmacy&#039;s%20portal.%0A---%0A%0A%23%20Pharmacies%0A%0AA%20**pharmacy**%20is%20a%20dispensing%20unit%20in%20your%20organisation%2C%20with%20its%20own%20stock%2C%0Aprices%2C%20tax%20rates%20and%20logins.%20You%20can%20run%20one%20pharmacy%20or%20several.%20Pharmacies%0Aare%20set%20up%20by%20the%20**Tenant%20Admin**.%0A%0A%3A%3A%3A%20callout%20info%20%22Who%20manages%20this%22%20icon%3Ashield%0AThe%20**Tenant%20Admin**%20creates%20pharmacies%20and%20manages%20their%20logins.%20The%0Apharmacy%20team%20works%20inside%20the%20%5BPharmacy%20Portal%5D(%2Ffeatures%2Fpharmacy-portal).%0A%3A%3A%3A%0A%0A%23%23%20Setting%20up%20a%20pharmacy%0A%0AWhen%20you%20create%20a%20pharmacy%2C%20you%20set%3A%0A%0A-%20**Name**%20%E2%80%94%20unique%20within%20your%20organisation%20(for%20example%2C%20%22RK%20Pharmacy%20%E2%80%94%0A%20%20Anna%20Nagar%22)%0A-%20**Address**%20%E2%80%94%20optional%0A-%20**Phone**%20%E2%80%94%20optional%0A-%20**Tax%20rates**%20%E2%80%94%20the%20CGST%20and%20SGST%20percentages%20applied%20to%20invoices%0A%0A%3A%3A%3A%20callout%20tip%20%22Tax%20changes%20don&#039;t%20rewrite%20the%20past%22%20icon%3Apercent%0AEach%20invoice%20keeps%20a%20copy%20of%20the%20tax%20rates%20that%20applied%20when%20it%20was%20created.%0AIf%20you%20update%20a%20pharmacy&#039;s%20rates%20later%2C%20only%20new%20invoices%20use%20the%20new%20rates.%0A%3A%3A%3A%0A%0AYou%20can%20edit%20a%20pharmacy&#039;s%20details%20and%20view%20all%20pharmacies%20in%20your%0Aorganisation%2C%20along%20with%20how%20many%20logins%20each%20one%20has.%0A%0A%23%23%20Pharmacy%20logins%0A%0AEach%20pharmacy%20can%20have%20several%20logins%20for%20its%20team.%20As%20the%20Tenant%20Admin%20you%0Acan%3A%0A%0A-%20**Create%20a%20login**%20%E2%80%94%20MedOps%20emails%20the%20new%20user%20a%20link%20to%20set%20their%0A%20%20password%20and%20sign%20in.%0A-%20**List%20logins**%20%E2%80%94%20see%20each%20pharmacy&#039;s%20users%20and%20whether%20they&#039;ve%20set%20a%0A%20%20password.%0A-%20**Remove%20a%20login**%20%E2%80%94%20revoke%20access%20when%20someone%20leaves.%0A-%20**Re-send%20an%20invite**%20%E2%80%94%20give%20a%20fresh%20setup%20link%20to%20someone%20who%20hasn&#039;t%0A%20%20signed%20in%20yet.%0A%0A%3A%3A%3A%20callout%20info%20%22Each%20login%20is%20tied%20to%20one%20pharmacy%22%20icon%3Astore%0AA%20pharmacy%20login%20always%20works%20within%20its%20own%20pharmacy%2C%20so%20its%20team%20only%20ever%0Asees%20that%20pharmacy&#039;s%20stock%2C%20prices%20and%20invoices.%0A%3A%3A%3A%0A%0A%23%23%20Related%20pages%0A%0A-%20%5BPharmacy%20Portal%5D(%2Ffeatures%2Fpharmacy-portal)%20%E2%80%94%20what%20the%20pharmacy%20team%20does%0A%20%20day%20to%20day%0A-%20%5BMedicines%20Catalogue%5D(%2Ffeatures%2Fmedicines)%20%E2%80%94%20the%20shared%20medicine%20list%0A" style="display: none;"></div>
+                  <div id="docmd-raw-markdown" data-content="---%0Atitle%3A%20Pharmacies%0Adescription%3A%20Set%20up%20pharmacies%20in%20MedOps%20HMS%20with%20their%20tax%20rates%20and%20manage%20who%20can%20sign%20in%20to%20each%20pharmacy&#039;s%20portal.%0A---%0A%0A%23%20Pharmacies%0A%0AA%20**pharmacy**%20is%20a%20dispensing%20unit%20in%20your%20organisation%2C%20with%20its%20own%20stock%2C%0Aprices%2C%20tax%20rates%20and%20logins.%20You%20can%20run%20one%20pharmacy%20or%20several.%20Pharmacies%0Aare%20set%20up%20by%20the%20**Tenant%20Admin**.%0A%0A%3A%3A%3A%20callout%20info%20%22Who%20manages%20this%22%20icon%3Ashield%0AThe%20**Tenant%20Admin**%20creates%20pharmacies%20and%20manages%20their%20logins.%20The%0Apharmacy%20team%20works%20inside%20the%20%5BPharmacy%20Portal%5D(pharmacy-portal.md).%0A%3A%3A%3A%0A%0A%23%23%20Setting%20up%20a%20pharmacy%0A%0AWhen%20you%20create%20a%20pharmacy%2C%20you%20set%3A%0A%0A-%20**Name**%20%E2%80%94%20unique%20within%20your%20organisation%20(for%20example%2C%20%22RK%20Pharmacy%20%E2%80%94%0A%20%20Anna%20Nagar%22)%0A-%20**Address**%20%E2%80%94%20optional%0A-%20**Phone**%20%E2%80%94%20optional%0A-%20**Tax%20rates**%20%E2%80%94%20the%20CGST%20and%20SGST%20percentages%20applied%20to%20invoices%0A%0A%3A%3A%3A%20callout%20tip%20%22Tax%20changes%20don&#039;t%20rewrite%20the%20past%22%20icon%3Apercent%0AEach%20invoice%20keeps%20a%20copy%20of%20the%20tax%20rates%20that%20applied%20when%20it%20was%20created.%0AIf%20you%20update%20a%20pharmacy&#039;s%20rates%20later%2C%20only%20new%20invoices%20use%20the%20new%20rates.%0A%3A%3A%3A%0A%0AYou%20can%20edit%20a%20pharmacy&#039;s%20details%20and%20view%20all%20pharmacies%20in%20your%0Aorganisation%2C%20along%20with%20how%20many%20logins%20each%20one%20has.%0A%0A%23%23%20Pharmacy%20logins%0A%0AEach%20pharmacy%20can%20have%20several%20logins%20for%20its%20team.%20As%20the%20Tenant%20Admin%20you%0Acan%3A%0A%0A-%20**Create%20a%20login**%20%E2%80%94%20MedOps%20emails%20the%20new%20user%20a%20link%20to%20set%20their%0A%20%20password%20and%20sign%20in.%0A-%20**List%20logins**%20%E2%80%94%20see%20each%20pharmacy&#039;s%20users%20and%20whether%20they&#039;ve%20set%20a%0A%20%20password.%0A-%20**Remove%20a%20login**%20%E2%80%94%20revoke%20access%20when%20someone%20leaves.%0A-%20**Re-send%20an%20invite**%20%E2%80%94%20give%20a%20fresh%20setup%20link%20to%20someone%20who%20hasn&#039;t%0A%20%20signed%20in%20yet.%0A%0A%3A%3A%3A%20callout%20info%20%22Each%20login%20is%20tied%20to%20one%20pharmacy%22%20icon%3Astore%0AA%20pharmacy%20login%20always%20works%20within%20its%20own%20pharmacy%2C%20so%20its%20team%20only%20ever%0Asees%20that%20pharmacy&#039;s%20stock%2C%20prices%20and%20invoices.%0A%3A%3A%3A%0A%0A%23%23%20Related%20pages%0A%0A-%20%5BPharmacy%20Portal%5D(pharmacy-portal.md)%20%E2%80%94%20what%20the%20pharmacy%20team%20does%0A%20%20day%20to%20day%0A-%20%5BMedicines%20Catalogue%5D(medicines.md)%20%E2%80%94%20the%20shared%20medicine%20list%0A" style="display: none;"></div>
                   
                     <nav aria-label="breadcrumb" class="docmd-breadcrumbs">
                       <ol>
@@ -1961,7 +1961,7 @@ are set up by the <strong>Tenant Admin</strong>.</p>
 </svg>
 Who manages this</div><div class="callout-content">
 <p>The <strong>Tenant Admin</strong> creates pharmacies and manages their logins. The<br>
-pharmacy team works inside the <a href="/features/pharmacy-portal/">Pharmacy Portal</a>.</p>
+pharmacy team works inside the <a href="../pharmacy-portal/">Pharmacy Portal</a>.</p>
 </div></div>
 <h2 id="pharmacies-setting-up-a-pharmacy" class="docmd-heading"><a href="#pharmacies-setting-up-a-pharmacy" class="heading-anchor" aria-label="Permalink to this section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-link2-icon lucide-link-2"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a>Setting up a pharmacy</h2>
 <p>When you create a pharmacy, you set:</p>
@@ -2030,9 +2030,9 @@ sees that pharmacy’s stock, prices and invoices.</p>
 </div></div>
 <h2 id="pharmacies-related-pages" class="docmd-heading"><a href="#pharmacies-related-pages" class="heading-anchor" aria-label="Permalink to this section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-link2-icon lucide-link-2"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a>Related pages</h2>
 <ul>
-<li><a href="/features/pharmacy-portal/">Pharmacy Portal</a> — what the pharmacy team does<br>
+<li><a href="../pharmacy-portal/">Pharmacy Portal</a> — what the pharmacy team does<br>
 day to day</li>
-<li><a href="/features/medicines/">Medicines Catalogue</a> — the shared medicine list</li>
+<li><a href="../medicines/">Medicines Catalogue</a> — the shared medicine list</li>
 </ul>
 
                 
@@ -2153,13 +2153,13 @@ day to day</li>
         </div>
       </div>
       
-      <script src="../../assets/js/docmd-main.js?v=mqrxuyi3"></script>
+      <script src="../../assets/js/docmd-main.js?v=mqrygv4p"></script>
       
-      <script src="../../assets/js/docmd-git.js?v=mqrxuyi3"></script>
-      <script src="../../assets/js/docmd-image-lightbox.js?v=mqrxuyi3" ></script>
+      <script src="../../assets/js/docmd-git.js?v=mqrygv4p"></script>
+      <script src="../../assets/js/docmd-image-lightbox.js?v=mqrygv4p" ></script>
 <script src="https://cdn.jsdelivr.net/npm/minisearch@7.2.0/dist/umd/index.min.js" ></script>
-<script src="../../assets/js/docmd-search.js?v=mqrxuyi3" ></script>
-<script src="../../assets/js/docmd-git.js?v=mqrxuyi3" type="module"></script>
+<script src="../../assets/js/docmd-search.js?v=mqrygv4p" ></script>
+<script src="../../assets/js/docmd-git.js?v=mqrygv4p" type="module"></script>
 
   <!-- Search Modal (Injected by @docmd/plugin-search) -->
   <div id="docmd-search-modal" class="docmd-search-modal" style="display: none;" data-show-confidence="false" data-show-filters="false"

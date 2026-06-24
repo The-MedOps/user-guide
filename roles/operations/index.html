@@ -97,7 +97,7 @@
 
       window.DOCMD_APPEARANCE = "system";
       window.DOCMD_VERSION_ROOT = "/";
-      window.DOCMD_BASE = "/";
+      window.DOCMD_BASE = "/user-guide/";
       window.DOCMD_LOCALE = "";
       window.DOCMD_DEFAULT_LOCALE = "";
     </script>
@@ -105,10 +105,10 @@
       Operations (Front Desk) : MedOps HMS
     </title>
     
-    <link rel="stylesheet" href="../../assets/css/docmd-main.css?v=mqrxuyi3">
+    <link rel="stylesheet" href="../../assets/css/docmd-main.css?v=mqrygv4p">
     
-    <link rel="stylesheet" href="../../assets/css/docmd-highlight-light.css?v=mqrxuyi3" id="hljs-light" >
-    <link rel="stylesheet" href="../../assets/css/docmd-highlight-dark.css?v=mqrxuyi3" id="hljs-dark" disabled>
+    <link rel="stylesheet" href="../../assets/css/docmd-highlight-light.css?v=mqrygv4p" id="hljs-light" >
+    <link rel="stylesheet" href="../../assets/css/docmd-highlight-dark.css?v=mqrygv4p" id="hljs-dark" disabled>
     
     
 <meta name="description" content="The Operations guide for MedOps HMS — register patients, book appointments, admit and discharge inpatients, and take payments.">
@@ -123,11 +123,11 @@
 
 
 
-<link rel="stylesheet" href="../../assets/css/docmd-git.css?v=mqrxuyi3" >
-<link rel="stylesheet" href="../../assets/css/docmd-openapi.css?v=mqrxuyi3" >
+<link rel="stylesheet" href="../../assets/css/docmd-git.css?v=mqrygv4p" >
+<link rel="stylesheet" href="../../assets/css/docmd-openapi.css?v=mqrygv4p" >
 
     
-      <link rel="stylesheet" href="../../assets/css/brand.css?v=mqrxuyi3">
+      <link rel="stylesheet" href="../../assets/css/brand.css?v=mqrygv4p">
     
     <script>/**
  * --------------------------------------------------------------------
@@ -1851,7 +1851,7 @@
             <div class="content-layout">
               <div class="main-content">
                 <div class="docmd-breadcrumbs-row">
-                  <div id="docmd-raw-markdown" data-content="---%0Atitle%3A%20Operations%20(Front%20Desk)%0Adescription%3A%20The%20Operations%20guide%20for%20MedOps%20HMS%20%E2%80%94%20register%20patients%2C%20book%20appointments%2C%20admit%20and%20discharge%20inpatients%2C%20and%20take%20payments.%0A---%0A%0A%23%20Operations%20(Front%20Desk)%0A%0AAs%20an%20**Operations**%20user%20you%20run%20the%20front%20desk.%20You&#039;re%20the%20first%20point%20of%0Acontact%20for%20patients%3A%20registering%20them%2C%20booking%20their%20appointments%2C%0Aadmitting%20and%20discharging%20inpatients%2C%20and%20taking%20payments.%0A%0A%23%23%20Your%20toolkit%0A%0A%3A%3A%3A%20grids%0A%20%20%3A%3A%3A%20grid%0A%20%20%20%20%3A%3A%3A%20card%20%22Register%20patients%22%20icon%3Auser-round%0A%20%20%20%20Add%20new%20patients%20with%20their%20details.%20Each%20gets%20a%20unique%20Medical%20Record%0A%20%20%20%20Number%20automatically.%0A%20%20%20%20%5BOpen%20%E2%86%92%5D(%2Ffeatures%2Fpatients)%0A%20%20%20%20%3A%3A%3A%0A%20%20%3A%3A%3A%0A%20%20%3A%3A%3A%20grid%0A%20%20%20%20%3A%3A%3A%20card%20%22Book%20appointments%22%20icon%3Acalendar-check%0A%20%20%20%20Schedule%20visits%20against%20a%20doctor&#039;s%20real%20availability%20%E2%80%94%20MedOps%20prevents%0A%20%20%20%20double-booking%20and%20bookings%20during%20leave.%0A%20%20%20%20%5BOpen%20%E2%86%92%5D(%2Ffeatures%2Fappointments)%0A%20%20%20%20%3A%3A%3A%0A%20%20%3A%3A%3A%0A%3A%3A%3A%0A%0A%3A%3A%3A%20grids%0A%20%20%3A%3A%3A%20grid%0A%20%20%20%20%3A%3A%3A%20card%20%22Admit%20%26%20discharge%22%20icon%3Abed-double%0A%20%20%20%20Admit%20patients%20to%20beds%2C%20transfer%20them%20between%20beds%2C%20and%20process%0A%20%20%20%20discharges.%0A%20%20%20%20%5BOpen%20%E2%86%92%5D(%2Ffeatures%2Fadmitted-patients)%0A%20%20%20%20%3A%3A%3A%0A%20%20%3A%3A%3A%0A%20%20%3A%3A%3A%20grid%0A%20%20%20%20%3A%3A%3A%20card%20%22Take%20payments%22%20icon%3Areceipt%0A%20%20%20%20Record%20payments%20on%20consultation%20bills%2C%20track%20what&#039;s%20unpaid%2C%20and%20cancel%0A%20%20%20%20bills%20created%20in%20error.%0A%20%20%20%20%5BOpen%20%E2%86%92%5D(%2Ffeatures%2Fbills)%0A%20%20%20%20%3A%3A%3A%0A%20%20%3A%3A%3A%0A%3A%3A%3A%0A%0A%23%23%20Booking%20an%20appointment%0A%0A%3A%3A%3A%20steps%0A1.%20**Find%20or%20register%20the%20patient.**%20Search%20by%20name%2C%20MRN%2C%20phone%20or%20email%3B%0A%20%20%20if%20they&#039;re%20new%2C%20register%20them%20first.%0A2.%20**Pick%20the%20doctor%20and%20time.**%20MedOps%20shows%20the%20doctor&#039;s%20available%20slots%0A%20%20%20and%20hides%20times%20that%20are%20already%20booked%20or%20blocked.%0A3.%20**Add%20the%20reason%20for%20the%20visit**%20(and%20any%20beneficiary%20details%20for%20an%0A%20%20%20outpatient%20visit%20booked%20on%20someone&#039;s%20behalf).%0A4.%20**Confirm.**%20The%20appointment%20appears%20in%20the%20doctor&#039;s%20queue.%0A%3A%3A%3A%0A%0A%3A%3A%3A%20callout%20tip%20%22MedOps%20catches%20conflicts%20for%20you%22%20icon%3Ashield-check%0AYou%20can&#039;t%20book%20a%20doctor%20in%20the%20past%2C%20outside%20their%20working%20hours%2C%20during%0Atheir%20leave%2C%20or%20on%20a%20slot%20that&#039;s%20already%20taken%20%E2%80%94%20so%20clashes%20are%20avoided%0Abefore%20they%20happen.%0A%3A%3A%3A%0A%0A%23%23%20Admitting%20a%20patient%0A%0A%3A%3A%3A%20steps%0A1.%20**Choose%20the%20patient**%20and%20an%20**available%20bed**.%0A2.%20**Select%20the%20admitting%20doctor**%20and%20record%20the%20reason%20for%20admission.%0A3.%20**Capture%20payment%20details**%20%E2%80%94%20any%20advance%20deposit%2C%20the%20payment%20type%0A%20%20%20(self-pay%2C%20cashless%20or%20corporate)%2C%20and%20insurance%20information%20if%20relevant.%0A4.%20**Confirm.**%20The%20bed%20is%20marked%20occupied%20and%20the%20patient%20is%20ready%20for%0A%20%20%20ward%20rounds%20and%20inpatient%20medicines.%0A%3A%3A%3A%0A%0AFor%20the%20full%20walkthrough%2C%20see%0A%5BAn%20Inpatient%20Admission%5D(%2Fworkflows%2Finpatient-admission).%0A%0A%23%23%20Everyday%20helpers%0A%0A-%20**Global%20search**%20finds%20patients%2C%20appointments%20and%20bills%20in%20one%20place.%0A-%20**Reschedule%20or%20cancel**%20appointments%20when%20plans%20change.%0A-%20**Mark%20no-shows**%20so%20doctors&#039;%20queues%20stay%20accurate.%0A" style="display: none;"></div>
+                  <div id="docmd-raw-markdown" data-content="---%0Atitle%3A%20Operations%20(Front%20Desk)%0Adescription%3A%20The%20Operations%20guide%20for%20MedOps%20HMS%20%E2%80%94%20register%20patients%2C%20book%20appointments%2C%20admit%20and%20discharge%20inpatients%2C%20and%20take%20payments.%0A---%0A%0A%23%20Operations%20(Front%20Desk)%0A%0AAs%20an%20**Operations**%20user%20you%20run%20the%20front%20desk.%20You&#039;re%20the%20first%20point%20of%0Acontact%20for%20patients%3A%20registering%20them%2C%20booking%20their%20appointments%2C%0Aadmitting%20and%20discharging%20inpatients%2C%20and%20taking%20payments.%0A%0A%23%23%20Your%20toolkit%0A%0A%3A%3A%3A%20grids%0A%20%20%3A%3A%3A%20grid%0A%20%20%20%20%3A%3A%3A%20card%20%22Register%20patients%22%20icon%3Auser-round%0A%20%20%20%20Add%20new%20patients%20with%20their%20details.%20Each%20gets%20a%20unique%20Medical%20Record%0A%20%20%20%20Number%20automatically.%0A%20%20%20%20%5BOpen%20%E2%86%92%5D(..%2Ffeatures%2Fpatients.md)%0A%20%20%20%20%3A%3A%3A%0A%20%20%3A%3A%3A%0A%20%20%3A%3A%3A%20grid%0A%20%20%20%20%3A%3A%3A%20card%20%22Book%20appointments%22%20icon%3Acalendar-check%0A%20%20%20%20Schedule%20visits%20against%20a%20doctor&#039;s%20real%20availability%20%E2%80%94%20MedOps%20prevents%0A%20%20%20%20double-booking%20and%20bookings%20during%20leave.%0A%20%20%20%20%5BOpen%20%E2%86%92%5D(..%2Ffeatures%2Fappointments.md)%0A%20%20%20%20%3A%3A%3A%0A%20%20%3A%3A%3A%0A%3A%3A%3A%0A%0A%3A%3A%3A%20grids%0A%20%20%3A%3A%3A%20grid%0A%20%20%20%20%3A%3A%3A%20card%20%22Admit%20%26%20discharge%22%20icon%3Abed-double%0A%20%20%20%20Admit%20patients%20to%20beds%2C%20transfer%20them%20between%20beds%2C%20and%20process%0A%20%20%20%20discharges.%0A%20%20%20%20%5BOpen%20%E2%86%92%5D(..%2Ffeatures%2Fadmitted-patients.md)%0A%20%20%20%20%3A%3A%3A%0A%20%20%3A%3A%3A%0A%20%20%3A%3A%3A%20grid%0A%20%20%20%20%3A%3A%3A%20card%20%22Take%20payments%22%20icon%3Areceipt%0A%20%20%20%20Record%20payments%20on%20consultation%20bills%2C%20track%20what&#039;s%20unpaid%2C%20and%20cancel%0A%20%20%20%20bills%20created%20in%20error.%0A%20%20%20%20%5BOpen%20%E2%86%92%5D(..%2Ffeatures%2Fbills.md)%0A%20%20%20%20%3A%3A%3A%0A%20%20%3A%3A%3A%0A%3A%3A%3A%0A%0A%23%23%20Booking%20an%20appointment%0A%0A%3A%3A%3A%20steps%0A1.%20**Find%20or%20register%20the%20patient.**%20Search%20by%20name%2C%20MRN%2C%20phone%20or%20email%3B%0A%20%20%20if%20they&#039;re%20new%2C%20register%20them%20first.%0A2.%20**Pick%20the%20doctor%20and%20time.**%20MedOps%20shows%20the%20doctor&#039;s%20available%20slots%0A%20%20%20and%20hides%20times%20that%20are%20already%20booked%20or%20blocked.%0A3.%20**Add%20the%20reason%20for%20the%20visit**%20(and%20any%20beneficiary%20details%20for%20an%0A%20%20%20outpatient%20visit%20booked%20on%20someone&#039;s%20behalf).%0A4.%20**Confirm.**%20The%20appointment%20appears%20in%20the%20doctor&#039;s%20queue.%0A%3A%3A%3A%0A%0A%3A%3A%3A%20callout%20tip%20%22MedOps%20catches%20conflicts%20for%20you%22%20icon%3Ashield-check%0AYou%20can&#039;t%20book%20a%20doctor%20in%20the%20past%2C%20outside%20their%20working%20hours%2C%20during%0Atheir%20leave%2C%20or%20on%20a%20slot%20that&#039;s%20already%20taken%20%E2%80%94%20so%20clashes%20are%20avoided%0Abefore%20they%20happen.%0A%3A%3A%3A%0A%0A%23%23%20Admitting%20a%20patient%0A%0A%3A%3A%3A%20steps%0A1.%20**Choose%20the%20patient**%20and%20an%20**available%20bed**.%0A2.%20**Select%20the%20admitting%20doctor**%20and%20record%20the%20reason%20for%20admission.%0A3.%20**Capture%20payment%20details**%20%E2%80%94%20any%20advance%20deposit%2C%20the%20payment%20type%0A%20%20%20(self-pay%2C%20cashless%20or%20corporate)%2C%20and%20insurance%20information%20if%20relevant.%0A4.%20**Confirm.**%20The%20bed%20is%20marked%20occupied%20and%20the%20patient%20is%20ready%20for%0A%20%20%20ward%20rounds%20and%20inpatient%20medicines.%0A%3A%3A%3A%0A%0AFor%20the%20full%20walkthrough%2C%20see%0A%5BAn%20Inpatient%20Admission%5D(..%2Fworkflows%2Finpatient-admission.md).%0A%0A%23%23%20Everyday%20helpers%0A%0A-%20**Global%20search**%20finds%20patients%2C%20appointments%20and%20bills%20in%20one%20place.%0A-%20**Reschedule%20or%20cancel**%20appointments%20when%20plans%20change.%0A-%20**Mark%20no-shows**%20so%20doctors&#039;%20queues%20stay%20accurate.%0A" style="display: none;"></div>
                   
                     <nav aria-label="breadcrumb" class="docmd-breadcrumbs">
                       <ol>
@@ -1966,7 +1966,7 @@ admitting and discharging inpatients, and taking payments.</p>
 Register patients</div><div class="card-content">
 <p>Add new patients with their details. Each gets a unique Medical Record<br>
 Number automatically.<br>
-<a href="/features/patients/">Open →</a></p>
+<a href="../../features/patients/">Open →</a></p>
 </div></div>
 </div>
 <div class="docmd-container grid-item">
@@ -1992,7 +1992,7 @@ Number automatically.<br>
 Book appointments</div><div class="card-content">
 <p>Schedule visits against a doctor’s real availability — MedOps prevents<br>
 double-booking and bookings during leave.<br>
-<a href="/features/appointments/">Open →</a></p>
+<a href="../../features/appointments/">Open →</a></p>
 </div></div>
 </div>
 </div>
@@ -2019,7 +2019,7 @@ double-booking and bookings during leave.<br>
 Admit &amp; discharge</div><div class="card-content">
 <p>Admit patients to beds, transfer them between beds, and process<br>
 discharges.<br>
-<a href="/features/admitted-patients/">Open →</a></p>
+<a href="../../features/admitted-patients/">Open →</a></p>
 </div></div>
 </div>
 <div class="docmd-container grid-item">
@@ -2043,7 +2043,7 @@ discharges.<br>
 Take payments</div><div class="card-content">
 <p>Record payments on consultation bills, track what’s unpaid, and cancel<br>
 bills created in error.<br>
-<a href="/features/bills/">Open →</a></p>
+<a href="../../features/bills/">Open →</a></p>
 </div></div>
 </div>
 </div>
@@ -2086,7 +2086,7 @@ before they happen.</p>
 ward rounds and inpatient medicines.</li>
 </ol>
 </div><p>For the full walkthrough, see<br>
-<a href="/workflows/inpatient-admission/">An Inpatient Admission</a>.</p>
+<a href="../../workflows/inpatient-admission/">An Inpatient Admission</a>.</p>
 <h2 id="operations-front-desk-everyday-helpers" class="docmd-heading"><a href="#operations-front-desk-everyday-helpers" class="heading-anchor" aria-label="Permalink to this section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-link2-icon lucide-link-2"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a>Everyday helpers</h2>
 <ul>
 <li><strong>Global search</strong> finds patients, appointments and bills in one place.</li>
@@ -2216,13 +2216,13 @@ ward rounds and inpatient medicines.</li>
         </div>
       </div>
       
-      <script src="../../assets/js/docmd-main.js?v=mqrxuyi3"></script>
+      <script src="../../assets/js/docmd-main.js?v=mqrygv4p"></script>
       
-      <script src="../../assets/js/docmd-git.js?v=mqrxuyi3"></script>
-      <script src="../../assets/js/docmd-image-lightbox.js?v=mqrxuyi3" ></script>
+      <script src="../../assets/js/docmd-git.js?v=mqrygv4p"></script>
+      <script src="../../assets/js/docmd-image-lightbox.js?v=mqrygv4p" ></script>
 <script src="https://cdn.jsdelivr.net/npm/minisearch@7.2.0/dist/umd/index.min.js" ></script>
-<script src="../../assets/js/docmd-search.js?v=mqrxuyi3" ></script>
-<script src="../../assets/js/docmd-git.js?v=mqrxuyi3" type="module"></script>
+<script src="../../assets/js/docmd-search.js?v=mqrygv4p" ></script>
+<script src="../../assets/js/docmd-git.js?v=mqrygv4p" type="module"></script>
 
   <!-- Search Modal (Injected by @docmd/plugin-search) -->
   <div id="docmd-search-modal" class="docmd-search-modal" style="display: none;" data-show-confidence="false" data-show-filters="false"

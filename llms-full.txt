@@ -91,14 +91,14 @@ bed as **reserved for cleaning** so it's prepared before the next patient.
   captured at admission.
 - The **room's daily tariff** (set per room type) determines the bed charges
   for the stay. See
-  [room pricing](/features/hospitals-and-departments).
+  [room pricing](hospitals-and-departments.md).
 - Any medicines dispensed by the pharmacy are billed by the pharmacy.
 
 ## Related pages
 
-- [Hospitals & Departments](/features/hospitals-and-departments) — set up
+- [Hospitals & Departments](hospitals-and-departments.md) — set up
   the beds you admit into
-- [An Inpatient Admission](/workflows/inpatient-admission) — the full
+- [An Inpatient Admission](../workflows/inpatient-admission.md) — the full
   walkthrough
 
 
@@ -188,8 +188,8 @@ When a doctor opens one of their appointments and starts a **consultation**,
 the visit record and the clinical record are linked. Completing the
 consultation also completes the appointment and generates the relevant bills.
 
-- [Consultations](/features/consultations)
-- [My Appointments & Availability](/features/my-appointments)
+- [Consultations](consultations.md)
+- [My Appointments & Availability](my-appointments.md)
 
 
 ---
@@ -283,7 +283,7 @@ type**, the **amount**, and a **description** of what it's for.
 
 ::: callout info "Pharmacy invoices" icon:receipt
 When the pharmacy dispenses medicines, it produces its own invoices in the
-[Pharmacy Portal](/features/pharmacy-portal), priced at the pharmacy's rates
+[Pharmacy Portal](pharmacy-portal.md), priced at the pharmacy's rates
 and with tax applied.
 :::
 
@@ -314,9 +314,9 @@ MedOps stamps the time the payment was recorded.
 
 ## Related pages
 
-- [Consultations](/features/consultations) — where consultation bills come
+- [Consultations](consultations.md) — where consultation bills come
   from
-- [Pharmacy Portal](/features/pharmacy-portal) — pharmacy invoicing
+- [Pharmacy Portal](pharmacy-portal.md) — pharmacy invoicing
 
 
 ---
@@ -380,10 +380,10 @@ created — everything else still works the same way.
 
 ## Related pages
 
-- [Prescriptions](/features/prescriptions) — what's on the prescription and
+- [Prescriptions](prescriptions.md) — what's on the prescription and
   how it reaches the pharmacy
-- [Billing & Payments](/features/bills) — collecting the consultation fee
-- [An Outpatient Visit](/workflows/outpatient-visit) — the full walkthrough
+- [Billing & Payments](bills.md) — collecting the consultation fee
+- [An Outpatient Visit](../workflows/outpatient-visit.md) — the full walkthrough
 
 
 ---
@@ -518,9 +518,9 @@ Each doctor's profile keeps:
 Once invited, a doctor manages their own working hours and time-off, sees
 their appointment queue, and records consultations. See:
 
-- [My Appointments & Availability](/features/my-appointments)
-- [Consultations](/features/consultations)
-- [Prescriptions](/features/prescriptions)
+- [My Appointments & Availability](my-appointments.md)
+- [Consultations](consultations.md)
+- [Prescriptions](prescriptions.md)
 
 
 ---
@@ -636,9 +636,9 @@ applies when a patient is admitted to a room of that type.
 
 ## Related pages
 
-- [Admitted Patients (IPD)](/features/admitted-patients) — use beds to admit
+- [Admitted Patients (IPD)](admitted-patients.md) — use beds to admit
   patients
-- [An Inpatient Admission](/workflows/inpatient-admission) — the full
+- [An Inpatient Admission](../workflows/inpatient-admission.md) — the full
   walkthrough
 
 
@@ -724,7 +724,7 @@ control what the front desk can book.
 
 Your queue lists the appointments booked for you. Open any appointment to see
 the patient, the reason for the visit and the scheduled time, then start a
-[consultation](/features/consultations) when you're ready.
+[consultation](consultations.md) when you're ready.
 
 ## Your weekly working hours
 
@@ -763,7 +763,7 @@ The front desk only sees times when you're genuinely free. MedOps
 automatically keeps bookings out of your non-working hours, your leave, and
 your blocked times, and prevents two patients landing in the same slot.
 
-See [Appointments](/features/appointments) for the booking side.
+See [Appointments](appointments.md) for the booking side.
 
 
 ---
@@ -821,13 +821,13 @@ Each operations user has:
 
 Day to day, the operations team uses MedOps to:
 
-- [Register patients](/features/patients) and keep their details current
-- [Book and manage appointments](/features/appointments) against doctors'
+- [Register patients](patients.md) and keep their details current
+- [Book and manage appointments](appointments.md) against doctors'
   availability
-- [Admit, transfer and discharge](/features/admitted-patients) inpatients
-- [Record payments](/features/bills) and track unpaid bills
+- [Admit, transfer and discharge](admitted-patients.md) inpatients
+- [Record payments](bills.md) and track unpaid bills
 
-See the [Operations role guide](/roles/operations) for a day-in-the-life
+See the [Operations role guide](../roles/operations.md) for a day-in-the-life
 overview.
 
 
@@ -908,8 +908,8 @@ their records stay anchored to where they were first seen.
 
 ## Related pages
 
-- [Appointments](/features/appointments) — book a visit for a patient
-- [An Outpatient Visit](/workflows/outpatient-visit) — the end-to-end flow
+- [Appointments](appointments.md) — book a visit for a patient
+- [An Outpatient Visit](../workflows/outpatient-visit.md) — the end-to-end flow
 
 
 ---
@@ -929,7 +929,7 @@ are set up by the **Tenant Admin**.
 
 ::: callout info "Who manages this" icon:shield
 The **Tenant Admin** creates pharmacies and manages their logins. The
-pharmacy team works inside the [Pharmacy Portal](/features/pharmacy-portal).
+pharmacy team works inside the [Pharmacy Portal](pharmacy-portal.md).
 :::
 
 ## Setting up a pharmacy
@@ -970,9 +970,9 @@ sees that pharmacy's stock, prices and invoices.
 
 ## Related pages
 
-- [Pharmacy Portal](/features/pharmacy-portal) — what the pharmacy team does
+- [Pharmacy Portal](pharmacy-portal.md) — what the pharmacy team does
   day to day
-- [Medicines Catalogue](/features/medicines) — the shared medicine list
+- [Medicines Catalogue](medicines.md) — the shared medicine list
 
 
 ---
@@ -1063,8 +1063,8 @@ it.
 ## Reference
 
 While receiving supplies or billing, you can browse the shared
-[Medicines Catalogue](/features/medicines) for medicine details. For the full
-flow, see [Pharmacy Dispensing](/workflows/pharmacy-dispensing).
+[Medicines Catalogue](medicines.md) for medicine details. For the full
+flow, see [Pharmacy Dispensing](../workflows/pharmacy-dispensing.md).
 
 
 ---
@@ -1080,7 +1080,7 @@ description: Clear, printable prescriptions in MedOps HMS with medicines, dosage
 
 A **prescription** lists the medicines a doctor has prescribed, with clear
 instructions for the patient and the pharmacy. Prescriptions are created as
-part of completing a [consultation](/features/consultations), so there's no
+part of completing a [consultation](consultations.md), so there's no
 separate step to remember.
 
 ## What's on a prescription
@@ -1136,13 +1136,13 @@ pharmacy's prices.
 
 For admitted patients, doctors can add medications throughout the stay rather
 than a single prescription. See
-[Admitted Patients (IPD)](/features/admitted-patients).
+[Admitted Patients (IPD)](admitted-patients.md).
 
 ## Related pages
 
-- [Pharmacy Portal](/features/pharmacy-portal) — dispensing against a
+- [Pharmacy Portal](pharmacy-portal.md) — dispensing against a
   prescription
-- [Pharmacy Dispensing](/workflows/pharmacy-dispensing) — the full
+- [Pharmacy Dispensing](../workflows/pharmacy-dispensing.md) — the full
   walkthrough
 
 
@@ -1320,9 +1320,9 @@ Signing out ends your session immediately.
 
 ## What's next
 
-- [Your Account & Profile](/getting-started/account-and-profile) — update
+- [Your Account & Profile](account-and-profile.md) — update
   your details and change your password.
-- [Roles at a Glance](/introduction/roles-overview) — find the guide for
+- [Roles at a Glance](../introduction/roles-overview.md) — find the guide for
   your job.
 
 
@@ -1347,8 +1347,8 @@ This guide explains how to use MedOps in everyday work. Pick your role,
 follow a step-by-step guide, or browse the feature pages.
 
 ::: callout tip "New here?" icon:rocket
-Start with [Signing In & The Basics](/getting-started), then jump to the
-[guide for your role](/introduction/roles-overview).
+Start with [Signing In & The Basics](getting-started/index.md), then jump to the
+[guide for your role](introduction/roles-overview.md).
 :::
 
 ## Explore the platform
@@ -1357,13 +1357,13 @@ Start with [Signing In & The Basics](/getting-started), then jump to the
   ::: grid
     ::: card "Patients & Appointments" icon:user-round
     Register patients, book conflict-checked appointments, and keep a full
-    visit history. [Open →](/features/patients)
+    visit history. [Open →](features/patients.md)
     :::
   :::
   ::: grid
     ::: card "Consultations & Prescriptions" icon:clipboard-plus
     Record a consultation and have the prescription and consultation bill
-    created in one step. [Open →](/features/consultations)
+    created in one step. [Open →](features/consultations.md)
     :::
   :::
 :::
@@ -1372,13 +1372,13 @@ Start with [Signing In & The Basics](/getting-started), then jump to the
   ::: grid
     ::: card "Inpatient Care (IPD)" icon:bed-double
     Admit patients to beds, record ward rounds, transfer and discharge.
-    [Open →](/features/admitted-patients)
+    [Open →](features/admitted-patients.md)
     :::
   :::
   ::: grid
     ::: card "Pharmacy" icon:pill
     Dispense against prescriptions, manage stock, and bill with tax.
-    [Open →](/features/pharmacy-portal)
+    [Open →](features/pharmacy-portal.md)
     :::
   :::
 :::
@@ -1387,27 +1387,26 @@ Start with [Signing In & The Basics](/getting-started), then jump to the
   ::: grid
     ::: card "Billing & Payments" icon:receipt
     Collect payments, track unpaid bills, and keep clean records.
-    [Open →](/features/bills)
+    [Open →](features/bills.md)
     :::
   :::
   ::: grid
     ::: card "Setup & Administration" icon:shield
     Create hospitals, departments, beds, staff and preferences.
-    [Open →](/roles/tenant-admin)
+    [Open →](roles/tenant-admin.md)
     :::
   :::
 :::
 
 ## Find your way around
 
-- **Just getting started?** → [Getting Started](/getting-started)
-- **Want the big picture?** → [Overview](/introduction) and [Key Features](/introduction/key-features)
-- **Looking for your daily tasks?** → [Role Guides](/introduction/roles-overview)
-- **Need a walkthrough?** → [Step-by-Step Guides](/workflows/first-time-setup)
-- **Stuck on a term?** → [Glossary](/reference/glossary) and [FAQ](/reference/faq)
+- **Just getting started?** → [Getting Started](getting-started/index.md)
+- **Want the big picture?** → [Overview](introduction/index.md) and [Key Features](introduction/key-features.md)
+- **Looking for your daily tasks?** → [Role Guides](introduction/roles-overview.md)
+- **Need a walkthrough?** → [Step-by-Step Guides](workflows/first-time-setup.md)
+- **Stuck on a term?** → [Glossary](reference/glossary.md) and [FAQ](reference/faq.md)
 
-::: button "Get Started" /getting-started
-
+::: button "Get Started" getting-started/index.md
 
 ---
 
@@ -1473,8 +1472,8 @@ MedOps supports six roles, each tailored to a job in the hospital:
 | **Operations** | Front desk — registration, appointments, admissions, payments |
 | **Pharmacy** | Runs the pharmacy: stock, dispensing and billing |
 
-See [Roles at a Glance](/introduction/roles-overview) for what each role
-can do, or jump straight to your [Role Guide](/roles/tenant-admin).
+See [Roles at a Glance](roles-overview.md) for what each role
+can do, or jump straight to your [Role Guide](../roles/tenant-admin.md).
 
 ## What you can do
 
@@ -1510,9 +1509,9 @@ can do, or jump straight to your [Role Guide](/roles/tenant-admin).
 
 ## Where to go next
 
-- [Key Features](/introduction/key-features) — a tour of everything MedOps does
-- [Signing In & The Basics](/getting-started) — get into the system
-- [Step-by-Step Guides](/workflows/first-time-setup) — follow a complete workflow
+- [Key Features](key-features.md) — a tour of everything MedOps does
+- [Signing In & The Basics](../getting-started/index.md) — get into the system
+- [Step-by-Step Guides](../workflows/first-time-setup.md) — follow a complete workflow
 
 
 ---
@@ -1537,14 +1536,14 @@ together end to end.
     ::: card "Patient registration" icon:user-round
     Register a patient once with their personal and contact details. Each
     patient gets a unique **Medical Record Number (MRN)** automatically.
-    [Learn more →](/features/patients)
+    [Learn more →](../features/patients.md)
     :::
   :::
   ::: grid
     ::: card "Appointments" icon:calendar-check
     Book appointments against a doctor's real availability. MedOps blocks
     double-bookings and bookings during a doctor's leave.
-    [Learn more →](/features/appointments)
+    [Learn more →](../features/appointments.md)
     :::
   :::
 :::
@@ -1556,14 +1555,14 @@ together end to end.
     ::: card "Consultations" icon:clipboard-plus
     Doctors record notes and follow-up dates. Completing a consultation
     creates the prescription and the consultation bill in a single step.
-    [Learn more →](/features/consultations)
+    [Learn more →](../features/consultations.md)
     :::
   :::
   ::: grid
     ::: card "Prescriptions" icon:scroll-text
     Clear, printable prescriptions with medicines, dosage, frequency and
     duration — ready for the patient and the pharmacy.
-    [Learn more →](/features/prescriptions)
+    [Learn more →](../features/prescriptions.md)
     :::
   :::
 :::
@@ -1573,14 +1572,14 @@ together end to end.
     ::: card "Admitted patients (IPD)" icon:bed-double
     Admit patients to specific beds, record ward rounds and vitals, add
     inpatient medications, transfer beds, and discharge.
-    [Learn more →](/features/admitted-patients)
+    [Learn more →](../features/admitted-patients.md)
     :::
   :::
   ::: grid
     ::: card "My appointments & availability" icon:calendar-days
     Doctors see their own appointment queue and set their weekly working
     hours, leave and time-off.
-    [Learn more →](/features/my-appointments)
+    [Learn more →](../features/my-appointments.md)
     :::
   :::
 :::
@@ -1592,14 +1591,14 @@ together end to end.
     ::: card "Medicines catalogue" icon:pill
     A shared, searchable list of medicines used across prescriptions and
     pharmacy stock.
-    [Learn more →](/features/medicines)
+    [Learn more →](../features/medicines.md)
     :::
   :::
   ::: grid
     ::: card "Pharmacy portal" icon:boxes
     Receive stock, set selling prices, dispense against prescriptions,
     handle walk-in sales, and bill with tax calculated for you.
-    [Learn more →](/features/pharmacy-portal)
+    [Learn more →](../features/pharmacy-portal.md)
     :::
   :::
 :::
@@ -1611,14 +1610,14 @@ together end to end.
     ::: card "Billing & payments" icon:receipt
     Consultation and pharmacy bills are generated for you. Record
     payments, track what's unpaid, and cancel mistakes.
-    [Learn more →](/features/bills)
+    [Learn more →](../features/bills.md)
     :::
   :::
   ::: grid
     ::: card "Activity log" icon:history
     A complete, searchable record of who did what and when across the
     organisation.
-    [Learn more →](/features/audit-logs)
+    [Learn more →](../features/audit-logs.md)
     :::
   :::
 :::
@@ -1630,14 +1629,14 @@ together end to end.
     ::: card "Hospitals & departments" icon:building-2
     Set up each hospital and its departments, then build out floors, rooms
     and beds.
-    [Learn more →](/features/hospitals-and-departments)
+    [Learn more →](../features/hospitals-and-departments.md)
     :::
   :::
   ::: grid
     ::: card "Staff management" icon:users
     Add and manage doctors and operations (front-desk) staff, and invite
     them by email.
-    [Learn more →](/features/doctors)
+    [Learn more →](../features/doctors.md)
     :::
   :::
 :::
@@ -1647,14 +1646,14 @@ together end to end.
     ::: card "Dashboard" icon:layout-dashboard
     A role-aware home screen that puts your day's work and key numbers
     within easy reach.
-    [Learn more →](/features/dashboard)
+    [Learn more →](../features/dashboard.md)
     :::
   :::
   ::: grid
     ::: card "Global search" icon:search
     Find patients, doctors, appointments, bills and more from one search
     box — limited to what your role can see.
-    [Learn more →](/features/dashboard)
+    [Learn more →](../features/dashboard.md)
     :::
   :::
 :::
@@ -1710,13 +1709,13 @@ access.
   ::: grid
     ::: card "Tenant Admin" icon:shield
     Setup and oversight of the whole organisation.
-    [Open guide →](/roles/tenant-admin)
+    [Open guide →](../roles/tenant-admin.md)
     :::
   :::
   ::: grid
     ::: card "Doctor" icon:stethoscope
     Consultations, prescriptions and ward rounds.
-    [Open guide →](/roles/doctor)
+    [Open guide →](../roles/doctor.md)
     :::
   :::
 :::
@@ -1725,13 +1724,13 @@ access.
   ::: grid
     ::: card "Nurse" icon:heart-pulse
     Supporting bedside and ward care.
-    [Open guide →](/roles/nurse)
+    [Open guide →](../roles/nurse.md)
     :::
   :::
   ::: grid
     ::: card "Staff" icon:user
     General hospital staff access.
-    [Open guide →](/roles/staff)
+    [Open guide →](../roles/staff.md)
     :::
   :::
 :::
@@ -1740,13 +1739,13 @@ access.
   ::: grid
     ::: card "Operations (Front Desk)" icon:headset
     Registration, scheduling, admissions and payments.
-    [Open guide →](/roles/operations)
+    [Open guide →](../roles/operations.md)
     :::
   :::
   ::: grid
     ::: card "Pharmacy" icon:pill
     Stock, dispensing and pharmacy billing.
-    [Open guide →](/roles/pharmacy)
+    [Open guide →](../roles/pharmacy.md)
     :::
   :::
 :::
@@ -1774,7 +1773,7 @@ time before you've set a password.
 ::: collapsible "I forgot my password"
 Use **Forgot password** on the sign-in page. MedOps emails you a one-time
 code and a reset link. After resetting, you'll need to sign in again on each
-device. See [Signing In & The Basics](/getting-started).
+device. See [Signing In & The Basics](../getting-started/index.md).
 :::
 
 ::: collapsible "Why was I signed out?"
@@ -1817,13 +1816,13 @@ just records the payment.
 ::: collapsible "How does the pharmacy get the prescription?"
 Through the prescription's reference number. The pharmacist enters it to pull
 up the medicines, then dispenses and bills them at the pharmacy's prices. See
-[Pharmacy Portal](/features/pharmacy-portal).
+[Pharmacy Portal](../features/pharmacy-portal.md).
 :::
 
 ::: collapsible "A medicine I need isn't in the list"
 Doctors can add a new medicine to the catalogue while writing a prescription,
 so it never holds up the visit. Tenant Admins can also add, edit and remove
-medicines. See [Medicines Catalogue](/features/medicines).
+medicines. See [Medicines Catalogue](../features/medicines.md).
 :::
 
 ::: collapsible "What happens to a bed after a patient leaves?"
@@ -1836,19 +1835,19 @@ transfer, so the front desk only assigns beds that are ready.
 ::: collapsible "Why can't I see a feature I expected?"
 MedOps shows only what your role needs. If you think you should have access to
 something, ask your Tenant Admin to check your account. See
-[Roles at a Glance](/introduction/roles-overview).
+[Roles at a Glance](../introduction/roles-overview.md).
 :::
 
 ::: collapsible "Who can see the activity log?"
 The activity log is available to the Tenant Admin, giving a single view of
 who did what and when across the organisation. See
-[Activity Log](/features/audit-logs).
+[Activity Log](../features/audit-logs.md).
 :::
 
 ::: collapsible "Can I edit my leave after it starts?"
 No — leave and time-off can be changed or removed only before they begin, so
 add upcoming absences ahead of time. See
-[My Appointments & Availability](/features/my-appointments).
+[My Appointments & Availability](../features/my-appointments.md).
 :::
 
 
@@ -1952,14 +1951,14 @@ prescribe and follow up — all linked to the patient's record.
     ::: card "My appointments" icon:calendar-days
     See the appointments booked for you and open each one to start a
     consultation.
-    [Open →](/features/my-appointments)
+    [Open →](../features/my-appointments.md)
     :::
   :::
   ::: grid
     ::: card "My availability" icon:calendar-check
     Set your weekly working hours, slot length, leave and time-off so the
     front desk only books you when you're free.
-    [Open →](/features/my-appointments)
+    [Open →](../features/my-appointments.md)
     :::
   :::
 :::
@@ -1969,14 +1968,14 @@ prescribe and follow up — all linked to the patient's record.
     ::: card "Consultations" icon:clipboard-plus
     Record notes and a follow-up date. Completing the consultation creates
     the prescription and the consultation bill automatically.
-    [Open →](/features/consultations)
+    [Open →](../features/consultations.md)
     :::
   :::
   ::: grid
     ::: card "Prescriptions" icon:scroll-text
     Add medicines with dosage, frequency and duration. Prescriptions are
     printable and flow straight to the pharmacy.
-    [Open →](/features/prescriptions)
+    [Open →](../features/prescriptions.md)
     :::
   :::
 :::
@@ -1995,7 +1994,7 @@ prescribe and follow up — all linked to the patient's record.
 :::
 
 For the full walkthrough, see
-[An Outpatient Visit](/workflows/outpatient-visit).
+[An Outpatient Visit](../workflows/outpatient-visit.md).
 
 ## Caring for admitted patients
 
@@ -2005,7 +2004,7 @@ When your patients are admitted, you can:
   pulse, oxygen level, breathing rate), your assessment, and the plan.
 - **Add inpatient medications** as the treatment changes during the stay.
 
-See [Admitted Patients (IPD)](/features/admitted-patients) for details.
+See [Admitted Patients (IPD)](../features/admitted-patients.md) for details.
 
 ## Setting your availability
 
@@ -2053,14 +2052,14 @@ for the next admission.
     ::: card "Follow admitted patients" icon:bed-double
     See admitted patients, their ward rounds and inpatient medications, so
     you always have the latest clinical picture.
-    [Open →](/features/admitted-patients)
+    [Open →](../features/admitted-patients.md)
     :::
   :::
   ::: grid
     ::: card "Keep beds ready" icon:bed
     Mark beds as needing cleaning or under maintenance so the front desk
     only assigns beds that are truly available.
-    [Open →](/features/hospitals-and-departments)
+    [Open →](../features/hospitals-and-departments.md)
     :::
   :::
 :::
@@ -2069,13 +2068,13 @@ for the next admission.
   ::: grid
     ::: card "Look up medicines" icon:pill
     Browse the shared medicines catalogue for names, strengths and forms.
-    [Open →](/features/medicines)
+    [Open →](../features/medicines.md)
     :::
   :::
   ::: grid
     ::: card "See your hospital" icon:building-2
     View your hospital and its wards for context while you work.
-    [Open →](/features/hospitals-and-departments)
+    [Open →](../features/hospitals-and-departments.md)
     :::
   :::
 :::
@@ -2124,14 +2123,14 @@ admitting and discharging inpatients, and taking payments.
     ::: card "Register patients" icon:user-round
     Add new patients with their details. Each gets a unique Medical Record
     Number automatically.
-    [Open →](/features/patients)
+    [Open →](../features/patients.md)
     :::
   :::
   ::: grid
     ::: card "Book appointments" icon:calendar-check
     Schedule visits against a doctor's real availability — MedOps prevents
     double-booking and bookings during leave.
-    [Open →](/features/appointments)
+    [Open →](../features/appointments.md)
     :::
   :::
 :::
@@ -2141,14 +2140,14 @@ admitting and discharging inpatients, and taking payments.
     ::: card "Admit & discharge" icon:bed-double
     Admit patients to beds, transfer them between beds, and process
     discharges.
-    [Open →](/features/admitted-patients)
+    [Open →](../features/admitted-patients.md)
     :::
   :::
   ::: grid
     ::: card "Take payments" icon:receipt
     Record payments on consultation bills, track what's unpaid, and cancel
     bills created in error.
-    [Open →](/features/bills)
+    [Open →](../features/bills.md)
     :::
   :::
 :::
@@ -2183,7 +2182,7 @@ before they happen.
 :::
 
 For the full walkthrough, see
-[An Inpatient Admission](/workflows/inpatient-admission).
+[An Inpatient Admission](../workflows/inpatient-admission.md).
 
 ## Everyday helpers
 
@@ -2214,13 +2213,13 @@ pharmacy, so everything you see is specific to where you sign in.
     ::: card "Stock & prices" icon:boxes
     See what's on hand, set selling prices, and keep medicine details up to
     date.
-    [Open →](/features/pharmacy-portal)
+    [Open →](../features/pharmacy-portal.md)
     :::
   :::
   ::: grid
     ::: card "Receive supplies" icon:truck
     Record deliveries from suppliers to top up your stock.
-    [Open →](/features/pharmacy-portal)
+    [Open →](../features/pharmacy-portal.md)
     :::
   :::
 :::
@@ -2230,13 +2229,13 @@ pharmacy, so everything you see is specific to where you sign in.
     ::: card "Dispense prescriptions" icon:scroll-text
     Look up a prescription by its number, dispense the medicines, and bill
     the patient.
-    [Open →](/features/pharmacy-portal)
+    [Open →](../features/pharmacy-portal.md)
     :::
   :::
   ::: grid
     ::: card "Walk-in sales" icon:shopping-bag
     Sell over the counter to customers who aren't registered patients.
-    [Open →](/features/pharmacy-portal)
+    [Open →](../features/pharmacy-portal.md)
     :::
   :::
 :::
@@ -2255,7 +2254,7 @@ pharmacy, so everything you see is specific to where you sign in.
 :::
 
 For the full walkthrough, see
-[Pharmacy Dispensing](/workflows/pharmacy-dispensing).
+[Pharmacy Dispensing](../workflows/pharmacy-dispensing.md).
 
 ## Keeping stock accurate
 
@@ -2301,13 +2300,13 @@ responsibilities.
     ::: card "View admitted patients" icon:bed-double
     See current admissions, ward rounds and inpatient medications for the
     patients you support.
-    [Open →](/features/admitted-patients)
+    [Open →](../features/admitted-patients.md)
     :::
   :::
   ::: grid
     ::: card "Browse medicines" icon:pill
     Look up medicines in the shared catalogue by name, strength or form.
-    [Open →](/features/medicines)
+    [Open →](../features/medicines.md)
     :::
   :::
 :::
@@ -2327,7 +2326,7 @@ more specific role instead:
 - Recording consultations and prescriptions → **Doctor**
 - Dispensing and pharmacy billing → **Pharmacy**
 
-See [Roles at a Glance](/introduction/roles-overview) to compare.
+See [Roles at a Glance](../introduction/roles-overview.md) to compare.
 
 
 ---
@@ -2358,7 +2357,7 @@ Your first job is to build out the structure. A typical order is:
 ::: steps
 1. **Create your hospitals**
    Add each hospital with its name, address, licences and departments.
-   [Hospitals & Departments →](/features/hospitals-and-departments)
+   [Hospitals & Departments →](../features/hospitals-and-departments.md)
 2. **Add departments**
    Create the clinical departments inside each hospital.
 3. **Build your wards**
@@ -2366,11 +2365,11 @@ Your first job is to build out the structure. A typical order is:
    can be admitted later.
 4. **Add your people**
    Invite doctors and operations (front-desk) staff by email.
-   [Managing Doctors →](/features/doctors) ·
-   [Operations Team →](/features/operations-team)
+   [Managing Doctors →](../features/doctors.md) ·
+   [Operations Team →](../features/operations-team.md)
 5. **Set up the pharmacy**
    Create one or more pharmacies and add pharmacy logins.
-   [Pharmacies →](/features/pharmacies)
+   [Pharmacies →](../features/pharmacies.md)
 6. **Tune your preferences**
    Set branding, document code prefixes, tax details and inpatient billing
    rules.
@@ -2382,13 +2381,13 @@ Your first job is to build out the structure. A typical order is:
   ::: grid
     ::: card "Hospitals & departments" icon:building-2
     Create, edit and deactivate hospitals; add and rename departments.
-    [Open →](/features/hospitals-and-departments)
+    [Open →](../features/hospitals-and-departments.md)
     :::
   :::
   ::: grid
     ::: card "Wards, rooms & beds" icon:bed-double
     Lay out floors, rooms and beds, and set daily room tariffs.
-    [Open →](/features/hospitals-and-departments)
+    [Open →](../features/hospitals-and-departments.md)
     :::
   :::
 :::
@@ -2397,13 +2396,13 @@ Your first job is to build out the structure. A typical order is:
   ::: grid
     ::: card "Doctors & operations staff" icon:users
     Invite, edit, deactivate and re-invite staff.
-    [Doctors →](/features/doctors) · [Operations →](/features/operations-team)
+    [Doctors →](../features/doctors.md) · [Operations →](../features/operations-team.md)
     :::
   :::
   ::: grid
     ::: card "Medicines catalogue" icon:pill
     Add, edit and remove the medicines used across the organisation.
-    [Open →](/features/medicines)
+    [Open →](../features/medicines.md)
     :::
   :::
 :::
@@ -2412,13 +2411,13 @@ Your first job is to build out the structure. A typical order is:
   ::: grid
     ::: card "Pharmacies & logins" icon:store
     Create pharmacies, set their tax rates, and manage who can sign in.
-    [Open →](/features/pharmacies)
+    [Open →](../features/pharmacies.md)
     :::
   :::
   ::: grid
     ::: card "Billing oversight" icon:receipt
     Review bills across the organisation and their payment status.
-    [Open →](/features/bills)
+    [Open →](../features/bills.md)
     :::
   :::
 :::
@@ -2442,14 +2441,14 @@ You control settings that affect everyone:
 ## Keeping oversight
 
 - **Activity log** — see who did what and when across the organisation,
-  with search and date filters. [Open →](/features/audit-logs)
+  with search and date filters. [Open →](../features/audit-logs.md)
 - **Global search** — quickly find patients, doctors, hospitals,
   departments, appointments, bills and medicines.
 
 ## What's next
 
-- New to setup? Follow the [First-Time Setup guide](/workflows/first-time-setup).
-- Want the full feature list? See [Key Features](/introduction/key-features).
+- New to setup? Follow the [First-Time Setup guide](../workflows/first-time-setup.md).
+- Want the full feature list? See [Key Features](../introduction/key-features.md).
 
 
 ---
@@ -2476,7 +2475,7 @@ preferences.
 1. **Create your first hospital**
    Add the hospital's name, location, type, the departments it offers, and
    its compliance details (licences and tax identification).
-   [Hospitals & Departments →](/features/hospitals-and-departments)
+   [Hospitals & Departments →](../features/hospitals-and-departments.md)
 2. **Add departments**
    Create the clinical departments inside the hospital (Cardiology, ICU, OPD,
    and so on).
@@ -2489,22 +2488,22 @@ preferences.
 5. **Invite your doctors**
    Add each doctor with their credentials, department and consultation fee.
    They'll get an email to set their password.
-   [Managing Doctors →](/features/doctors)
+   [Managing Doctors →](../features/doctors.md)
 6. **Invite your front desk**
    Add your operations (front-desk) staff and assign them to a hospital.
-   [Operations Team →](/features/operations-team)
+   [Operations Team →](../features/operations-team.md)
 7. **Set up the pharmacy**
    Create one or more pharmacies with their tax rates, then add pharmacy
    logins for the team.
-   [Pharmacies →](/features/pharmacies)
+   [Pharmacies →](../features/pharmacies.md)
 8. **Stock the medicines catalogue**
    Add the medicines your hospital uses (doctors can also add medicines while
    prescribing).
-   [Medicines Catalogue →](/features/medicines)
+   [Medicines Catalogue →](../features/medicines.md)
 9. **Set your preferences**
    Choose your branding and logo, your document code prefix, your inpatient
    billing rules, and the inactivity sign-out time.
-   [Tenant Admin guide →](/roles/tenant-admin)
+   [Tenant Admin guide →](../roles/tenant-admin.md)
 :::
 
 ::: callout success "You're ready to go live" icon:check
@@ -2514,9 +2513,9 @@ you're ready to register patients and book the first appointments.
 
 ## What's next
 
-- [An Outpatient Visit](/workflows/outpatient-visit)
-- [An Inpatient Admission](/workflows/inpatient-admission)
-- [Pharmacy Dispensing](/workflows/pharmacy-dispensing)
+- [An Outpatient Visit](outpatient-visit.md)
+- [An Inpatient Admission](inpatient-admission.md)
+- [Pharmacy Dispensing](pharmacy-dispensing.md)
 
 
 ---
@@ -2536,7 +2535,7 @@ who does what along the way.
 ::: callout info "Who's involved" icon:users
 **Operations** (front desk), the **Doctor**, and **Nurses**. Make sure your
 ward layout — floors, rooms and beds — is set up first.
-[Set up beds →](/features/hospitals-and-departments)
+[Set up beds →](../features/hospitals-and-departments.md)
 :::
 
 ## The journey
@@ -2544,12 +2543,12 @@ ward layout — floors, rooms and beds — is set up first.
 ::: steps
 1. **Find or register the patient** *(Operations)*
    Search for the patient, or register them if they're new.
-   [Patients →](/features/patients)
+   [Patients →](../features/patients.md)
 2. **Admit to a bed** *(Operations)*
    Choose a vacant bed and the admitting doctor, record the reason for
    admission, and capture any advance deposit, payment type and insurance
    details. The bed is marked occupied.
-   [Admitted Patients →](/features/admitted-patients)
+   [Admitted Patients →](../features/admitted-patients.md)
 3. **Round on the patient** *(Doctor)*
    Record each ward round with notes, vitals, your assessment and the plan.
    The whole care team can see the history.
@@ -2564,7 +2563,7 @@ ward layout — floors, rooms and beds — is set up first.
 7. **Settle charges** *(Operations)*
    The room's daily tariff and the advance deposit inform the final
    settlement; any dispensed medicines are billed by the pharmacy.
-   [Billing & Payments →](/features/bills)
+   [Billing & Payments →](../features/bills.md)
 :::
 
 ::: callout tip "Beds look after themselves" icon:bed
@@ -2574,8 +2573,8 @@ so the front desk only ever assigns beds that are truly ready.
 
 ## Related guides
 
-- [An Outpatient Visit](/workflows/outpatient-visit)
-- [Pharmacy Dispensing](/workflows/pharmacy-dispensing)
+- [An Outpatient Visit](outpatient-visit.md)
+- [Pharmacy Dispensing](pharmacy-dispensing.md)
 
 
 ---
@@ -2602,28 +2601,28 @@ shows how each role plays its part around the same patient record.
 1. **Register or find the patient** *(Operations)*
    New patient? Register them and MedOps assigns a Medical Record Number.
    Returning? Search by name, MRN, phone or email.
-   [Patients →](/features/patients)
+   [Patients →](../features/patients.md)
 2. **Book the appointment** *(Operations)*
    Choose the doctor and a free slot, set the visit type and reason. MedOps
    keeps you within the doctor's working hours and prevents clashes.
-   [Appointments →](/features/appointments)
+   [Appointments →](../features/appointments.md)
 3. **See the patient** *(Doctor)*
    Open the appointment from your queue and start the consultation. Record
    your notes.
-   [Consultations →](/features/consultations)
+   [Consultations →](../features/consultations.md)
 4. **Prescribe** *(Doctor)*
    Add the medicines with dosage, frequency and duration, and set a follow-up
    date if needed.
-   [Prescriptions →](/features/prescriptions)
+   [Prescriptions →](../features/prescriptions.md)
 5. **Complete the consultation** *(Doctor)*
    MedOps issues the prescription, creates the consultation bill, and marks
    the appointment completed — in one step.
 6. **Collect the consultation fee** *(Operations)*
    Record the payment against the consultation bill.
-   [Billing & Payments →](/features/bills)
+   [Billing & Payments →](../features/bills.md)
 7. **Dispense the medicines** *(Pharmacy)*
    Look up the prescription by its number, dispense, and bill the medicines.
-   [Pharmacy Portal →](/features/pharmacy-portal)
+   [Pharmacy Portal →](../features/pharmacy-portal.md)
 :::
 
 ::: callout success "One record, start to finish" icon:check
@@ -2634,8 +2633,8 @@ updated automatically — nothing is re-typed.
 
 ## Related guides
 
-- [An Inpatient Admission](/workflows/inpatient-admission)
-- [Pharmacy Dispensing](/workflows/pharmacy-dispensing)
+- [An Inpatient Admission](inpatient-admission.md)
+- [Pharmacy Dispensing](pharmacy-dispensing.md)
 
 
 ---
@@ -2653,7 +2652,7 @@ This guide follows the pharmacy team's day: keeping stock current, dispensing
 against prescriptions, and serving walk-in customers.
 
 ::: callout info "Who's involved" icon:boxes
-The **Pharmacy** team, working in the [Pharmacy Portal](/features/pharmacy-portal).
+The **Pharmacy** team, working in the [Pharmacy Portal](../features/pharmacy-portal.md).
 :::
 
 ## Keep your stock ready
@@ -2695,8 +2694,8 @@ way.
 
 ## Related guides
 
-- [An Outpatient Visit](/workflows/outpatient-visit)
-- [Pharmacy Portal](/features/pharmacy-portal)
+- [An Outpatient Visit](outpatient-visit.md)
+- [Pharmacy Portal](../features/pharmacy-portal.md)
 
 
 ---

@@ -97,7 +97,7 @@
 
       window.DOCMD_APPEARANCE = "system";
       window.DOCMD_VERSION_ROOT = "/";
-      window.DOCMD_BASE = "/";
+      window.DOCMD_BASE = "/user-guide/";
       window.DOCMD_LOCALE = "";
       window.DOCMD_DEFAULT_LOCALE = "";
     </script>
@@ -105,10 +105,10 @@
       Managing Doctors : MedOps HMS
     </title>
     
-    <link rel="stylesheet" href="../../assets/css/docmd-main.css?v=mqrxuyi3">
+    <link rel="stylesheet" href="../../assets/css/docmd-main.css?v=mqrygv4p">
     
-    <link rel="stylesheet" href="../../assets/css/docmd-highlight-light.css?v=mqrxuyi3" id="hljs-light" >
-    <link rel="stylesheet" href="../../assets/css/docmd-highlight-dark.css?v=mqrxuyi3" id="hljs-dark" disabled>
+    <link rel="stylesheet" href="../../assets/css/docmd-highlight-light.css?v=mqrygv4p" id="hljs-light" >
+    <link rel="stylesheet" href="../../assets/css/docmd-highlight-dark.css?v=mqrygv4p" id="hljs-dark" disabled>
     
     
 <meta name="description" content="Add doctors to MedOps HMS, manage their profiles and credentials, set their consultation fee, and invite them by email.">
@@ -123,11 +123,11 @@
 
 
 
-<link rel="stylesheet" href="../../assets/css/docmd-git.css?v=mqrxuyi3" >
-<link rel="stylesheet" href="../../assets/css/docmd-openapi.css?v=mqrxuyi3" >
+<link rel="stylesheet" href="../../assets/css/docmd-git.css?v=mqrygv4p" >
+<link rel="stylesheet" href="../../assets/css/docmd-openapi.css?v=mqrygv4p" >
 
     
-      <link rel="stylesheet" href="../../assets/css/brand.css?v=mqrxuyi3">
+      <link rel="stylesheet" href="../../assets/css/brand.css?v=mqrygv4p">
     
     <script>/**
  * --------------------------------------------------------------------
@@ -1851,7 +1851,7 @@
             <div class="content-layout">
               <div class="main-content">
                 <div class="docmd-breadcrumbs-row">
-                  <div id="docmd-raw-markdown" data-content="---%0Atitle%3A%20Managing%20Doctors%0Adescription%3A%20Add%20doctors%20to%20MedOps%20HMS%2C%20manage%20their%20profiles%20and%20credentials%2C%20set%20their%20consultation%20fee%2C%20and%20invite%20them%20by%20email.%0A---%0A%0A%23%20Managing%20Doctors%0A%0ADoctors%20are%20added%20and%20managed%20by%20the%20**Tenant%20Admin**.%20Once%20a%20doctor%20is%20set%0Aup%20and%20has%20accepted%20their%20invitation%2C%20they%20can%20manage%20their%20own%20availability%0Aand%20start%20seeing%20patients.%0A%0A%3A%3A%3A%20callout%20info%20%22Who%20manages%20this%22%20icon%3Ashield%0AThe%20**Tenant%20Admin**%20adds%20and%20edits%20doctors.%20The%20front%20desk%20sees%20a%20simple%0Alist%20of%20doctors%20(name%2C%20specialisation%20and%20department)%20when%20booking%0Aappointments%2C%20without%20any%20private%20details.%0A%3A%3A%3A%0A%0A%23%23%20Adding%20a%20doctor%0A%0AWhen%20you%20add%20a%20doctor%2C%20you%20provide%3A%0A%0A-%20**Personal%20details**%20%E2%80%94%20full%20name%2C%20gender%2C%20date%20of%20birth%2C%20email%20and%20phone%0A-%20**Hospital**%20%E2%80%94%20the%20hospital%20they%20work%20at%0A-%20**Department**%20%E2%80%94%20optional%2C%20within%20that%20hospital%0A-%20**Credentials**%20%E2%80%94%20medical%20council%20registration%20number%2C%20medical%20degree%0A%20%20(e.g.%20MBBS%2C%20MD)%2C%20specialisation%2C%20and%20year%20of%20registration%0A-%20**Employment%20type**%20%E2%80%94%20full-time%2C%20part-time%2C%20visiting%2C%20consultant%20or%20locum%0A-%20**Consultation%20fee**%20%E2%80%94%20the%20fee%20charged%20per%20visit%20(optional%3B%20if%20left%20blank%2C%0A%20%20no%20consultation%20fee%20is%20billed)%0A%0AWhen%20you%20save%2C%20MedOps%20emails%20the%20doctor%20a%20welcome%20message%20with%20a%20link%20to%20set%0Atheir%20own%20password%20and%20sign%20in.%0A%0A%3A%3A%3A%20callout%20tip%20%22Invitations%20can%20be%20re-sent%22%20icon%3Amail%0AIf%20a%20doctor%20hasn&#039;t%20set%20their%20password%20yet%2C%20you%20can%20re-send%20the%20invitation%20at%0Aany%20time%20to%20give%20them%20a%20fresh%20link.%0A%3A%3A%3A%0A%0A%23%23%20The%20doctor%20profile%0A%0AEach%20doctor&#039;s%20profile%20keeps%3A%0A%0A-%20Identity%20and%20contact%20details%0A-%20Registration%20and%20credentials%20(registration%20number%2C%20degree%2C%20specialisation%2C%0A%20%20year%20of%20registration)%0A-%20Hospital%20and%20department%0A-%20Employment%20type%0A-%20Consultation%20fee%0A-%20A%20**digital%20signature**%20image%20used%20on%20printed%20prescriptions%0A-%20Account%20status%20%E2%80%94%20**active**%2C%20**inactive**%20or%20**suspended**%20%E2%80%94%20and%20whether%0A%20%20their%20email%20is%20verified%20and%20password%20is%20set%0A%0A%23%23%20Editing%20and%20removing%20doctors%0A%0A-%20**Edit**%20any%20detail%20except%20the%20email%20address%20(which%20is%20fixed%20once%20the%0A%20%20doctor%20is%20created).%20If%20you%20move%20a%20doctor%20to%20a%20different%20hospital%2C%20their%0A%20%20department%20is%20checked%20against%20the%20new%20hospital.%0A-%20**Deactivate%20or%20remove**%20a%20doctor%20who%20no%20longer%20practises%20at%20your%0A%20%20organisation.%0A%0A%23%23%20What%20doctors%20do%20next%0A%0AOnce%20invited%2C%20a%20doctor%20manages%20their%20own%20working%20hours%20and%20time-off%2C%20sees%0Atheir%20appointment%20queue%2C%20and%20records%20consultations.%20See%3A%0A%0A-%20%5BMy%20Appointments%20%26%20Availability%5D(%2Ffeatures%2Fmy-appointments)%0A-%20%5BConsultations%5D(%2Ffeatures%2Fconsultations)%0A-%20%5BPrescriptions%5D(%2Ffeatures%2Fprescriptions)%0A" style="display: none;"></div>
+                  <div id="docmd-raw-markdown" data-content="---%0Atitle%3A%20Managing%20Doctors%0Adescription%3A%20Add%20doctors%20to%20MedOps%20HMS%2C%20manage%20their%20profiles%20and%20credentials%2C%20set%20their%20consultation%20fee%2C%20and%20invite%20them%20by%20email.%0A---%0A%0A%23%20Managing%20Doctors%0A%0ADoctors%20are%20added%20and%20managed%20by%20the%20**Tenant%20Admin**.%20Once%20a%20doctor%20is%20set%0Aup%20and%20has%20accepted%20their%20invitation%2C%20they%20can%20manage%20their%20own%20availability%0Aand%20start%20seeing%20patients.%0A%0A%3A%3A%3A%20callout%20info%20%22Who%20manages%20this%22%20icon%3Ashield%0AThe%20**Tenant%20Admin**%20adds%20and%20edits%20doctors.%20The%20front%20desk%20sees%20a%20simple%0Alist%20of%20doctors%20(name%2C%20specialisation%20and%20department)%20when%20booking%0Aappointments%2C%20without%20any%20private%20details.%0A%3A%3A%3A%0A%0A%23%23%20Adding%20a%20doctor%0A%0AWhen%20you%20add%20a%20doctor%2C%20you%20provide%3A%0A%0A-%20**Personal%20details**%20%E2%80%94%20full%20name%2C%20gender%2C%20date%20of%20birth%2C%20email%20and%20phone%0A-%20**Hospital**%20%E2%80%94%20the%20hospital%20they%20work%20at%0A-%20**Department**%20%E2%80%94%20optional%2C%20within%20that%20hospital%0A-%20**Credentials**%20%E2%80%94%20medical%20council%20registration%20number%2C%20medical%20degree%0A%20%20(e.g.%20MBBS%2C%20MD)%2C%20specialisation%2C%20and%20year%20of%20registration%0A-%20**Employment%20type**%20%E2%80%94%20full-time%2C%20part-time%2C%20visiting%2C%20consultant%20or%20locum%0A-%20**Consultation%20fee**%20%E2%80%94%20the%20fee%20charged%20per%20visit%20(optional%3B%20if%20left%20blank%2C%0A%20%20no%20consultation%20fee%20is%20billed)%0A%0AWhen%20you%20save%2C%20MedOps%20emails%20the%20doctor%20a%20welcome%20message%20with%20a%20link%20to%20set%0Atheir%20own%20password%20and%20sign%20in.%0A%0A%3A%3A%3A%20callout%20tip%20%22Invitations%20can%20be%20re-sent%22%20icon%3Amail%0AIf%20a%20doctor%20hasn&#039;t%20set%20their%20password%20yet%2C%20you%20can%20re-send%20the%20invitation%20at%0Aany%20time%20to%20give%20them%20a%20fresh%20link.%0A%3A%3A%3A%0A%0A%23%23%20The%20doctor%20profile%0A%0AEach%20doctor&#039;s%20profile%20keeps%3A%0A%0A-%20Identity%20and%20contact%20details%0A-%20Registration%20and%20credentials%20(registration%20number%2C%20degree%2C%20specialisation%2C%0A%20%20year%20of%20registration)%0A-%20Hospital%20and%20department%0A-%20Employment%20type%0A-%20Consultation%20fee%0A-%20A%20**digital%20signature**%20image%20used%20on%20printed%20prescriptions%0A-%20Account%20status%20%E2%80%94%20**active**%2C%20**inactive**%20or%20**suspended**%20%E2%80%94%20and%20whether%0A%20%20their%20email%20is%20verified%20and%20password%20is%20set%0A%0A%23%23%20Editing%20and%20removing%20doctors%0A%0A-%20**Edit**%20any%20detail%20except%20the%20email%20address%20(which%20is%20fixed%20once%20the%0A%20%20doctor%20is%20created).%20If%20you%20move%20a%20doctor%20to%20a%20different%20hospital%2C%20their%0A%20%20department%20is%20checked%20against%20the%20new%20hospital.%0A-%20**Deactivate%20or%20remove**%20a%20doctor%20who%20no%20longer%20practises%20at%20your%0A%20%20organisation.%0A%0A%23%23%20What%20doctors%20do%20next%0A%0AOnce%20invited%2C%20a%20doctor%20manages%20their%20own%20working%20hours%20and%20time-off%2C%20sees%0Atheir%20appointment%20queue%2C%20and%20records%20consultations.%20See%3A%0A%0A-%20%5BMy%20Appointments%20%26%20Availability%5D(my-appointments.md)%0A-%20%5BConsultations%5D(consultations.md)%0A-%20%5BPrescriptions%5D(prescriptions.md)%0A" style="display: none;"></div>
                   
                     <nav aria-label="breadcrumb" class="docmd-breadcrumbs">
                       <ol>
@@ -2023,9 +2023,9 @@ organisation.</li>
 <p>Once invited, a doctor manages their own working hours and time-off, sees<br>
 their appointment queue, and records consultations. See:</p>
 <ul>
-<li><a href="/features/my-appointments/">My Appointments &amp; Availability</a></li>
-<li><a href="/features/consultations/">Consultations</a></li>
-<li><a href="/features/prescriptions/">Prescriptions</a></li>
+<li><a href="../my-appointments/">My Appointments &amp; Availability</a></li>
+<li><a href="../consultations/">Consultations</a></li>
+<li><a href="../prescriptions/">Prescriptions</a></li>
 </ul>
 
                 
@@ -2150,13 +2150,13 @@ their appointment queue, and records consultations. See:</p>
         </div>
       </div>
       
-      <script src="../../assets/js/docmd-main.js?v=mqrxuyi3"></script>
+      <script src="../../assets/js/docmd-main.js?v=mqrygv4p"></script>
       
-      <script src="../../assets/js/docmd-git.js?v=mqrxuyi3"></script>
-      <script src="../../assets/js/docmd-image-lightbox.js?v=mqrxuyi3" ></script>
+      <script src="../../assets/js/docmd-git.js?v=mqrygv4p"></script>
+      <script src="../../assets/js/docmd-image-lightbox.js?v=mqrygv4p" ></script>
 <script src="https://cdn.jsdelivr.net/npm/minisearch@7.2.0/dist/umd/index.min.js" ></script>
-<script src="../../assets/js/docmd-search.js?v=mqrxuyi3" ></script>
-<script src="../../assets/js/docmd-git.js?v=mqrxuyi3" type="module"></script>
+<script src="../../assets/js/docmd-search.js?v=mqrygv4p" ></script>
+<script src="../../assets/js/docmd-git.js?v=mqrygv4p" type="module"></script>
 
   <!-- Search Modal (Injected by @docmd/plugin-search) -->
   <div id="docmd-search-modal" class="docmd-search-modal" style="display: none;" data-show-confidence="false" data-show-filters="false"

@@ -97,7 +97,7 @@
 
       window.DOCMD_APPEARANCE = "system";
       window.DOCMD_VERSION_ROOT = "/";
-      window.DOCMD_BASE = "/";
+      window.DOCMD_BASE = "/user-guide/";
       window.DOCMD_LOCALE = "";
       window.DOCMD_DEFAULT_LOCALE = "";
     </script>
@@ -105,10 +105,10 @@
       Overview : MedOps HMS
     </title>
     
-    <link rel="stylesheet" href="../assets/css/docmd-main.css?v=mqrxuyi3">
+    <link rel="stylesheet" href="../assets/css/docmd-main.css?v=mqrygv4p">
     
-    <link rel="stylesheet" href="../assets/css/docmd-highlight-light.css?v=mqrxuyi3" id="hljs-light" >
-    <link rel="stylesheet" href="../assets/css/docmd-highlight-dark.css?v=mqrxuyi3" id="hljs-dark" disabled>
+    <link rel="stylesheet" href="../assets/css/docmd-highlight-light.css?v=mqrygv4p" id="hljs-light" >
+    <link rel="stylesheet" href="../assets/css/docmd-highlight-dark.css?v=mqrygv4p" id="hljs-dark" disabled>
     
     
 <meta name="description" content="What MedOps HMS is, who uses it, and how it is organised — one shared patient record across the front desk, doctors, wards, pharmacy and billing.">
@@ -123,11 +123,11 @@
 
 
 
-<link rel="stylesheet" href="../assets/css/docmd-git.css?v=mqrxuyi3" >
-<link rel="stylesheet" href="../assets/css/docmd-openapi.css?v=mqrxuyi3" >
+<link rel="stylesheet" href="../assets/css/docmd-git.css?v=mqrygv4p" >
+<link rel="stylesheet" href="../assets/css/docmd-openapi.css?v=mqrygv4p" >
 
     
-      <link rel="stylesheet" href="../assets/css/brand.css?v=mqrxuyi3">
+      <link rel="stylesheet" href="../assets/css/brand.css?v=mqrygv4p">
     
     <script>/**
  * --------------------------------------------------------------------
@@ -1851,7 +1851,7 @@
             <div class="content-layout">
               <div class="main-content">
                 <div class="docmd-breadcrumbs-row">
-                  <div id="docmd-raw-markdown" data-content="---%0Atitle%3A%20Overview%0Adescription%3A%20What%20MedOps%20HMS%20is%2C%20who%20uses%20it%2C%20and%20how%20it%20is%20organised%20%E2%80%94%20one%20shared%20patient%20record%20across%20the%20front%20desk%2C%20doctors%2C%20wards%2C%20pharmacy%20and%20billing.%0A---%0A%0A%23%20Overview%0A%0AMedOps%20HMS%20is%20a%20complete%20hospital%20management%20platform.%20It%20connects%20the%0Apeople%20and%20tasks%20involved%20in%20running%20a%20hospital%20%E2%80%94%20registering%20patients%2C%0Abooking%20appointments%2C%20seeing%20doctors%2C%20prescribing%20and%20dispensing%0Amedicines%2C%20admitting%20and%20discharging%20inpatients%2C%20and%20collecting%20payments%20%E2%80%94%0Aaround%20a%20single%2C%20shared%20patient%20record.%0A%0A%23%23%20One%20record%2C%20one%20workflow%0A%0AMost%20hospital%20software%20keeps%20each%20department%20on%20its%20own%20island.%20MedOps%20is%0Adifferent%3A%20a%20patient%20is%20registered%20**once**%2C%20and%20everything%20that%20happens%0Aafterwards%20is%20linked%20back%20to%20that%20one%20record.%0A%0A-%20The%20front%20desk%20registers%20a%20patient%20and%20books%20an%20appointment.%0A-%20The%20doctor%20opens%20that%20appointment%2C%20records%20the%20consultation%2C%20and%20writes%0A%20%20a%20prescription.%0A-%20The%20system%20creates%20the%20consultation%20bill%20automatically.%0A-%20The%20pharmacy%20pulls%20up%20the%20same%20prescription%20to%20dispense%20and%20bill%20the%0A%20%20medicines.%0A-%20If%20the%20patient%20is%20admitted%2C%20the%20ward%20records%20rounds%20and%20the%20stay%20is%0A%20%20tracked%20to%20discharge.%0A%0AEveryone%20sees%20a%20consistent%20picture%2C%20and%20nothing%20has%20to%20be%20re-typed%20from%0Aone%20screen%20to%20the%20next.%0A%0A%23%23%20How%20MedOps%20is%20organised%0A%0A%3A%3A%3A%20callout%20info%20%22Organisation%2C%20hospitals%2C%20and%20people%22%20icon%3Abuilding-2%0AMedOps%20is%20built%20for%20healthcare%20**organisations**.%20Your%20organisation%20can%0Arun%20one%20hospital%20or%20several.%20All%20of%20your%20hospitals%2C%20staff%2C%20patients%20and%0Arecords%20live%20inside%20your%20organisation%20and%20are%20kept%20completely%20separate%0Afrom%20every%20other%20organisation%20on%20the%20platform.%0A%3A%3A%3A%0A%0A-%20**Your%20organisation**%20is%20the%20top%20level%20%E2%80%94%20created%20when%20your%20administrator%0A%20%20first%20signs%20up.%0A-%20**Hospitals**%20belong%20to%20your%20organisation.%20Each%20hospital%20has%20its%20own%0A%20%20departments%2C%20doctors%2C%20beds%2C%20patients%20and%20pharmacy.%0A-%20**People**%20(your%20staff)%20are%20given%20a%20role%20that%20decides%20what%20they%20can%20see%0A%20%20and%20do%2C%20and%20are%20usually%20tied%20to%20a%20specific%20hospital.%0A%0A%23%23%20Who%20uses%20MedOps%0A%0AMedOps%20supports%20six%20roles%2C%20each%20tailored%20to%20a%20job%20in%20the%20hospital%3A%0A%0A%7C%20Role%20%7C%20Who%20they%20are%20%7C%0A%7C%20---%20%7C%20---%20%7C%0A%7C%20**Tenant%20Admin**%20%7C%20Owns%20the%20organisation%3B%20sets%20up%20hospitals%2C%20staff%20and%20preferences%20%7C%0A%7C%20**Doctor**%20%7C%20Sees%20patients%2C%20records%20consultations%2C%20writes%20prescriptions%2C%20does%20ward%20rounds%20%7C%0A%7C%20**Nurse**%20%7C%20Supports%20bedside%20and%20ward%20care%20%7C%0A%7C%20**Staff**%20%7C%20General%20hospital%20staff%20%7C%0A%7C%20**Operations**%20%7C%20Front%20desk%20%E2%80%94%20registration%2C%20appointments%2C%20admissions%2C%20payments%20%7C%0A%7C%20**Pharmacy**%20%7C%20Runs%20the%20pharmacy%3A%20stock%2C%20dispensing%20and%20billing%20%7C%0A%0ASee%20%5BRoles%20at%20a%20Glance%5D(%2Fintroduction%2Froles-overview)%20for%20what%20each%20role%0Acan%20do%2C%20or%20jump%20straight%20to%20your%20%5BRole%20Guide%5D(%2Froles%2Ftenant-admin).%0A%0A%23%23%20What%20you%20can%20do%0A%0A%3A%3A%3A%20grids%0A%20%20%3A%3A%3A%20grid%0A%20%20%20%20%3A%3A%3A%20card%20%22Run%20the%20front%20desk%22%20icon%3Aheadset%0A%20%20%20%20Register%20patients%2C%20book%20and%20reschedule%20appointments%2C%20admit%20and%0A%20%20%20%20discharge%20inpatients%2C%20and%20take%20payments.%0A%20%20%20%20%3A%3A%3A%0A%20%20%3A%3A%3A%0A%20%20%3A%3A%3A%20grid%0A%20%20%20%20%3A%3A%3A%20card%20%22Deliver%20care%22%20icon%3Astethoscope%0A%20%20%20%20Record%20consultations%20and%20vitals%2C%20prescribe%20medicines%2C%20set%20follow-ups%2C%0A%20%20%20%20and%20round%20on%20admitted%20patients.%0A%20%20%20%20%3A%3A%3A%0A%20%20%3A%3A%3A%0A%3A%3A%3A%0A%0A%3A%3A%3A%20grids%0A%20%20%3A%3A%3A%20grid%0A%20%20%20%20%3A%3A%3A%20card%20%22Run%20the%20pharmacy%22%20icon%3Aboxes%0A%20%20%20%20Receive%20stock%2C%20set%20prices%2C%20dispense%20against%20prescriptions%2C%20and%20bill%0A%20%20%20%20walk-in%20customers%20%E2%80%94%20all%20with%20tax%20handled%20for%20you.%0A%20%20%20%20%3A%3A%3A%0A%20%20%3A%3A%3A%0A%20%20%3A%3A%3A%20grid%0A%20%20%20%20%3A%3A%3A%20card%20%22Stay%20in%20control%22%20icon%3Ahistory%0A%20%20%20%20Manage%20hospitals%2C%20departments%2C%20beds%20and%20staff%2C%20and%20review%20a%20complete%0A%20%20%20%20activity%20log%20of%20who%20did%20what%20and%20when.%0A%20%20%20%20%3A%3A%3A%0A%20%20%3A%3A%3A%0A%3A%3A%3A%0A%0A%23%23%20Where%20to%20go%20next%0A%0A-%20%5BKey%20Features%5D(%2Fintroduction%2Fkey-features)%20%E2%80%94%20a%20tour%20of%20everything%20MedOps%20does%0A-%20%5BSigning%20In%20%26%20The%20Basics%5D(%2Fgetting-started)%20%E2%80%94%20get%20into%20the%20system%0A-%20%5BStep-by-Step%20Guides%5D(%2Fworkflows%2Ffirst-time-setup)%20%E2%80%94%20follow%20a%20complete%20workflow%0A" style="display: none;"></div>
+                  <div id="docmd-raw-markdown" data-content="---%0Atitle%3A%20Overview%0Adescription%3A%20What%20MedOps%20HMS%20is%2C%20who%20uses%20it%2C%20and%20how%20it%20is%20organised%20%E2%80%94%20one%20shared%20patient%20record%20across%20the%20front%20desk%2C%20doctors%2C%20wards%2C%20pharmacy%20and%20billing.%0A---%0A%0A%23%20Overview%0A%0AMedOps%20HMS%20is%20a%20complete%20hospital%20management%20platform.%20It%20connects%20the%0Apeople%20and%20tasks%20involved%20in%20running%20a%20hospital%20%E2%80%94%20registering%20patients%2C%0Abooking%20appointments%2C%20seeing%20doctors%2C%20prescribing%20and%20dispensing%0Amedicines%2C%20admitting%20and%20discharging%20inpatients%2C%20and%20collecting%20payments%20%E2%80%94%0Aaround%20a%20single%2C%20shared%20patient%20record.%0A%0A%23%23%20One%20record%2C%20one%20workflow%0A%0AMost%20hospital%20software%20keeps%20each%20department%20on%20its%20own%20island.%20MedOps%20is%0Adifferent%3A%20a%20patient%20is%20registered%20**once**%2C%20and%20everything%20that%20happens%0Aafterwards%20is%20linked%20back%20to%20that%20one%20record.%0A%0A-%20The%20front%20desk%20registers%20a%20patient%20and%20books%20an%20appointment.%0A-%20The%20doctor%20opens%20that%20appointment%2C%20records%20the%20consultation%2C%20and%20writes%0A%20%20a%20prescription.%0A-%20The%20system%20creates%20the%20consultation%20bill%20automatically.%0A-%20The%20pharmacy%20pulls%20up%20the%20same%20prescription%20to%20dispense%20and%20bill%20the%0A%20%20medicines.%0A-%20If%20the%20patient%20is%20admitted%2C%20the%20ward%20records%20rounds%20and%20the%20stay%20is%0A%20%20tracked%20to%20discharge.%0A%0AEveryone%20sees%20a%20consistent%20picture%2C%20and%20nothing%20has%20to%20be%20re-typed%20from%0Aone%20screen%20to%20the%20next.%0A%0A%23%23%20How%20MedOps%20is%20organised%0A%0A%3A%3A%3A%20callout%20info%20%22Organisation%2C%20hospitals%2C%20and%20people%22%20icon%3Abuilding-2%0AMedOps%20is%20built%20for%20healthcare%20**organisations**.%20Your%20organisation%20can%0Arun%20one%20hospital%20or%20several.%20All%20of%20your%20hospitals%2C%20staff%2C%20patients%20and%0Arecords%20live%20inside%20your%20organisation%20and%20are%20kept%20completely%20separate%0Afrom%20every%20other%20organisation%20on%20the%20platform.%0A%3A%3A%3A%0A%0A-%20**Your%20organisation**%20is%20the%20top%20level%20%E2%80%94%20created%20when%20your%20administrator%0A%20%20first%20signs%20up.%0A-%20**Hospitals**%20belong%20to%20your%20organisation.%20Each%20hospital%20has%20its%20own%0A%20%20departments%2C%20doctors%2C%20beds%2C%20patients%20and%20pharmacy.%0A-%20**People**%20(your%20staff)%20are%20given%20a%20role%20that%20decides%20what%20they%20can%20see%0A%20%20and%20do%2C%20and%20are%20usually%20tied%20to%20a%20specific%20hospital.%0A%0A%23%23%20Who%20uses%20MedOps%0A%0AMedOps%20supports%20six%20roles%2C%20each%20tailored%20to%20a%20job%20in%20the%20hospital%3A%0A%0A%7C%20Role%20%7C%20Who%20they%20are%20%7C%0A%7C%20---%20%7C%20---%20%7C%0A%7C%20**Tenant%20Admin**%20%7C%20Owns%20the%20organisation%3B%20sets%20up%20hospitals%2C%20staff%20and%20preferences%20%7C%0A%7C%20**Doctor**%20%7C%20Sees%20patients%2C%20records%20consultations%2C%20writes%20prescriptions%2C%20does%20ward%20rounds%20%7C%0A%7C%20**Nurse**%20%7C%20Supports%20bedside%20and%20ward%20care%20%7C%0A%7C%20**Staff**%20%7C%20General%20hospital%20staff%20%7C%0A%7C%20**Operations**%20%7C%20Front%20desk%20%E2%80%94%20registration%2C%20appointments%2C%20admissions%2C%20payments%20%7C%0A%7C%20**Pharmacy**%20%7C%20Runs%20the%20pharmacy%3A%20stock%2C%20dispensing%20and%20billing%20%7C%0A%0ASee%20%5BRoles%20at%20a%20Glance%5D(roles-overview.md)%20for%20what%20each%20role%0Acan%20do%2C%20or%20jump%20straight%20to%20your%20%5BRole%20Guide%5D(..%2Froles%2Ftenant-admin.md).%0A%0A%23%23%20What%20you%20can%20do%0A%0A%3A%3A%3A%20grids%0A%20%20%3A%3A%3A%20grid%0A%20%20%20%20%3A%3A%3A%20card%20%22Run%20the%20front%20desk%22%20icon%3Aheadset%0A%20%20%20%20Register%20patients%2C%20book%20and%20reschedule%20appointments%2C%20admit%20and%0A%20%20%20%20discharge%20inpatients%2C%20and%20take%20payments.%0A%20%20%20%20%3A%3A%3A%0A%20%20%3A%3A%3A%0A%20%20%3A%3A%3A%20grid%0A%20%20%20%20%3A%3A%3A%20card%20%22Deliver%20care%22%20icon%3Astethoscope%0A%20%20%20%20Record%20consultations%20and%20vitals%2C%20prescribe%20medicines%2C%20set%20follow-ups%2C%0A%20%20%20%20and%20round%20on%20admitted%20patients.%0A%20%20%20%20%3A%3A%3A%0A%20%20%3A%3A%3A%0A%3A%3A%3A%0A%0A%3A%3A%3A%20grids%0A%20%20%3A%3A%3A%20grid%0A%20%20%20%20%3A%3A%3A%20card%20%22Run%20the%20pharmacy%22%20icon%3Aboxes%0A%20%20%20%20Receive%20stock%2C%20set%20prices%2C%20dispense%20against%20prescriptions%2C%20and%20bill%0A%20%20%20%20walk-in%20customers%20%E2%80%94%20all%20with%20tax%20handled%20for%20you.%0A%20%20%20%20%3A%3A%3A%0A%20%20%3A%3A%3A%0A%20%20%3A%3A%3A%20grid%0A%20%20%20%20%3A%3A%3A%20card%20%22Stay%20in%20control%22%20icon%3Ahistory%0A%20%20%20%20Manage%20hospitals%2C%20departments%2C%20beds%20and%20staff%2C%20and%20review%20a%20complete%0A%20%20%20%20activity%20log%20of%20who%20did%20what%20and%20when.%0A%20%20%20%20%3A%3A%3A%0A%20%20%3A%3A%3A%0A%3A%3A%3A%0A%0A%23%23%20Where%20to%20go%20next%0A%0A-%20%5BKey%20Features%5D(key-features.md)%20%E2%80%94%20a%20tour%20of%20everything%20MedOps%20does%0A-%20%5BSigning%20In%20%26%20The%20Basics%5D(..%2Fgetting-started%2Findex.md)%20%E2%80%94%20get%20into%20the%20system%0A-%20%5BStep-by-Step%20Guides%5D(..%2Fworkflows%2Ffirst-time-setup.md)%20%E2%80%94%20follow%20a%20complete%20workflow%0A" style="display: none;"></div>
                   
                     <nav aria-label="breadcrumb" class="docmd-breadcrumbs">
                       <ol>
@@ -2032,8 +2032,8 @@ and do, and are usually tied to a specific hospital.</li>
 </tr>
 </tbody>
 </table>
-</div><p>See <a href="/introduction/roles-overview/">Roles at a Glance</a> for what each role<br>
-can do, or jump straight to your <a href="/roles/tenant-admin/">Role Guide</a>.</p>
+</div><p>See <a href="roles-overview/">Roles at a Glance</a> for what each role<br>
+can do, or jump straight to your <a href="../roles/tenant-admin/">Role Guide</a>.</p>
 <h2 id="overview-what-you-can-do" class="docmd-heading"><a href="#overview-what-you-can-do" class="heading-anchor" aria-label="Permalink to this section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-link2-icon lucide-link-2"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a>What you can do</h2>
 <div class="docmd-container grids">
 <div class="docmd-container grid-item">
@@ -2143,9 +2143,9 @@ activity log of who did what and when.</p>
 </div>
 <h2 id="overview-where-to-go-next" class="docmd-heading"><a href="#overview-where-to-go-next" class="heading-anchor" aria-label="Permalink to this section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-link2-icon lucide-link-2"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a>Where to go next</h2>
 <ul>
-<li><a href="/introduction/key-features/">Key Features</a> — a tour of everything MedOps does</li>
-<li><a href="/getting-started/">Signing In &amp; The Basics</a> — get into the system</li>
-<li><a href="/workflows/first-time-setup/">Step-by-Step Guides</a> — follow a complete workflow</li>
+<li><a href="key-features/">Key Features</a> — a tour of everything MedOps does</li>
+<li><a href="../getting-started/">Signing In &amp; The Basics</a> — get into the system</li>
+<li><a href="../workflows/first-time-setup/">Step-by-Step Guides</a> — follow a complete workflow</li>
 </ul>
 
                 
@@ -2274,13 +2274,13 @@ activity log of who did what and when.</p>
         </div>
       </div>
       
-      <script src="../assets/js/docmd-main.js?v=mqrxuyi3"></script>
+      <script src="../assets/js/docmd-main.js?v=mqrygv4p"></script>
       
-      <script src="../assets/js/docmd-git.js?v=mqrxuyi3"></script>
-      <script src="../assets/js/docmd-image-lightbox.js?v=mqrxuyi3" ></script>
+      <script src="../assets/js/docmd-git.js?v=mqrygv4p"></script>
+      <script src="../assets/js/docmd-image-lightbox.js?v=mqrygv4p" ></script>
 <script src="https://cdn.jsdelivr.net/npm/minisearch@7.2.0/dist/umd/index.min.js" ></script>
-<script src="../assets/js/docmd-search.js?v=mqrxuyi3" ></script>
-<script src="../assets/js/docmd-git.js?v=mqrxuyi3" type="module"></script>
+<script src="../assets/js/docmd-search.js?v=mqrygv4p" ></script>
+<script src="../assets/js/docmd-git.js?v=mqrygv4p" type="module"></script>
 
   <!-- Search Modal (Injected by @docmd/plugin-search) -->
   <div id="docmd-search-modal" class="docmd-search-modal" style="display: none;" data-show-confidence="false" data-show-filters="false"

@@ -97,7 +97,7 @@
 
       window.DOCMD_APPEARANCE = "system";
       window.DOCMD_VERSION_ROOT = "/";
-      window.DOCMD_BASE = "/";
+      window.DOCMD_BASE = "/user-guide/";
       window.DOCMD_LOCALE = "";
       window.DOCMD_DEFAULT_LOCALE = "";
     </script>
@@ -105,10 +105,10 @@
       An Outpatient Visit : MedOps HMS
     </title>
     
-    <link rel="stylesheet" href="../../assets/css/docmd-main.css?v=mqrxuyi3">
+    <link rel="stylesheet" href="../../assets/css/docmd-main.css?v=mqrygv4p">
     
-    <link rel="stylesheet" href="../../assets/css/docmd-highlight-light.css?v=mqrxuyi3" id="hljs-light" >
-    <link rel="stylesheet" href="../../assets/css/docmd-highlight-dark.css?v=mqrxuyi3" id="hljs-dark" disabled>
+    <link rel="stylesheet" href="../../assets/css/docmd-highlight-light.css?v=mqrygv4p" id="hljs-light" >
+    <link rel="stylesheet" href="../../assets/css/docmd-highlight-dark.css?v=mqrygv4p" id="hljs-dark" disabled>
     
     
 <meta name="description" content="The end-to-end outpatient flow in MedOps HMS — from registering a patient and booking an appointment to consultation, billing and dispensing.">
@@ -123,11 +123,11 @@
 
 
 
-<link rel="stylesheet" href="../../assets/css/docmd-git.css?v=mqrxuyi3" >
-<link rel="stylesheet" href="../../assets/css/docmd-openapi.css?v=mqrxuyi3" >
+<link rel="stylesheet" href="../../assets/css/docmd-git.css?v=mqrygv4p" >
+<link rel="stylesheet" href="../../assets/css/docmd-openapi.css?v=mqrygv4p" >
 
     
-      <link rel="stylesheet" href="../../assets/css/brand.css?v=mqrxuyi3">
+      <link rel="stylesheet" href="../../assets/css/brand.css?v=mqrygv4p">
     
     <script>/**
  * --------------------------------------------------------------------
@@ -1851,7 +1851,7 @@
             <div class="content-layout">
               <div class="main-content">
                 <div class="docmd-breadcrumbs-row">
-                  <div id="docmd-raw-markdown" data-content="---%0Atitle%3A%20An%20Outpatient%20Visit%0Adescription%3A%20The%20end-to-end%20outpatient%20flow%20in%20MedOps%20HMS%20%E2%80%94%20from%20registering%20a%20patient%20and%20booking%20an%20appointment%20to%20consultation%2C%20billing%20and%20dispensing.%0A---%0A%0A%23%20An%20Outpatient%20Visit%0A%0AThis%20guide%20follows%20a%20typical%20outpatient%20(OP)%20visit%20from%20start%20to%20finish%2C%20and%0Ashows%20how%20each%20role%20plays%20its%20part%20around%20the%20same%20patient%20record.%0A%0A%3A%3A%3A%20callout%20info%20%22Who&#039;s%20involved%22%20icon%3Ausers%0A**Operations**%20(front%20desk)%2C%20the%20**Doctor**%2C%20and%20the%20**Pharmacy**%20team.%0A%3A%3A%3A%0A%0A%23%23%20The%20journey%0A%0A%3A%3A%3A%20steps%0A1.%20**Register%20or%20find%20the%20patient**%20*(Operations)*%0A%20%20%20New%20patient%3F%20Register%20them%20and%20MedOps%20assigns%20a%20Medical%20Record%20Number.%0A%20%20%20Returning%3F%20Search%20by%20name%2C%20MRN%2C%20phone%20or%20email.%0A%20%20%20%5BPatients%20%E2%86%92%5D(%2Ffeatures%2Fpatients)%0A2.%20**Book%20the%20appointment**%20*(Operations)*%0A%20%20%20Choose%20the%20doctor%20and%20a%20free%20slot%2C%20set%20the%20visit%20type%20and%20reason.%20MedOps%0A%20%20%20keeps%20you%20within%20the%20doctor&#039;s%20working%20hours%20and%20prevents%20clashes.%0A%20%20%20%5BAppointments%20%E2%86%92%5D(%2Ffeatures%2Fappointments)%0A3.%20**See%20the%20patient**%20*(Doctor)*%0A%20%20%20Open%20the%20appointment%20from%20your%20queue%20and%20start%20the%20consultation.%20Record%0A%20%20%20your%20notes.%0A%20%20%20%5BConsultations%20%E2%86%92%5D(%2Ffeatures%2Fconsultations)%0A4.%20**Prescribe**%20*(Doctor)*%0A%20%20%20Add%20the%20medicines%20with%20dosage%2C%20frequency%20and%20duration%2C%20and%20set%20a%20follow-up%0A%20%20%20date%20if%20needed.%0A%20%20%20%5BPrescriptions%20%E2%86%92%5D(%2Ffeatures%2Fprescriptions)%0A5.%20**Complete%20the%20consultation**%20*(Doctor)*%0A%20%20%20MedOps%20issues%20the%20prescription%2C%20creates%20the%20consultation%20bill%2C%20and%20marks%0A%20%20%20the%20appointment%20completed%20%E2%80%94%20in%20one%20step.%0A6.%20**Collect%20the%20consultation%20fee**%20*(Operations)*%0A%20%20%20Record%20the%20payment%20against%20the%20consultation%20bill.%0A%20%20%20%5BBilling%20%26%20Payments%20%E2%86%92%5D(%2Ffeatures%2Fbills)%0A7.%20**Dispense%20the%20medicines**%20*(Pharmacy)*%0A%20%20%20Look%20up%20the%20prescription%20by%20its%20number%2C%20dispense%2C%20and%20bill%20the%20medicines.%0A%20%20%20%5BPharmacy%20Portal%20%E2%86%92%5D(%2Ffeatures%2Fpharmacy-portal)%0A%3A%3A%3A%0A%0A%3A%3A%3A%20callout%20success%20%22One%20record%2C%20start%20to%20finish%22%20icon%3Acheck%0ABecause%20everything%20is%20tied%20to%20the%20same%20patient%20record%2C%20the%20doctor%20sees%20the%0Abooking%2C%20the%20pharmacy%20sees%20the%20prescription%2C%20and%20the%20patient&#039;s%20history%20is%0Aupdated%20automatically%20%E2%80%94%20nothing%20is%20re-typed.%0A%3A%3A%3A%0A%0A%23%23%20Related%20guides%0A%0A-%20%5BAn%20Inpatient%20Admission%5D(%2Fworkflows%2Finpatient-admission)%0A-%20%5BPharmacy%20Dispensing%5D(%2Fworkflows%2Fpharmacy-dispensing)%0A" style="display: none;"></div>
+                  <div id="docmd-raw-markdown" data-content="---%0Atitle%3A%20An%20Outpatient%20Visit%0Adescription%3A%20The%20end-to-end%20outpatient%20flow%20in%20MedOps%20HMS%20%E2%80%94%20from%20registering%20a%20patient%20and%20booking%20an%20appointment%20to%20consultation%2C%20billing%20and%20dispensing.%0A---%0A%0A%23%20An%20Outpatient%20Visit%0A%0AThis%20guide%20follows%20a%20typical%20outpatient%20(OP)%20visit%20from%20start%20to%20finish%2C%20and%0Ashows%20how%20each%20role%20plays%20its%20part%20around%20the%20same%20patient%20record.%0A%0A%3A%3A%3A%20callout%20info%20%22Who&#039;s%20involved%22%20icon%3Ausers%0A**Operations**%20(front%20desk)%2C%20the%20**Doctor**%2C%20and%20the%20**Pharmacy**%20team.%0A%3A%3A%3A%0A%0A%23%23%20The%20journey%0A%0A%3A%3A%3A%20steps%0A1.%20**Register%20or%20find%20the%20patient**%20*(Operations)*%0A%20%20%20New%20patient%3F%20Register%20them%20and%20MedOps%20assigns%20a%20Medical%20Record%20Number.%0A%20%20%20Returning%3F%20Search%20by%20name%2C%20MRN%2C%20phone%20or%20email.%0A%20%20%20%5BPatients%20%E2%86%92%5D(..%2Ffeatures%2Fpatients.md)%0A2.%20**Book%20the%20appointment**%20*(Operations)*%0A%20%20%20Choose%20the%20doctor%20and%20a%20free%20slot%2C%20set%20the%20visit%20type%20and%20reason.%20MedOps%0A%20%20%20keeps%20you%20within%20the%20doctor&#039;s%20working%20hours%20and%20prevents%20clashes.%0A%20%20%20%5BAppointments%20%E2%86%92%5D(..%2Ffeatures%2Fappointments.md)%0A3.%20**See%20the%20patient**%20*(Doctor)*%0A%20%20%20Open%20the%20appointment%20from%20your%20queue%20and%20start%20the%20consultation.%20Record%0A%20%20%20your%20notes.%0A%20%20%20%5BConsultations%20%E2%86%92%5D(..%2Ffeatures%2Fconsultations.md)%0A4.%20**Prescribe**%20*(Doctor)*%0A%20%20%20Add%20the%20medicines%20with%20dosage%2C%20frequency%20and%20duration%2C%20and%20set%20a%20follow-up%0A%20%20%20date%20if%20needed.%0A%20%20%20%5BPrescriptions%20%E2%86%92%5D(..%2Ffeatures%2Fprescriptions.md)%0A5.%20**Complete%20the%20consultation**%20*(Doctor)*%0A%20%20%20MedOps%20issues%20the%20prescription%2C%20creates%20the%20consultation%20bill%2C%20and%20marks%0A%20%20%20the%20appointment%20completed%20%E2%80%94%20in%20one%20step.%0A6.%20**Collect%20the%20consultation%20fee**%20*(Operations)*%0A%20%20%20Record%20the%20payment%20against%20the%20consultation%20bill.%0A%20%20%20%5BBilling%20%26%20Payments%20%E2%86%92%5D(..%2Ffeatures%2Fbills.md)%0A7.%20**Dispense%20the%20medicines**%20*(Pharmacy)*%0A%20%20%20Look%20up%20the%20prescription%20by%20its%20number%2C%20dispense%2C%20and%20bill%20the%20medicines.%0A%20%20%20%5BPharmacy%20Portal%20%E2%86%92%5D(..%2Ffeatures%2Fpharmacy-portal.md)%0A%3A%3A%3A%0A%0A%3A%3A%3A%20callout%20success%20%22One%20record%2C%20start%20to%20finish%22%20icon%3Acheck%0ABecause%20everything%20is%20tied%20to%20the%20same%20patient%20record%2C%20the%20doctor%20sees%20the%0Abooking%2C%20the%20pharmacy%20sees%20the%20prescription%2C%20and%20the%20patient&#039;s%20history%20is%0Aupdated%20automatically%20%E2%80%94%20nothing%20is%20re-typed.%0A%3A%3A%3A%0A%0A%23%23%20Related%20guides%0A%0A-%20%5BAn%20Inpatient%20Admission%5D(inpatient-admission.md)%0A-%20%5BPharmacy%20Dispensing%5D(pharmacy-dispensing.md)%0A" style="display: none;"></div>
                   
                     <nav aria-label="breadcrumb" class="docmd-breadcrumbs">
                       <ol>
@@ -1968,28 +1968,28 @@ Who’s involved</div><div class="callout-content">
 <div class="docmd-container steps steps-reset"><ol class="steps-list"><li class="step-item" id="step-67"><a href="#step-67" class="step-permalink" aria-label="Permalink to this step"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a><strong>Register or find the patient</strong> <em>(Operations)</em><br>
 New patient? Register them and MedOps assigns a Medical Record Number.<br>
 Returning? Search by name, MRN, phone or email.<br>
-<a href="/features/patients/">Patients →</a></li>
+<a href="../../features/patients/">Patients →</a></li>
 <li class="step-item" id="step-68"><a href="#step-68" class="step-permalink" aria-label="Permalink to this step"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a><strong>Book the appointment</strong> <em>(Operations)</em><br>
 Choose the doctor and a free slot, set the visit type and reason. MedOps<br>
 keeps you within the doctor’s working hours and prevents clashes.<br>
-<a href="/features/appointments/">Appointments →</a></li>
+<a href="../../features/appointments/">Appointments →</a></li>
 <li class="step-item" id="step-69"><a href="#step-69" class="step-permalink" aria-label="Permalink to this step"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a><strong>See the patient</strong> <em>(Doctor)</em><br>
 Open the appointment from your queue and start the consultation. Record<br>
 your notes.<br>
-<a href="/features/consultations/">Consultations →</a></li>
+<a href="../../features/consultations/">Consultations →</a></li>
 <li class="step-item" id="step-70"><a href="#step-70" class="step-permalink" aria-label="Permalink to this step"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a><strong>Prescribe</strong> <em>(Doctor)</em><br>
 Add the medicines with dosage, frequency and duration, and set a follow-up<br>
 date if needed.<br>
-<a href="/features/prescriptions/">Prescriptions →</a></li>
+<a href="../../features/prescriptions/">Prescriptions →</a></li>
 <li class="step-item" id="step-71"><a href="#step-71" class="step-permalink" aria-label="Permalink to this step"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a><strong>Complete the consultation</strong> <em>(Doctor)</em><br>
 MedOps issues the prescription, creates the consultation bill, and marks<br>
 the appointment completed — in one step.</li>
 <li class="step-item" id="step-72"><a href="#step-72" class="step-permalink" aria-label="Permalink to this step"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a><strong>Collect the consultation fee</strong> <em>(Operations)</em><br>
 Record the payment against the consultation bill.<br>
-<a href="/features/bills/">Billing &amp; Payments →</a></li>
+<a href="../../features/bills/">Billing &amp; Payments →</a></li>
 <li class="step-item" id="step-73"><a href="#step-73" class="step-permalink" aria-label="Permalink to this step"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a><strong>Dispense the medicines</strong> <em>(Pharmacy)</em><br>
 Look up the prescription by its number, dispense, and bill the medicines.<br>
-<a href="/features/pharmacy-portal/">Pharmacy Portal →</a></li>
+<a href="../../features/pharmacy-portal/">Pharmacy Portal →</a></li>
 </ol>
 </div><div class="docmd-container callout callout-success"><div class="callout-title">
 <svg class="lucide-icon icon-check callout-icon-heading" width="1em" height="1em" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
@@ -2013,8 +2013,8 @@ updated automatically — nothing is re-typed.</p>
 </div></div>
 <h2 id="an-outpatient-visit-related-guides" class="docmd-heading"><a href="#an-outpatient-visit-related-guides" class="heading-anchor" aria-label="Permalink to this section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-link2-icon lucide-link-2"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a>Related guides</h2>
 <ul>
-<li><a href="/workflows/inpatient-admission/">An Inpatient Admission</a></li>
-<li><a href="/workflows/pharmacy-dispensing/">Pharmacy Dispensing</a></li>
+<li><a href="../inpatient-admission/">An Inpatient Admission</a></li>
+<li><a href="../pharmacy-dispensing/">Pharmacy Dispensing</a></li>
 </ul>
 
                 
@@ -2131,13 +2131,13 @@ updated automatically — nothing is re-typed.</p>
         </div>
       </div>
       
-      <script src="../../assets/js/docmd-main.js?v=mqrxuyi3"></script>
+      <script src="../../assets/js/docmd-main.js?v=mqrygv4p"></script>
       
-      <script src="../../assets/js/docmd-git.js?v=mqrxuyi3"></script>
-      <script src="../../assets/js/docmd-image-lightbox.js?v=mqrxuyi3" ></script>
+      <script src="../../assets/js/docmd-git.js?v=mqrygv4p"></script>
+      <script src="../../assets/js/docmd-image-lightbox.js?v=mqrygv4p" ></script>
 <script src="https://cdn.jsdelivr.net/npm/minisearch@7.2.0/dist/umd/index.min.js" ></script>
-<script src="../../assets/js/docmd-search.js?v=mqrxuyi3" ></script>
-<script src="../../assets/js/docmd-git.js?v=mqrxuyi3" type="module"></script>
+<script src="../../assets/js/docmd-search.js?v=mqrygv4p" ></script>
+<script src="../../assets/js/docmd-git.js?v=mqrygv4p" type="module"></script>
 
   <!-- Search Modal (Injected by @docmd/plugin-search) -->
   <div id="docmd-search-modal" class="docmd-search-modal" style="display: none;" data-show-confidence="false" data-show-filters="false"

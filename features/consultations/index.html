@@ -97,7 +97,7 @@
 
       window.DOCMD_APPEARANCE = "system";
       window.DOCMD_VERSION_ROOT = "/";
-      window.DOCMD_BASE = "/";
+      window.DOCMD_BASE = "/user-guide/";
       window.DOCMD_LOCALE = "";
       window.DOCMD_DEFAULT_LOCALE = "";
     </script>
@@ -105,10 +105,10 @@
       Consultations : MedOps HMS
     </title>
     
-    <link rel="stylesheet" href="../../assets/css/docmd-main.css?v=mqrxuyi3">
+    <link rel="stylesheet" href="../../assets/css/docmd-main.css?v=mqrygv4p">
     
-    <link rel="stylesheet" href="../../assets/css/docmd-highlight-light.css?v=mqrxuyi3" id="hljs-light" >
-    <link rel="stylesheet" href="../../assets/css/docmd-highlight-dark.css?v=mqrxuyi3" id="hljs-dark" disabled>
+    <link rel="stylesheet" href="../../assets/css/docmd-highlight-light.css?v=mqrygv4p" id="hljs-light" >
+    <link rel="stylesheet" href="../../assets/css/docmd-highlight-dark.css?v=mqrygv4p" id="hljs-dark" disabled>
     
     
 <meta name="description" content="Record a patient consultation in MedOps HMS — clinical notes and follow-up — and have the prescription and consultation bill created automatically on completion.">
@@ -123,11 +123,11 @@
 
 
 
-<link rel="stylesheet" href="../../assets/css/docmd-git.css?v=mqrxuyi3" >
-<link rel="stylesheet" href="../../assets/css/docmd-openapi.css?v=mqrxuyi3" >
+<link rel="stylesheet" href="../../assets/css/docmd-git.css?v=mqrygv4p" >
+<link rel="stylesheet" href="../../assets/css/docmd-openapi.css?v=mqrygv4p" >
 
     
-      <link rel="stylesheet" href="../../assets/css/brand.css?v=mqrxuyi3">
+      <link rel="stylesheet" href="../../assets/css/brand.css?v=mqrygv4p">
     
     <script>/**
  * --------------------------------------------------------------------
@@ -1851,7 +1851,7 @@
             <div class="content-layout">
               <div class="main-content">
                 <div class="docmd-breadcrumbs-row">
-                  <div id="docmd-raw-markdown" data-content="---%0Atitle%3A%20Consultations%0Adescription%3A%20Record%20a%20patient%20consultation%20in%20MedOps%20HMS%20%E2%80%94%20clinical%20notes%20and%20follow-up%20%E2%80%94%20and%20have%20the%20prescription%20and%20consultation%20bill%20created%20automatically%20on%20completion.%0A---%0A%0A%23%20Consultations%0A%0AA%20**consultation**%20is%20the%20record%20of%20a%20doctor%20seeing%20a%20patient.%20It%20captures%0Awhat%20happened%20during%20the%20visit%20and%20ties%20together%20the%20prescription%20and%20the%0Abill%20%E2%80%94%20so%20finishing%20a%20consultation%20takes%20care%20of%20the%20paperwork%20in%20one%20step.%0A%0A%3A%3A%3A%20callout%20info%20%22Who%20uses%20this%22%20icon%3Astethoscope%0A**Doctors**%20record%20consultations%20for%20their%20own%20appointments.%20The%20**Tenant%0AAdmin**%20can%20view%20consultations%20for%20oversight.%0A%3A%3A%3A%0A%0A%23%23%20What%20a%20consultation%20captures%0A%0A-%20**Clinical%20notes**%20%E2%80%94%20your%20observations%20and%20findings%0A-%20**Follow-up%20date**%20%E2%80%94%20optional%2C%20for%20when%20the%20patient%20should%20return%0A-%20**A%20prescription**%20%E2%80%94%20optional%2C%20added%20as%20you%20complete%20the%20consultation%0A-%20**Status**%20%E2%80%94%20either%20**In%20progress**%20or%20**Completed**%0A%0AEach%20consultation%20is%20linked%20to%20the%20appointment%20and%20the%20patient%2C%20so%20it%20always%0Asits%20in%20the%20right%20place%20in%20the%20patient&#039;s%20history.%0A%0A%23%23%20Recording%20a%20consultation%0A%0A%3A%3A%3A%20steps%0A1.%20**Start%20the%20consultation**%20from%20one%20of%20your%20appointments.%20It%20opens%20as%0A%20%20%20**In%20progress**.%0A2.%20**Record%20your%20notes**%20and%20update%20them%20as%20needed%20during%20the%20visit.%0A3.%20**Add%20a%20prescription**%20if%20the%20patient%20needs%20medicines%20%E2%80%94%20search%20the%0A%20%20%20catalogue%20and%20set%20the%20dosage%2C%20frequency%20and%20duration%20for%20each.%0A4.%20**Set%20a%20follow-up%20date**%20if%20appropriate.%0A5.%20**Complete%20the%20consultation**%20to%20finish%20up.%0A%3A%3A%3A%0A%0A%23%23%20What%20happens%20when%20you%20complete%20a%20consultation%0A%0A%3A%3A%3A%20callout%20success%20%22Three%20things%20happen%20together%22%20icon%3Azap%0AThe%20moment%20you%20complete%20a%20consultation%2C%20MedOps%20automatically%3A%0A%0A1.%20**Issues%20the%20prescription**%20(if%20you%20added%20medicines)%2C%20ready%20for%20the%0A%20%20%20pharmacy%20and%20for%20printing.%0A2.%20**Creates%20the%20consultation%20bill**%20using%20the%20doctor&#039;s%20consultation%20fee%2C%20so%0A%20%20%20the%20front%20desk%20can%20collect%20payment.%0A3.%20**Marks%20the%20appointment%20as%20completed.**%0A%0AThese%20happen%20as%20a%20single%20action%20%E2%80%94%20there&#039;s%20nothing%20extra%20to%20remember.%0A%3A%3A%3A%0A%0AIf%20the%20doctor%20doesn&#039;t%20have%20a%20consultation%20fee%20set%2C%20no%20consultation%20bill%20is%0Acreated%20%E2%80%94%20everything%20else%20still%20works%20the%20same%20way.%0A%0A%23%23%20Related%20pages%0A%0A-%20%5BPrescriptions%5D(%2Ffeatures%2Fprescriptions)%20%E2%80%94%20what&#039;s%20on%20the%20prescription%20and%0A%20%20how%20it%20reaches%20the%20pharmacy%0A-%20%5BBilling%20%26%20Payments%5D(%2Ffeatures%2Fbills)%20%E2%80%94%20collecting%20the%20consultation%20fee%0A-%20%5BAn%20Outpatient%20Visit%5D(%2Fworkflows%2Foutpatient-visit)%20%E2%80%94%20the%20full%20walkthrough%0A" style="display: none;"></div>
+                  <div id="docmd-raw-markdown" data-content="---%0Atitle%3A%20Consultations%0Adescription%3A%20Record%20a%20patient%20consultation%20in%20MedOps%20HMS%20%E2%80%94%20clinical%20notes%20and%20follow-up%20%E2%80%94%20and%20have%20the%20prescription%20and%20consultation%20bill%20created%20automatically%20on%20completion.%0A---%0A%0A%23%20Consultations%0A%0AA%20**consultation**%20is%20the%20record%20of%20a%20doctor%20seeing%20a%20patient.%20It%20captures%0Awhat%20happened%20during%20the%20visit%20and%20ties%20together%20the%20prescription%20and%20the%0Abill%20%E2%80%94%20so%20finishing%20a%20consultation%20takes%20care%20of%20the%20paperwork%20in%20one%20step.%0A%0A%3A%3A%3A%20callout%20info%20%22Who%20uses%20this%22%20icon%3Astethoscope%0A**Doctors**%20record%20consultations%20for%20their%20own%20appointments.%20The%20**Tenant%0AAdmin**%20can%20view%20consultations%20for%20oversight.%0A%3A%3A%3A%0A%0A%23%23%20What%20a%20consultation%20captures%0A%0A-%20**Clinical%20notes**%20%E2%80%94%20your%20observations%20and%20findings%0A-%20**Follow-up%20date**%20%E2%80%94%20optional%2C%20for%20when%20the%20patient%20should%20return%0A-%20**A%20prescription**%20%E2%80%94%20optional%2C%20added%20as%20you%20complete%20the%20consultation%0A-%20**Status**%20%E2%80%94%20either%20**In%20progress**%20or%20**Completed**%0A%0AEach%20consultation%20is%20linked%20to%20the%20appointment%20and%20the%20patient%2C%20so%20it%20always%0Asits%20in%20the%20right%20place%20in%20the%20patient&#039;s%20history.%0A%0A%23%23%20Recording%20a%20consultation%0A%0A%3A%3A%3A%20steps%0A1.%20**Start%20the%20consultation**%20from%20one%20of%20your%20appointments.%20It%20opens%20as%0A%20%20%20**In%20progress**.%0A2.%20**Record%20your%20notes**%20and%20update%20them%20as%20needed%20during%20the%20visit.%0A3.%20**Add%20a%20prescription**%20if%20the%20patient%20needs%20medicines%20%E2%80%94%20search%20the%0A%20%20%20catalogue%20and%20set%20the%20dosage%2C%20frequency%20and%20duration%20for%20each.%0A4.%20**Set%20a%20follow-up%20date**%20if%20appropriate.%0A5.%20**Complete%20the%20consultation**%20to%20finish%20up.%0A%3A%3A%3A%0A%0A%23%23%20What%20happens%20when%20you%20complete%20a%20consultation%0A%0A%3A%3A%3A%20callout%20success%20%22Three%20things%20happen%20together%22%20icon%3Azap%0AThe%20moment%20you%20complete%20a%20consultation%2C%20MedOps%20automatically%3A%0A%0A1.%20**Issues%20the%20prescription**%20(if%20you%20added%20medicines)%2C%20ready%20for%20the%0A%20%20%20pharmacy%20and%20for%20printing.%0A2.%20**Creates%20the%20consultation%20bill**%20using%20the%20doctor&#039;s%20consultation%20fee%2C%20so%0A%20%20%20the%20front%20desk%20can%20collect%20payment.%0A3.%20**Marks%20the%20appointment%20as%20completed.**%0A%0AThese%20happen%20as%20a%20single%20action%20%E2%80%94%20there&#039;s%20nothing%20extra%20to%20remember.%0A%3A%3A%3A%0A%0AIf%20the%20doctor%20doesn&#039;t%20have%20a%20consultation%20fee%20set%2C%20no%20consultation%20bill%20is%0Acreated%20%E2%80%94%20everything%20else%20still%20works%20the%20same%20way.%0A%0A%23%23%20Related%20pages%0A%0A-%20%5BPrescriptions%5D(prescriptions.md)%20%E2%80%94%20what&#039;s%20on%20the%20prescription%20and%0A%20%20how%20it%20reaches%20the%20pharmacy%0A-%20%5BBilling%20%26%20Payments%5D(bills.md)%20%E2%80%94%20collecting%20the%20consultation%20fee%0A-%20%5BAn%20Outpatient%20Visit%5D(..%2Fworkflows%2Foutpatient-visit.md)%20%E2%80%94%20the%20full%20walkthrough%0A" style="display: none;"></div>
                   
                     <nav aria-label="breadcrumb" class="docmd-breadcrumbs">
                       <ol>
@@ -2016,10 +2016,10 @@ the front desk can collect payment.</li>
 created — everything else still works the same way.</p>
 <h2 id="consultations-related-pages" class="docmd-heading"><a href="#consultations-related-pages" class="heading-anchor" aria-label="Permalink to this section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-link2-icon lucide-link-2"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a>Related pages</h2>
 <ul>
-<li><a href="/features/prescriptions/">Prescriptions</a> — what’s on the prescription and<br>
+<li><a href="../prescriptions/">Prescriptions</a> — what’s on the prescription and<br>
 how it reaches the pharmacy</li>
-<li><a href="/features/bills/">Billing &amp; Payments</a> — collecting the consultation fee</li>
-<li><a href="/workflows/outpatient-visit/">An Outpatient Visit</a> — the full walkthrough</li>
+<li><a href="../bills/">Billing &amp; Payments</a> — collecting the consultation fee</li>
+<li><a href="../../workflows/outpatient-visit/">An Outpatient Visit</a> — the full walkthrough</li>
 </ul>
 
                 
@@ -2144,13 +2144,13 @@ how it reaches the pharmacy</li>
         </div>
       </div>
       
-      <script src="../../assets/js/docmd-main.js?v=mqrxuyi3"></script>
+      <script src="../../assets/js/docmd-main.js?v=mqrygv4p"></script>
       
-      <script src="../../assets/js/docmd-git.js?v=mqrxuyi3"></script>
-      <script src="../../assets/js/docmd-image-lightbox.js?v=mqrxuyi3" ></script>
+      <script src="../../assets/js/docmd-git.js?v=mqrygv4p"></script>
+      <script src="../../assets/js/docmd-image-lightbox.js?v=mqrygv4p" ></script>
 <script src="https://cdn.jsdelivr.net/npm/minisearch@7.2.0/dist/umd/index.min.js" ></script>
-<script src="../../assets/js/docmd-search.js?v=mqrxuyi3" ></script>
-<script src="../../assets/js/docmd-git.js?v=mqrxuyi3" type="module"></script>
+<script src="../../assets/js/docmd-search.js?v=mqrygv4p" ></script>
+<script src="../../assets/js/docmd-git.js?v=mqrygv4p" type="module"></script>
 
   <!-- Search Modal (Injected by @docmd/plugin-search) -->
   <div id="docmd-search-modal" class="docmd-search-modal" style="display: none;" data-show-confidence="false" data-show-filters="false"

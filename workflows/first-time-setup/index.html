@@ -97,7 +97,7 @@
 
       window.DOCMD_APPEARANCE = "system";
       window.DOCMD_VERSION_ROOT = "/";
-      window.DOCMD_BASE = "/";
+      window.DOCMD_BASE = "/user-guide/";
       window.DOCMD_LOCALE = "";
       window.DOCMD_DEFAULT_LOCALE = "";
     </script>
@@ -105,10 +105,10 @@
       First-Time Setup : MedOps HMS
     </title>
     
-    <link rel="stylesheet" href="../../assets/css/docmd-main.css?v=mqrxuyi3">
+    <link rel="stylesheet" href="../../assets/css/docmd-main.css?v=mqrygv4p">
     
-    <link rel="stylesheet" href="../../assets/css/docmd-highlight-light.css?v=mqrxuyi3" id="hljs-light" >
-    <link rel="stylesheet" href="../../assets/css/docmd-highlight-dark.css?v=mqrxuyi3" id="hljs-dark" disabled>
+    <link rel="stylesheet" href="../../assets/css/docmd-highlight-light.css?v=mqrygv4p" id="hljs-light" >
+    <link rel="stylesheet" href="../../assets/css/docmd-highlight-dark.css?v=mqrygv4p" id="hljs-dark" disabled>
     
     
 <meta name="description" content="A step-by-step guide for the Tenant Admin to set up MedOps HMS for the first time — hospitals, wards, staff, pharmacy and preferences.">
@@ -123,11 +123,11 @@
 
 
 
-<link rel="stylesheet" href="../../assets/css/docmd-git.css?v=mqrxuyi3" >
-<link rel="stylesheet" href="../../assets/css/docmd-openapi.css?v=mqrxuyi3" >
+<link rel="stylesheet" href="../../assets/css/docmd-git.css?v=mqrygv4p" >
+<link rel="stylesheet" href="../../assets/css/docmd-openapi.css?v=mqrygv4p" >
 
     
-      <link rel="stylesheet" href="../../assets/css/brand.css?v=mqrxuyi3">
+      <link rel="stylesheet" href="../../assets/css/brand.css?v=mqrygv4p">
     
     <script>/**
  * --------------------------------------------------------------------
@@ -1851,7 +1851,7 @@
             <div class="content-layout">
               <div class="main-content">
                 <div class="docmd-breadcrumbs-row">
-                  <div id="docmd-raw-markdown" data-content="---%0Atitle%3A%20First-Time%20Setup%0Adescription%3A%20A%20step-by-step%20guide%20for%20the%20Tenant%20Admin%20to%20set%20up%20MedOps%20HMS%20for%20the%20first%20time%20%E2%80%94%20hospitals%2C%20wards%2C%20staff%2C%20pharmacy%20and%20preferences.%0A---%0A%0A%23%20First-Time%20Setup%0A%0AThis%20guide%20walks%20a%20**Tenant%20Admin**%20through%20setting%20up%20MedOps%20from%20scratch.%0AWork%20through%20it%20in%20order%20%E2%80%94%20each%20step%20builds%20on%20the%20one%20before.%0A%0A%3A%3A%3A%20callout%20info%20%22Who%20this%20is%20for%22%20icon%3Ashield%0AYou&#039;ll%20need%20the%20**Tenant%20Admin**%20role.%20Your%20organisation%20was%20created%20when%20you%0Afirst%20signed%20up%3B%20now%20you&#039;ll%20fill%20it%20with%20hospitals%2C%20wards%2C%20people%20and%0Apreferences.%0A%3A%3A%3A%0A%0A%3A%3A%3A%20steps%0A1.%20**Create%20your%20first%20hospital**%0A%20%20%20Add%20the%20hospital&#039;s%20name%2C%20location%2C%20type%2C%20the%20departments%20it%20offers%2C%20and%0A%20%20%20its%20compliance%20details%20(licences%20and%20tax%20identification).%0A%20%20%20%5BHospitals%20%26%20Departments%20%E2%86%92%5D(%2Ffeatures%2Fhospitals-and-departments)%0A2.%20**Add%20departments**%0A%20%20%20Create%20the%20clinical%20departments%20inside%20the%20hospital%20(Cardiology%2C%20ICU%2C%20OPD%2C%0A%20%20%20and%20so%20on).%0A3.%20**Build%20the%20ward%20layout**%0A%20%20%20Add%20floors%2C%20then%20rooms%20(with%20their%20room%20type)%2C%20then%20beds.%20This%20is%20the%0A%20%20%20capacity%20you&#039;ll%20admit%20inpatients%20into.%0A4.%20**Set%20room%20pricing**%0A%20%20%20Give%20each%20room%20type%20a%20daily%20tariff%20(base%20rent%2C%20nursing%2C%20doctor%20visit%20and%0A%20%20%20amenity%20charges)%20so%20inpatient%20charges%20are%20consistent.%0A5.%20**Invite%20your%20doctors**%0A%20%20%20Add%20each%20doctor%20with%20their%20credentials%2C%20department%20and%20consultation%20fee.%0A%20%20%20They&#039;ll%20get%20an%20email%20to%20set%20their%20password.%0A%20%20%20%5BManaging%20Doctors%20%E2%86%92%5D(%2Ffeatures%2Fdoctors)%0A6.%20**Invite%20your%20front%20desk**%0A%20%20%20Add%20your%20operations%20(front-desk)%20staff%20and%20assign%20them%20to%20a%20hospital.%0A%20%20%20%5BOperations%20Team%20%E2%86%92%5D(%2Ffeatures%2Foperations-team)%0A7.%20**Set%20up%20the%20pharmacy**%0A%20%20%20Create%20one%20or%20more%20pharmacies%20with%20their%20tax%20rates%2C%20then%20add%20pharmacy%0A%20%20%20logins%20for%20the%20team.%0A%20%20%20%5BPharmacies%20%E2%86%92%5D(%2Ffeatures%2Fpharmacies)%0A8.%20**Stock%20the%20medicines%20catalogue**%0A%20%20%20Add%20the%20medicines%20your%20hospital%20uses%20(doctors%20can%20also%20add%20medicines%20while%0A%20%20%20prescribing).%0A%20%20%20%5BMedicines%20Catalogue%20%E2%86%92%5D(%2Ffeatures%2Fmedicines)%0A9.%20**Set%20your%20preferences**%0A%20%20%20Choose%20your%20branding%20and%20logo%2C%20your%20document%20code%20prefix%2C%20your%20inpatient%0A%20%20%20billing%20rules%2C%20and%20the%20inactivity%20sign-out%20time.%0A%20%20%20%5BTenant%20Admin%20guide%20%E2%86%92%5D(%2Froles%2Ftenant-admin)%0A%3A%3A%3A%0A%0A%3A%3A%3A%20callout%20success%20%22You&#039;re%20ready%20to%20go%20live%22%20icon%3Acheck%0AOnce%20doctors%20have%20set%20their%20availability%20and%20the%20front%20desk%20is%20trained%2C%0Ayou&#039;re%20ready%20to%20register%20patients%20and%20book%20the%20first%20appointments.%0A%3A%3A%3A%0A%0A%23%23%20What&#039;s%20next%0A%0A-%20%5BAn%20Outpatient%20Visit%5D(%2Fworkflows%2Foutpatient-visit)%0A-%20%5BAn%20Inpatient%20Admission%5D(%2Fworkflows%2Finpatient-admission)%0A-%20%5BPharmacy%20Dispensing%5D(%2Fworkflows%2Fpharmacy-dispensing)%0A" style="display: none;"></div>
+                  <div id="docmd-raw-markdown" data-content="---%0Atitle%3A%20First-Time%20Setup%0Adescription%3A%20A%20step-by-step%20guide%20for%20the%20Tenant%20Admin%20to%20set%20up%20MedOps%20HMS%20for%20the%20first%20time%20%E2%80%94%20hospitals%2C%20wards%2C%20staff%2C%20pharmacy%20and%20preferences.%0A---%0A%0A%23%20First-Time%20Setup%0A%0AThis%20guide%20walks%20a%20**Tenant%20Admin**%20through%20setting%20up%20MedOps%20from%20scratch.%0AWork%20through%20it%20in%20order%20%E2%80%94%20each%20step%20builds%20on%20the%20one%20before.%0A%0A%3A%3A%3A%20callout%20info%20%22Who%20this%20is%20for%22%20icon%3Ashield%0AYou&#039;ll%20need%20the%20**Tenant%20Admin**%20role.%20Your%20organisation%20was%20created%20when%20you%0Afirst%20signed%20up%3B%20now%20you&#039;ll%20fill%20it%20with%20hospitals%2C%20wards%2C%20people%20and%0Apreferences.%0A%3A%3A%3A%0A%0A%3A%3A%3A%20steps%0A1.%20**Create%20your%20first%20hospital**%0A%20%20%20Add%20the%20hospital&#039;s%20name%2C%20location%2C%20type%2C%20the%20departments%20it%20offers%2C%20and%0A%20%20%20its%20compliance%20details%20(licences%20and%20tax%20identification).%0A%20%20%20%5BHospitals%20%26%20Departments%20%E2%86%92%5D(..%2Ffeatures%2Fhospitals-and-departments.md)%0A2.%20**Add%20departments**%0A%20%20%20Create%20the%20clinical%20departments%20inside%20the%20hospital%20(Cardiology%2C%20ICU%2C%20OPD%2C%0A%20%20%20and%20so%20on).%0A3.%20**Build%20the%20ward%20layout**%0A%20%20%20Add%20floors%2C%20then%20rooms%20(with%20their%20room%20type)%2C%20then%20beds.%20This%20is%20the%0A%20%20%20capacity%20you&#039;ll%20admit%20inpatients%20into.%0A4.%20**Set%20room%20pricing**%0A%20%20%20Give%20each%20room%20type%20a%20daily%20tariff%20(base%20rent%2C%20nursing%2C%20doctor%20visit%20and%0A%20%20%20amenity%20charges)%20so%20inpatient%20charges%20are%20consistent.%0A5.%20**Invite%20your%20doctors**%0A%20%20%20Add%20each%20doctor%20with%20their%20credentials%2C%20department%20and%20consultation%20fee.%0A%20%20%20They&#039;ll%20get%20an%20email%20to%20set%20their%20password.%0A%20%20%20%5BManaging%20Doctors%20%E2%86%92%5D(..%2Ffeatures%2Fdoctors.md)%0A6.%20**Invite%20your%20front%20desk**%0A%20%20%20Add%20your%20operations%20(front-desk)%20staff%20and%20assign%20them%20to%20a%20hospital.%0A%20%20%20%5BOperations%20Team%20%E2%86%92%5D(..%2Ffeatures%2Foperations-team.md)%0A7.%20**Set%20up%20the%20pharmacy**%0A%20%20%20Create%20one%20or%20more%20pharmacies%20with%20their%20tax%20rates%2C%20then%20add%20pharmacy%0A%20%20%20logins%20for%20the%20team.%0A%20%20%20%5BPharmacies%20%E2%86%92%5D(..%2Ffeatures%2Fpharmacies.md)%0A8.%20**Stock%20the%20medicines%20catalogue**%0A%20%20%20Add%20the%20medicines%20your%20hospital%20uses%20(doctors%20can%20also%20add%20medicines%20while%0A%20%20%20prescribing).%0A%20%20%20%5BMedicines%20Catalogue%20%E2%86%92%5D(..%2Ffeatures%2Fmedicines.md)%0A9.%20**Set%20your%20preferences**%0A%20%20%20Choose%20your%20branding%20and%20logo%2C%20your%20document%20code%20prefix%2C%20your%20inpatient%0A%20%20%20billing%20rules%2C%20and%20the%20inactivity%20sign-out%20time.%0A%20%20%20%5BTenant%20Admin%20guide%20%E2%86%92%5D(..%2Froles%2Ftenant-admin.md)%0A%3A%3A%3A%0A%0A%3A%3A%3A%20callout%20success%20%22You&#039;re%20ready%20to%20go%20live%22%20icon%3Acheck%0AOnce%20doctors%20have%20set%20their%20availability%20and%20the%20front%20desk%20is%20trained%2C%0Ayou&#039;re%20ready%20to%20register%20patients%20and%20book%20the%20first%20appointments.%0A%3A%3A%3A%0A%0A%23%23%20What&#039;s%20next%0A%0A-%20%5BAn%20Outpatient%20Visit%5D(outpatient-visit.md)%0A-%20%5BAn%20Inpatient%20Admission%5D(inpatient-admission.md)%0A-%20%5BPharmacy%20Dispensing%5D(pharmacy-dispensing.md)%0A" style="display: none;"></div>
                   
                     <nav aria-label="breadcrumb" class="docmd-breadcrumbs">
                       <ol>
@@ -1966,7 +1966,7 @@ preferences.</p>
 <div class="docmd-container steps steps-reset"><ol class="steps-list"><li class="step-item" id="step-51"><a href="#step-51" class="step-permalink" aria-label="Permalink to this step"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a><strong>Create your first hospital</strong><br>
 Add the hospital’s name, location, type, the departments it offers, and<br>
 its compliance details (licences and tax identification).<br>
-<a href="/features/hospitals-and-departments/">Hospitals &amp; Departments →</a></li>
+<a href="../../features/hospitals-and-departments/">Hospitals &amp; Departments →</a></li>
 <li class="step-item" id="step-52"><a href="#step-52" class="step-permalink" aria-label="Permalink to this step"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a><strong>Add departments</strong><br>
 Create the clinical departments inside the hospital (Cardiology, ICU, OPD,<br>
 and so on).</li>
@@ -1979,22 +1979,22 @@ amenity charges) so inpatient charges are consistent.</li>
 <li class="step-item" id="step-55"><a href="#step-55" class="step-permalink" aria-label="Permalink to this step"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a><strong>Invite your doctors</strong><br>
 Add each doctor with their credentials, department and consultation fee.<br>
 They’ll get an email to set their password.<br>
-<a href="/features/doctors/">Managing Doctors →</a></li>
+<a href="../../features/doctors/">Managing Doctors →</a></li>
 <li class="step-item" id="step-56"><a href="#step-56" class="step-permalink" aria-label="Permalink to this step"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a><strong>Invite your front desk</strong><br>
 Add your operations (front-desk) staff and assign them to a hospital.<br>
-<a href="/features/operations-team/">Operations Team →</a></li>
+<a href="../../features/operations-team/">Operations Team →</a></li>
 <li class="step-item" id="step-57"><a href="#step-57" class="step-permalink" aria-label="Permalink to this step"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a><strong>Set up the pharmacy</strong><br>
 Create one or more pharmacies with their tax rates, then add pharmacy<br>
 logins for the team.<br>
-<a href="/features/pharmacies/">Pharmacies →</a></li>
+<a href="../../features/pharmacies/">Pharmacies →</a></li>
 <li class="step-item" id="step-58"><a href="#step-58" class="step-permalink" aria-label="Permalink to this step"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a><strong>Stock the medicines catalogue</strong><br>
 Add the medicines your hospital uses (doctors can also add medicines while<br>
 prescribing).<br>
-<a href="/features/medicines/">Medicines Catalogue →</a></li>
+<a href="../../features/medicines/">Medicines Catalogue →</a></li>
 <li class="step-item" id="step-59"><a href="#step-59" class="step-permalink" aria-label="Permalink to this step"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a><strong>Set your preferences</strong><br>
 Choose your branding and logo, your document code prefix, your inpatient<br>
 billing rules, and the inactivity sign-out time.<br>
-<a href="/roles/tenant-admin/">Tenant Admin guide →</a></li>
+<a href="../../roles/tenant-admin/">Tenant Admin guide →</a></li>
 </ol>
 </div><div class="docmd-container callout callout-success"><div class="callout-title">
 <svg class="lucide-icon icon-check callout-icon-heading" width="1em" height="1em" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
@@ -2017,9 +2017,9 @@ you’re ready to register patients and book the first appointments.</p>
 </div></div>
 <h2 id="first-time-setup-whats-next" class="docmd-heading"><a href="#first-time-setup-whats-next" class="heading-anchor" aria-label="Permalink to this section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-link2-icon lucide-link-2"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a>What’s next</h2>
 <ul>
-<li><a href="/workflows/outpatient-visit/">An Outpatient Visit</a></li>
-<li><a href="/workflows/inpatient-admission/">An Inpatient Admission</a></li>
-<li><a href="/workflows/pharmacy-dispensing/">Pharmacy Dispensing</a></li>
+<li><a href="../outpatient-visit/">An Outpatient Visit</a></li>
+<li><a href="../inpatient-admission/">An Inpatient Admission</a></li>
+<li><a href="../pharmacy-dispensing/">Pharmacy Dispensing</a></li>
 </ul>
 
                 
@@ -2132,13 +2132,13 @@ you’re ready to register patients and book the first appointments.</p>
         </div>
       </div>
       
-      <script src="../../assets/js/docmd-main.js?v=mqrxuyi3"></script>
+      <script src="../../assets/js/docmd-main.js?v=mqrygv4p"></script>
       
-      <script src="../../assets/js/docmd-git.js?v=mqrxuyi3"></script>
-      <script src="../../assets/js/docmd-image-lightbox.js?v=mqrxuyi3" ></script>
+      <script src="../../assets/js/docmd-git.js?v=mqrygv4p"></script>
+      <script src="../../assets/js/docmd-image-lightbox.js?v=mqrygv4p" ></script>
 <script src="https://cdn.jsdelivr.net/npm/minisearch@7.2.0/dist/umd/index.min.js" ></script>
-<script src="../../assets/js/docmd-search.js?v=mqrxuyi3" ></script>
-<script src="../../assets/js/docmd-git.js?v=mqrxuyi3" type="module"></script>
+<script src="../../assets/js/docmd-search.js?v=mqrygv4p" ></script>
+<script src="../../assets/js/docmd-git.js?v=mqrygv4p" type="module"></script>
 
   <!-- Search Modal (Injected by @docmd/plugin-search) -->
   <div id="docmd-search-modal" class="docmd-search-modal" style="display: none;" data-show-confidence="false" data-show-filters="false"

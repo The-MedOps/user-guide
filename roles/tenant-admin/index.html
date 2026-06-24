@@ -97,7 +97,7 @@
 
       window.DOCMD_APPEARANCE = "system";
       window.DOCMD_VERSION_ROOT = "/";
-      window.DOCMD_BASE = "/";
+      window.DOCMD_BASE = "/user-guide/";
       window.DOCMD_LOCALE = "";
       window.DOCMD_DEFAULT_LOCALE = "";
     </script>
@@ -105,10 +105,10 @@
       Tenant Admin : MedOps HMS
     </title>
     
-    <link rel="stylesheet" href="../../assets/css/docmd-main.css?v=mqrxuyi3">
+    <link rel="stylesheet" href="../../assets/css/docmd-main.css?v=mqrygv4p">
     
-    <link rel="stylesheet" href="../../assets/css/docmd-highlight-light.css?v=mqrxuyi3" id="hljs-light" >
-    <link rel="stylesheet" href="../../assets/css/docmd-highlight-dark.css?v=mqrxuyi3" id="hljs-dark" disabled>
+    <link rel="stylesheet" href="../../assets/css/docmd-highlight-light.css?v=mqrygv4p" id="hljs-light" >
+    <link rel="stylesheet" href="../../assets/css/docmd-highlight-dark.css?v=mqrygv4p" id="hljs-dark" disabled>
     
     
 <meta name="description" content="The Tenant Admin guide for MedOps HMS — set up hospitals, departments, beds, staff and preferences, and oversee billing and activity across the organisation.">
@@ -123,11 +123,11 @@
 
 
 
-<link rel="stylesheet" href="../../assets/css/docmd-git.css?v=mqrxuyi3" >
-<link rel="stylesheet" href="../../assets/css/docmd-openapi.css?v=mqrxuyi3" >
+<link rel="stylesheet" href="../../assets/css/docmd-git.css?v=mqrygv4p" >
+<link rel="stylesheet" href="../../assets/css/docmd-openapi.css?v=mqrygv4p" >
 
     
-      <link rel="stylesheet" href="../../assets/css/brand.css?v=mqrxuyi3">
+      <link rel="stylesheet" href="../../assets/css/brand.css?v=mqrygv4p">
     
     <script>/**
  * --------------------------------------------------------------------
@@ -1851,7 +1851,7 @@
             <div class="content-layout">
               <div class="main-content">
                 <div class="docmd-breadcrumbs-row">
-                  <div id="docmd-raw-markdown" data-content="---%0Atitle%3A%20Tenant%20Admin%0Adescription%3A%20The%20Tenant%20Admin%20guide%20for%20MedOps%20HMS%20%E2%80%94%20set%20up%20hospitals%2C%20departments%2C%20beds%2C%20staff%20and%20preferences%2C%20and%20oversee%20billing%20and%20activity%20across%20the%20organisation.%0A---%0A%0A%23%20Tenant%20Admin%0A%0AAs%20a%20**Tenant%20Admin**%20you%20own%20the%20organisation.%20You%20set%20MedOps%20up%2C%20decide%0Ahow%20it%20works%20for%20everyone%20else%2C%20and%20keep%20an%20eye%20on%20the%20whole%20operation.%0A%0A%3A%3A%3A%20callout%20info%20%22Your%20reach%22%20icon%3Ashield%0AYou%20can%20manage%20everything%20across%20your%20organisation%20and%20all%20of%20its%0Ahospitals%20%E2%80%94%20the%20structure%2C%20the%20people%2C%20the%20catalogue%20and%20the%20preferences.%0ADay-to-day%20clinical%20and%20front-desk%20work%20is%20usually%20done%20by%20doctors%20and%0Aoperations%20staff%2C%20but%20you%20can%20always%20see%20what&#039;s%20happening.%0A%3A%3A%3A%0A%0A%23%23%20Setting%20up%20the%20organisation%0A%0AYour%20first%20job%20is%20to%20build%20out%20the%20structure.%20A%20typical%20order%20is%3A%0A%0A%3A%3A%3A%20steps%0A1.%20**Create%20your%20hospitals**%0A%20%20%20Add%20each%20hospital%20with%20its%20name%2C%20address%2C%20licences%20and%20departments.%0A%20%20%20%5BHospitals%20%26%20Departments%20%E2%86%92%5D(%2Ffeatures%2Fhospitals-and-departments)%0A2.%20**Add%20departments**%0A%20%20%20Create%20the%20clinical%20departments%20inside%20each%20hospital.%0A3.%20**Build%20your%20wards**%0A%20%20%20Add%20floors%2C%20rooms%20and%20beds%2C%20and%20set%20room%20pricing%20(tariffs)%2C%20so%20patients%0A%20%20%20can%20be%20admitted%20later.%0A4.%20**Add%20your%20people**%0A%20%20%20Invite%20doctors%20and%20operations%20(front-desk)%20staff%20by%20email.%0A%20%20%20%5BManaging%20Doctors%20%E2%86%92%5D(%2Ffeatures%2Fdoctors)%20%C2%B7%0A%20%20%20%5BOperations%20Team%20%E2%86%92%5D(%2Ffeatures%2Foperations-team)%0A5.%20**Set%20up%20the%20pharmacy**%0A%20%20%20Create%20one%20or%20more%20pharmacies%20and%20add%20pharmacy%20logins.%0A%20%20%20%5BPharmacies%20%E2%86%92%5D(%2Ffeatures%2Fpharmacies)%0A6.%20**Tune%20your%20preferences**%0A%20%20%20Set%20branding%2C%20document%20code%20prefixes%2C%20tax%20details%20and%20inpatient%20billing%0A%20%20%20rules.%0A%3A%3A%3A%0A%0A%23%23%20What%20you%20manage%0A%0A%3A%3A%3A%20grids%0A%20%20%3A%3A%3A%20grid%0A%20%20%20%20%3A%3A%3A%20card%20%22Hospitals%20%26%20departments%22%20icon%3Abuilding-2%0A%20%20%20%20Create%2C%20edit%20and%20deactivate%20hospitals%3B%20add%20and%20rename%20departments.%0A%20%20%20%20%5BOpen%20%E2%86%92%5D(%2Ffeatures%2Fhospitals-and-departments)%0A%20%20%20%20%3A%3A%3A%0A%20%20%3A%3A%3A%0A%20%20%3A%3A%3A%20grid%0A%20%20%20%20%3A%3A%3A%20card%20%22Wards%2C%20rooms%20%26%20beds%22%20icon%3Abed-double%0A%20%20%20%20Lay%20out%20floors%2C%20rooms%20and%20beds%2C%20and%20set%20daily%20room%20tariffs.%0A%20%20%20%20%5BOpen%20%E2%86%92%5D(%2Ffeatures%2Fhospitals-and-departments)%0A%20%20%20%20%3A%3A%3A%0A%20%20%3A%3A%3A%0A%3A%3A%3A%0A%0A%3A%3A%3A%20grids%0A%20%20%3A%3A%3A%20grid%0A%20%20%20%20%3A%3A%3A%20card%20%22Doctors%20%26%20operations%20staff%22%20icon%3Ausers%0A%20%20%20%20Invite%2C%20edit%2C%20deactivate%20and%20re-invite%20staff.%0A%20%20%20%20%5BDoctors%20%E2%86%92%5D(%2Ffeatures%2Fdoctors)%20%C2%B7%20%5BOperations%20%E2%86%92%5D(%2Ffeatures%2Foperations-team)%0A%20%20%20%20%3A%3A%3A%0A%20%20%3A%3A%3A%0A%20%20%3A%3A%3A%20grid%0A%20%20%20%20%3A%3A%3A%20card%20%22Medicines%20catalogue%22%20icon%3Apill%0A%20%20%20%20Add%2C%20edit%20and%20remove%20the%20medicines%20used%20across%20the%20organisation.%0A%20%20%20%20%5BOpen%20%E2%86%92%5D(%2Ffeatures%2Fmedicines)%0A%20%20%20%20%3A%3A%3A%0A%20%20%3A%3A%3A%0A%3A%3A%3A%0A%0A%3A%3A%3A%20grids%0A%20%20%3A%3A%3A%20grid%0A%20%20%20%20%3A%3A%3A%20card%20%22Pharmacies%20%26%20logins%22%20icon%3Astore%0A%20%20%20%20Create%20pharmacies%2C%20set%20their%20tax%20rates%2C%20and%20manage%20who%20can%20sign%20in.%0A%20%20%20%20%5BOpen%20%E2%86%92%5D(%2Ffeatures%2Fpharmacies)%0A%20%20%20%20%3A%3A%3A%0A%20%20%3A%3A%3A%0A%20%20%3A%3A%3A%20grid%0A%20%20%20%20%3A%3A%3A%20card%20%22Billing%20oversight%22%20icon%3Areceipt%0A%20%20%20%20Review%20bills%20across%20the%20organisation%20and%20their%20payment%20status.%0A%20%20%20%20%5BOpen%20%E2%86%92%5D(%2Ffeatures%2Fbills)%0A%20%20%20%20%3A%3A%3A%0A%20%20%3A%3A%3A%0A%3A%3A%3A%0A%0A%23%23%20Organisation%20preferences%0A%0AYou%20control%20settings%20that%20affect%20everyone%3A%0A%0A-%20**Branding%20%26%20identity**%20%E2%80%94%20each%20hospital&#039;s%20display%20name%2C%20address%20and%20logo.%0A-%20**Document%20code%20prefix**%20%E2%80%94%20a%20short%20prefix%20(for%20example%2C%20%60RK%60)%20that%20seeds%0A%20%20the%20reference%20codes%20on%20prescriptions%2C%20invoices%20and%20other%20documents.%0A%20%20Changing%20it%20only%20affects%20new%20documents.%0A-%20**Tax%20details**%20%E2%80%94%20GST%20identification%20for%20hospitals%2C%20and%20tax%20rates%20for%0A%20%20each%20pharmacy.%0A-%20**Inpatient%20billing%20rules**%20%E2%80%94%20how%20bed-day%20charges%20are%20counted%20(by%0A%20%20calendar%20day%20or%20rolling%2024%20hours)%20and%20the%20grace%20period%20before%20another%0A%20%20day%20is%20charged.%0A-%20**Inactivity%20sign-out%20time**%20%E2%80%94%20how%20long%20before%20idle%20users%20are%20signed%0A%20%20out%2C%20from%201%20minute%20up%20to%2024%20hours%20(the%20default%20is%2015%20minutes).%0A%0A%23%23%20Keeping%20oversight%0A%0A-%20**Activity%20log**%20%E2%80%94%20see%20who%20did%20what%20and%20when%20across%20the%20organisation%2C%0A%20%20with%20search%20and%20date%20filters.%20%5BOpen%20%E2%86%92%5D(%2Ffeatures%2Faudit-logs)%0A-%20**Global%20search**%20%E2%80%94%20quickly%20find%20patients%2C%20doctors%2C%20hospitals%2C%0A%20%20departments%2C%20appointments%2C%20bills%20and%20medicines.%0A%0A%23%23%20What&#039;s%20next%0A%0A-%20New%20to%20setup%3F%20Follow%20the%20%5BFirst-Time%20Setup%20guide%5D(%2Fworkflows%2Ffirst-time-setup).%0A-%20Want%20the%20full%20feature%20list%3F%20See%20%5BKey%20Features%5D(%2Fintroduction%2Fkey-features).%0A" style="display: none;"></div>
+                  <div id="docmd-raw-markdown" data-content="---%0Atitle%3A%20Tenant%20Admin%0Adescription%3A%20The%20Tenant%20Admin%20guide%20for%20MedOps%20HMS%20%E2%80%94%20set%20up%20hospitals%2C%20departments%2C%20beds%2C%20staff%20and%20preferences%2C%20and%20oversee%20billing%20and%20activity%20across%20the%20organisation.%0A---%0A%0A%23%20Tenant%20Admin%0A%0AAs%20a%20**Tenant%20Admin**%20you%20own%20the%20organisation.%20You%20set%20MedOps%20up%2C%20decide%0Ahow%20it%20works%20for%20everyone%20else%2C%20and%20keep%20an%20eye%20on%20the%20whole%20operation.%0A%0A%3A%3A%3A%20callout%20info%20%22Your%20reach%22%20icon%3Ashield%0AYou%20can%20manage%20everything%20across%20your%20organisation%20and%20all%20of%20its%0Ahospitals%20%E2%80%94%20the%20structure%2C%20the%20people%2C%20the%20catalogue%20and%20the%20preferences.%0ADay-to-day%20clinical%20and%20front-desk%20work%20is%20usually%20done%20by%20doctors%20and%0Aoperations%20staff%2C%20but%20you%20can%20always%20see%20what&#039;s%20happening.%0A%3A%3A%3A%0A%0A%23%23%20Setting%20up%20the%20organisation%0A%0AYour%20first%20job%20is%20to%20build%20out%20the%20structure.%20A%20typical%20order%20is%3A%0A%0A%3A%3A%3A%20steps%0A1.%20**Create%20your%20hospitals**%0A%20%20%20Add%20each%20hospital%20with%20its%20name%2C%20address%2C%20licences%20and%20departments.%0A%20%20%20%5BHospitals%20%26%20Departments%20%E2%86%92%5D(..%2Ffeatures%2Fhospitals-and-departments.md)%0A2.%20**Add%20departments**%0A%20%20%20Create%20the%20clinical%20departments%20inside%20each%20hospital.%0A3.%20**Build%20your%20wards**%0A%20%20%20Add%20floors%2C%20rooms%20and%20beds%2C%20and%20set%20room%20pricing%20(tariffs)%2C%20so%20patients%0A%20%20%20can%20be%20admitted%20later.%0A4.%20**Add%20your%20people**%0A%20%20%20Invite%20doctors%20and%20operations%20(front-desk)%20staff%20by%20email.%0A%20%20%20%5BManaging%20Doctors%20%E2%86%92%5D(..%2Ffeatures%2Fdoctors.md)%20%C2%B7%0A%20%20%20%5BOperations%20Team%20%E2%86%92%5D(..%2Ffeatures%2Foperations-team.md)%0A5.%20**Set%20up%20the%20pharmacy**%0A%20%20%20Create%20one%20or%20more%20pharmacies%20and%20add%20pharmacy%20logins.%0A%20%20%20%5BPharmacies%20%E2%86%92%5D(..%2Ffeatures%2Fpharmacies.md)%0A6.%20**Tune%20your%20preferences**%0A%20%20%20Set%20branding%2C%20document%20code%20prefixes%2C%20tax%20details%20and%20inpatient%20billing%0A%20%20%20rules.%0A%3A%3A%3A%0A%0A%23%23%20What%20you%20manage%0A%0A%3A%3A%3A%20grids%0A%20%20%3A%3A%3A%20grid%0A%20%20%20%20%3A%3A%3A%20card%20%22Hospitals%20%26%20departments%22%20icon%3Abuilding-2%0A%20%20%20%20Create%2C%20edit%20and%20deactivate%20hospitals%3B%20add%20and%20rename%20departments.%0A%20%20%20%20%5BOpen%20%E2%86%92%5D(..%2Ffeatures%2Fhospitals-and-departments.md)%0A%20%20%20%20%3A%3A%3A%0A%20%20%3A%3A%3A%0A%20%20%3A%3A%3A%20grid%0A%20%20%20%20%3A%3A%3A%20card%20%22Wards%2C%20rooms%20%26%20beds%22%20icon%3Abed-double%0A%20%20%20%20Lay%20out%20floors%2C%20rooms%20and%20beds%2C%20and%20set%20daily%20room%20tariffs.%0A%20%20%20%20%5BOpen%20%E2%86%92%5D(..%2Ffeatures%2Fhospitals-and-departments.md)%0A%20%20%20%20%3A%3A%3A%0A%20%20%3A%3A%3A%0A%3A%3A%3A%0A%0A%3A%3A%3A%20grids%0A%20%20%3A%3A%3A%20grid%0A%20%20%20%20%3A%3A%3A%20card%20%22Doctors%20%26%20operations%20staff%22%20icon%3Ausers%0A%20%20%20%20Invite%2C%20edit%2C%20deactivate%20and%20re-invite%20staff.%0A%20%20%20%20%5BDoctors%20%E2%86%92%5D(..%2Ffeatures%2Fdoctors.md)%20%C2%B7%20%5BOperations%20%E2%86%92%5D(..%2Ffeatures%2Foperations-team.md)%0A%20%20%20%20%3A%3A%3A%0A%20%20%3A%3A%3A%0A%20%20%3A%3A%3A%20grid%0A%20%20%20%20%3A%3A%3A%20card%20%22Medicines%20catalogue%22%20icon%3Apill%0A%20%20%20%20Add%2C%20edit%20and%20remove%20the%20medicines%20used%20across%20the%20organisation.%0A%20%20%20%20%5BOpen%20%E2%86%92%5D(..%2Ffeatures%2Fmedicines.md)%0A%20%20%20%20%3A%3A%3A%0A%20%20%3A%3A%3A%0A%3A%3A%3A%0A%0A%3A%3A%3A%20grids%0A%20%20%3A%3A%3A%20grid%0A%20%20%20%20%3A%3A%3A%20card%20%22Pharmacies%20%26%20logins%22%20icon%3Astore%0A%20%20%20%20Create%20pharmacies%2C%20set%20their%20tax%20rates%2C%20and%20manage%20who%20can%20sign%20in.%0A%20%20%20%20%5BOpen%20%E2%86%92%5D(..%2Ffeatures%2Fpharmacies.md)%0A%20%20%20%20%3A%3A%3A%0A%20%20%3A%3A%3A%0A%20%20%3A%3A%3A%20grid%0A%20%20%20%20%3A%3A%3A%20card%20%22Billing%20oversight%22%20icon%3Areceipt%0A%20%20%20%20Review%20bills%20across%20the%20organisation%20and%20their%20payment%20status.%0A%20%20%20%20%5BOpen%20%E2%86%92%5D(..%2Ffeatures%2Fbills.md)%0A%20%20%20%20%3A%3A%3A%0A%20%20%3A%3A%3A%0A%3A%3A%3A%0A%0A%23%23%20Organisation%20preferences%0A%0AYou%20control%20settings%20that%20affect%20everyone%3A%0A%0A-%20**Branding%20%26%20identity**%20%E2%80%94%20each%20hospital&#039;s%20display%20name%2C%20address%20and%20logo.%0A-%20**Document%20code%20prefix**%20%E2%80%94%20a%20short%20prefix%20(for%20example%2C%20%60RK%60)%20that%20seeds%0A%20%20the%20reference%20codes%20on%20prescriptions%2C%20invoices%20and%20other%20documents.%0A%20%20Changing%20it%20only%20affects%20new%20documents.%0A-%20**Tax%20details**%20%E2%80%94%20GST%20identification%20for%20hospitals%2C%20and%20tax%20rates%20for%0A%20%20each%20pharmacy.%0A-%20**Inpatient%20billing%20rules**%20%E2%80%94%20how%20bed-day%20charges%20are%20counted%20(by%0A%20%20calendar%20day%20or%20rolling%2024%20hours)%20and%20the%20grace%20period%20before%20another%0A%20%20day%20is%20charged.%0A-%20**Inactivity%20sign-out%20time**%20%E2%80%94%20how%20long%20before%20idle%20users%20are%20signed%0A%20%20out%2C%20from%201%20minute%20up%20to%2024%20hours%20(the%20default%20is%2015%20minutes).%0A%0A%23%23%20Keeping%20oversight%0A%0A-%20**Activity%20log**%20%E2%80%94%20see%20who%20did%20what%20and%20when%20across%20the%20organisation%2C%0A%20%20with%20search%20and%20date%20filters.%20%5BOpen%20%E2%86%92%5D(..%2Ffeatures%2Faudit-logs.md)%0A-%20**Global%20search**%20%E2%80%94%20quickly%20find%20patients%2C%20doctors%2C%20hospitals%2C%0A%20%20departments%2C%20appointments%2C%20bills%20and%20medicines.%0A%0A%23%23%20What&#039;s%20next%0A%0A-%20New%20to%20setup%3F%20Follow%20the%20%5BFirst-Time%20Setup%20guide%5D(..%2Fworkflows%2Ffirst-time-setup.md).%0A-%20Want%20the%20full%20feature%20list%3F%20See%20%5BKey%20Features%5D(..%2Fintroduction%2Fkey-features.md).%0A" style="display: none;"></div>
                   
                     <nav aria-label="breadcrumb" class="docmd-breadcrumbs">
                       <ol>
@@ -1968,7 +1968,7 @@ operations staff, but you can always see what’s happening.</p>
 <p>Your first job is to build out the structure. A typical order is:</p>
 <div class="docmd-container steps steps-reset"><ol class="steps-list"><li class="step-item" id="step-45"><a href="#step-45" class="step-permalink" aria-label="Permalink to this step"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a><strong>Create your hospitals</strong><br>
 Add each hospital with its name, address, licences and departments.<br>
-<a href="/features/hospitals-and-departments/">Hospitals &amp; Departments →</a></li>
+<a href="../../features/hospitals-and-departments/">Hospitals &amp; Departments →</a></li>
 <li class="step-item" id="step-46"><a href="#step-46" class="step-permalink" aria-label="Permalink to this step"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a><strong>Add departments</strong><br>
 Create the clinical departments inside each hospital.</li>
 <li class="step-item" id="step-47"><a href="#step-47" class="step-permalink" aria-label="Permalink to this step"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a><strong>Build your wards</strong><br>
@@ -1976,11 +1976,11 @@ Add floors, rooms and beds, and set room pricing (tariffs), so patients<br>
 can be admitted later.</li>
 <li class="step-item" id="step-48"><a href="#step-48" class="step-permalink" aria-label="Permalink to this step"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a><strong>Add your people</strong><br>
 Invite doctors and operations (front-desk) staff by email.<br>
-<a href="/features/doctors/">Managing Doctors →</a> ·<br>
-<a href="/features/operations-team/">Operations Team →</a></li>
+<a href="../../features/doctors/">Managing Doctors →</a> ·<br>
+<a href="../../features/operations-team/">Operations Team →</a></li>
 <li class="step-item" id="step-49"><a href="#step-49" class="step-permalink" aria-label="Permalink to this step"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a><strong>Set up the pharmacy</strong><br>
 Create one or more pharmacies and add pharmacy logins.<br>
-<a href="/features/pharmacies/">Pharmacies →</a></li>
+<a href="../../features/pharmacies/">Pharmacies →</a></li>
 <li class="step-item" id="step-50"><a href="#step-50" class="step-permalink" aria-label="Permalink to this step"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a><strong>Tune your preferences</strong><br>
 Set branding, document code prefixes, tax details and inpatient billing<br>
 rules.</li>
@@ -2009,7 +2009,7 @@ rules.</li>
 </svg>
 Hospitals &amp; departments</div><div class="card-content">
 <p>Create, edit and deactivate hospitals; add and rename departments.<br>
-<a href="/features/hospitals-and-departments/">Open →</a></p>
+<a href="../../features/hospitals-and-departments/">Open →</a></p>
 </div></div>
 </div>
 <div class="docmd-container grid-item">
@@ -2033,7 +2033,7 @@ Hospitals &amp; departments</div><div class="card-content">
 </svg>
 Wards, rooms &amp; beds</div><div class="card-content">
 <p>Lay out floors, rooms and beds, and set daily room tariffs.<br>
-<a href="/features/hospitals-and-departments/">Open →</a></p>
+<a href="../../features/hospitals-and-departments/">Open →</a></p>
 </div></div>
 </div>
 </div>
@@ -2059,7 +2059,7 @@ Wards, rooms &amp; beds</div><div class="card-content">
 </svg>
 Doctors &amp; operations staff</div><div class="card-content">
 <p>Invite, edit, deactivate and re-invite staff.<br>
-<a href="/features/doctors/">Doctors →</a> · <a href="/features/operations-team/">Operations →</a></p>
+<a href="../../features/doctors/">Doctors →</a> · <a href="../../features/operations-team/">Operations →</a></p>
 </div></div>
 </div>
 <div class="docmd-container grid-item">
@@ -2081,7 +2081,7 @@ Doctors &amp; operations staff</div><div class="card-content">
 </svg>
 Medicines catalogue</div><div class="card-content">
 <p>Add, edit and remove the medicines used across the organisation.<br>
-<a href="/features/medicines/">Open →</a></p>
+<a href="../../features/medicines/">Open →</a></p>
 </div></div>
 </div>
 </div>
@@ -2106,7 +2106,7 @@ Medicines catalogue</div><div class="card-content">
 </svg>
 Pharmacies &amp; logins</div><div class="card-content">
 <p>Create pharmacies, set their tax rates, and manage who can sign in.<br>
-<a href="/features/pharmacies/">Open →</a></p>
+<a href="../../features/pharmacies/">Open →</a></p>
 </div></div>
 </div>
 <div class="docmd-container grid-item">
@@ -2129,7 +2129,7 @@ Pharmacies &amp; logins</div><div class="card-content">
 </svg>
 Billing oversight</div><div class="card-content">
 <p>Review bills across the organisation and their payment status.<br>
-<a href="/features/bills/">Open →</a></p>
+<a href="../../features/bills/">Open →</a></p>
 </div></div>
 </div>
 </div>
@@ -2151,14 +2151,14 @@ out, from 1 minute up to 24 hours (the default is 15 minutes).</li>
 <h2 id="tenant-admin-keeping-oversight" class="docmd-heading"><a href="#tenant-admin-keeping-oversight" class="heading-anchor" aria-label="Permalink to this section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-link2-icon lucide-link-2"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a>Keeping oversight</h2>
 <ul>
 <li><strong>Activity log</strong> — see who did what and when across the organisation,<br>
-with search and date filters. <a href="/features/audit-logs/">Open →</a></li>
+with search and date filters. <a href="../../features/audit-logs/">Open →</a></li>
 <li><strong>Global search</strong> — quickly find patients, doctors, hospitals,<br>
 departments, appointments, bills and medicines.</li>
 </ul>
 <h2 id="tenant-admin-whats-next" class="docmd-heading"><a href="#tenant-admin-whats-next" class="heading-anchor" aria-label="Permalink to this section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-link2-icon lucide-link-2"><path d="M9 17H7A5 5 0 0 1 7 7h2m6 0h2a5 5 0 1 1 0 10h-2m-7-5h8"/></svg></a>What’s next</h2>
 <ul>
-<li>New to setup? Follow the <a href="/workflows/first-time-setup/">First-Time Setup guide</a>.</li>
-<li>Want the full feature list? See <a href="/introduction/key-features/">Key Features</a>.</li>
+<li>New to setup? Follow the <a href="../../workflows/first-time-setup/">First-Time Setup guide</a>.</li>
+<li>Want the full feature list? See <a href="../../introduction/key-features/">Key Features</a>.</li>
 </ul>
 
                 
@@ -2287,13 +2287,13 @@ departments, appointments, bills and medicines.</li>
         </div>
       </div>
       
-      <script src="../../assets/js/docmd-main.js?v=mqrxuyi3"></script>
+      <script src="../../assets/js/docmd-main.js?v=mqrygv4p"></script>
       
-      <script src="../../assets/js/docmd-git.js?v=mqrxuyi3"></script>
-      <script src="../../assets/js/docmd-image-lightbox.js?v=mqrxuyi3" ></script>
+      <script src="../../assets/js/docmd-git.js?v=mqrygv4p"></script>
+      <script src="../../assets/js/docmd-image-lightbox.js?v=mqrygv4p" ></script>
 <script src="https://cdn.jsdelivr.net/npm/minisearch@7.2.0/dist/umd/index.min.js" ></script>
-<script src="../../assets/js/docmd-search.js?v=mqrxuyi3" ></script>
-<script src="../../assets/js/docmd-git.js?v=mqrxuyi3" type="module"></script>
+<script src="../../assets/js/docmd-search.js?v=mqrygv4p" ></script>
+<script src="../../assets/js/docmd-git.js?v=mqrygv4p" type="module"></script>
 
   <!-- Search Modal (Injected by @docmd/plugin-search) -->
   <div id="docmd-search-modal" class="docmd-search-modal" style="display: none;" data-show-confidence="false" data-show-filters="false"

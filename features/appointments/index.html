@@ -97,7 +97,7 @@
 
       window.DOCMD_APPEARANCE = "system";
       window.DOCMD_VERSION_ROOT = "/";
-      window.DOCMD_BASE = "/";
+      window.DOCMD_BASE = "/user-guide/";
       window.DOCMD_LOCALE = "";
       window.DOCMD_DEFAULT_LOCALE = "";
     </script>
@@ -105,10 +105,10 @@
       Appointments : MedOps HMS
     </title>
     
-    <link rel="stylesheet" href="../../assets/css/docmd-main.css?v=mqrxuyi3">
+    <link rel="stylesheet" href="../../assets/css/docmd-main.css?v=mqrygv4p">
     
-    <link rel="stylesheet" href="../../assets/css/docmd-highlight-light.css?v=mqrxuyi3" id="hljs-light" >
-    <link rel="stylesheet" href="../../assets/css/docmd-highlight-dark.css?v=mqrxuyi3" id="hljs-dark" disabled>
+    <link rel="stylesheet" href="../../assets/css/docmd-highlight-light.css?v=mqrygv4p" id="hljs-light" >
+    <link rel="stylesheet" href="../../assets/css/docmd-highlight-dark.css?v=mqrygv4p" id="hljs-dark" disabled>
     
     
 <meta name="description" content="Book conflict-checked appointments in MedOps HMS against doctors' real availability, manage statuses, reschedule and cancel, and connect to consultations.">
@@ -123,11 +123,11 @@
 
 
 
-<link rel="stylesheet" href="../../assets/css/docmd-git.css?v=mqrxuyi3" >
-<link rel="stylesheet" href="../../assets/css/docmd-openapi.css?v=mqrxuyi3" >
+<link rel="stylesheet" href="../../assets/css/docmd-git.css?v=mqrygv4p" >
+<link rel="stylesheet" href="../../assets/css/docmd-openapi.css?v=mqrygv4p" >
 
     
-      <link rel="stylesheet" href="../../assets/css/brand.css?v=mqrxuyi3">
+      <link rel="stylesheet" href="../../assets/css/brand.css?v=mqrygv4p">
     
     <script>/**
  * --------------------------------------------------------------------
@@ -1851,7 +1851,7 @@
             <div class="content-layout">
               <div class="main-content">
                 <div class="docmd-breadcrumbs-row">
-                  <div id="docmd-raw-markdown" data-content="---%0Atitle%3A%20Appointments%0Adescription%3A%20Book%20conflict-checked%20appointments%20in%20MedOps%20HMS%20against%20doctors&#039;%20real%20availability%2C%20manage%20statuses%2C%20reschedule%20and%20cancel%2C%20and%20connect%20to%20consultations.%0A---%0A%0A%23%20Appointments%0A%0AAppointments%20connect%20a%20patient%20with%20a%20doctor%20at%20a%20specific%20time.%20MedOps%0Achecks%20each%20booking%20against%20the%20doctor&#039;s%20real%20availability%2C%20so%20clashes%20are%0Aprevented%20before%20they%20happen.%0A%0A%3A%3A%3A%20callout%20info%20%22Who%20manages%20this%22%20icon%3Ashield%0A**Operations**%20staff%20and%20the%20**Tenant%20Admin**%20book%20and%20manage%20appointments.%0A**Doctors**%20see%20their%20own%20appointments%20in%20their%20queue%20but%20don&#039;t%20book%20them.%0A%3A%3A%3A%0A%0A%23%23%20Booking%20an%20appointment%0A%0AWhen%20you%20book%2C%20you%20set%3A%0A%0A-%20**Patient**%20%E2%80%94%20the%20registered%20patient%20(this%20can&#039;t%20be%20changed%20afterwards)%0A-%20**Doctor**%20%E2%80%94%20optional%2C%20and%20must%20work%20at%20the%20patient&#039;s%20hospital%0A-%20**Visit%20type**%20%E2%80%94%20Outpatient%20(OP)%2C%20Inpatient%20(IP)%2C%20Emergency%2C%20Consultation%2C%0A%20%20or%20Follow-up%0A-%20**Date%20and%20time**%20%E2%80%94%20must%20be%20in%20the%20future%0A-%20**Reason%20for%20visit**%20%E2%80%94%20optional%0A-%20**Bed**%20%E2%80%94%20required%20for%20an%20inpatient%20(IP)%20visit%3B%20must%20be%20a%20vacant%20bed%0A%0A%23%23%23%20Booking%20on%20someone&#039;s%20behalf%0A%0AFor%20an%20outpatient%20visit%20booked%20for%20a%20family%20member%20or%20dependant%2C%20you%20can%20add%0A**beneficiary%20details**%3A%20their%20name%20and%20age%20(required%20together)%2C%20plus%20an%0Aoptional%20weight%20and%20relationship%20to%20the%20registered%20patient.%0A%0A%23%23%20Appointment%20statuses%0A%0AAn%20appointment%20moves%20through%20these%20states%3A%0A%0A%7C%20Status%20%7C%20Meaning%20%7C%0A%7C%20---%20%7C%20---%20%7C%0A%7C%20**Scheduled**%20%7C%20Booked%20and%20awaiting%20the%20visit%20(the%20usual%20starting%20point)%20%7C%0A%7C%20**Admitted**%20%7C%20The%20starting%20point%20for%20an%20inpatient%20appointment%20%7C%0A%7C%20**Completed**%20%7C%20The%20visit%20(and%20any%20consultation)%20is%20finished%20%7C%0A%7C%20**Cancelled**%20%7C%20The%20appointment%20was%20cancelled%20%7C%0A%7C%20**No-show**%20%7C%20The%20patient%20didn&#039;t%20arrive%20%7C%0A%0A%23%23%20How%20MedOps%20prevents%20clashes%0A%0A%3A%3A%3A%20callout%20success%20%22You%20can&#039;t%20create%20an%20invalid%20booking%22%20icon%3Ashield-check%0A-%20**No%20past%20bookings**%20%E2%80%94%20appointments%20must%20be%20in%20the%20future.%0A-%20**Within%20working%20hours**%20%E2%80%94%20a%20doctor%20can%20only%20be%20booked%20during%20the%20hours%0A%20%20they&#039;ve%20set.%0A-%20**Not%20during%20leave%20or%20time-off**%20%E2%80%94%20the%20doctor&#039;s%20leave%20and%20blocked%20times%0A%20%20are%20off-limits.%0A-%20**No%20double-booking**%20%E2%80%94%20slots%20already%20taken%20for%20that%20doctor%20on%20that%20day%0A%20%20are%20shown%20so%20they%20can&#039;t%20be%20picked%20again.%0A-%20**Only%20free%20beds**%20%E2%80%94%20an%20inpatient%20visit%20can%20only%20use%20a%20vacant%20bed.%0A%3A%3A%3A%0A%0AWhen%20you%20choose%20a%20doctor%20and%20date%2C%20MedOps%20shows%20their%20upcoming%20leave%20and%0Ablocked%20times%2C%20and%20which%20slots%20are%20already%20booked%20%E2%80%94%20so%20you%20can%20pick%20a%20free%0Atime%20with%20confidence.%0A%0A%23%23%20Rescheduling%20and%20updating%0A%0AAfter%20booking%2C%20you%20can%20change%3A%0A%0A-%20The%20**date%20and%20time**%20(re-checked%20against%20the%20doctor&#039;s%20availability)%0A-%20The%20**doctor**%20(re-checked%20against%20the%20hospital%20and%20availability)%0A-%20The%20**visit%20type**%2C%20**reason**%2C%20and%20**beneficiary%20details**%0A-%20The%20**status**%20%E2%80%94%20for%20example%2C%20marking%20it%20**completed**%2C%20**cancelled**%20or%0A%20%20**no-show**%0A%0AThe%20patient%20on%20an%20appointment%20can&#039;t%20be%20changed%20%E2%80%94%20book%20a%20new%20appointment%20if%0Ait&#039;s%20for%20someone%20else.%0A%0A%23%23%20From%20appointment%20to%20consultation%0A%0AWhen%20a%20doctor%20opens%20one%20of%20their%20appointments%20and%20starts%20a%20**consultation**%2C%0Athe%20visit%20record%20and%20the%20clinical%20record%20are%20linked.%20Completing%20the%0Aconsultation%20also%20completes%20the%20appointment%20and%20generates%20the%20relevant%20bills.%0A%0A-%20%5BConsultations%5D(%2Ffeatures%2Fconsultations)%0A-%20%5BMy%20Appointments%20%26%20Availability%5D(%2Ffeatures%2Fmy-appointments)%0A" style="display: none;"></div>
+                  <div id="docmd-raw-markdown" data-content="---%0Atitle%3A%20Appointments%0Adescription%3A%20Book%20conflict-checked%20appointments%20in%20MedOps%20HMS%20against%20doctors&#039;%20real%20availability%2C%20manage%20statuses%2C%20reschedule%20and%20cancel%2C%20and%20connect%20to%20consultations.%0A---%0A%0A%23%20Appointments%0A%0AAppointments%20connect%20a%20patient%20with%20a%20doctor%20at%20a%20specific%20time.%20MedOps%0Achecks%20each%20booking%20against%20the%20doctor&#039;s%20real%20availability%2C%20so%20clashes%20are%0Aprevented%20before%20they%20happen.%0A%0A%3A%3A%3A%20callout%20info%20%22Who%20manages%20this%22%20icon%3Ashield%0A**Operations**%20staff%20and%20the%20**Tenant%20Admin**%20book%20and%20manage%20appointments.%0A**Doctors**%20see%20their%20own%20appointments%20in%20their%20queue%20but%20don&#039;t%20book%20them.%0A%3A%3A%3A%0A%0A%23%23%20Booking%20an%20appointment%0A%0AWhen%20you%20book%2C%20you%20set%3A%0A%0A-%20**Patient**%20%E2%80%94%20the%20registered%20patient%20(this%20can&#039;t%20be%20changed%20afterwards)%0A-%20**Doctor**%20%E2%80%94%20optional%2C%20and%20must%20work%20at%20the%20patient&#039;s%20hospital%0A-%20**Visit%20type**%20%E2%80%94%20Outpatient%20(OP)%2C%20Inpatient%20(IP)%2C%20Emergency%2C%20Consultation%2C%0A%20%20or%20Follow-up%0A-%20**Date%20and%20time**%20%E2%80%94%20must%20be%20in%20the%20future%0A-%20**Reason%20for%20visit**%20%E2%80%94%20optional%0A-%20**Bed**%20%E2%80%94%20required%20for%20an%20inpatient%20(IP)%20visit%3B%20must%20be%20a%20vacant%20bed%0A%0A%23%23%23%20Booking%20on%20someone&#039;s%20behalf%0A%0AFor%20an%20outpatient%20visit%20booked%20for%20a%20family%20member%20or%20dependant%2C%20you%20can%20add%0A**beneficiary%20details**%3A%20their%20name%20and%20age%20(required%20together)%2C%20plus%20an%0Aoptional%20weight%20and%20relationship%20to%20the%20registered%20patient.%0A%0A%23%23%20Appointment%20statuses%0A%0AAn%20appointment%20moves%20through%20these%20states%3A%0A%0A%7C%20Status%20%7C%20Meaning%20%7C%0A%7C%20---%20%7C%20---%20%7C%0A%7C%20**Scheduled**%20%7C%20Booked%20and%20awaiting%20the%20visit%20(the%20usual%20starting%20point)%20%7C%0A%7C%20**Admitted**%20%7C%20The%20starting%20point%20for%20an%20inpatient%20appointment%20%7C%0A%7C%20**Completed**%20%7C%20The%20visit%20(and%20any%20consultation)%20is%20finished%20%7C%0A%7C%20**Cancelled**%20%7C%20The%20appointment%20was%20cancelled%20%7C%0A%7C%20**No-show**%20%7C%20The%20patient%20didn&#039;t%20arrive%20%7C%0A%0A%23%23%20How%20MedOps%20prevents%20clashes%0A%0A%3A%3A%3A%20callout%20success%20%22You%20can&#039;t%20create%20an%20invalid%20booking%22%20icon%3Ashield-check%0A-%20**No%20past%20bookings**%20%E2%80%94%20appointments%20must%20be%20in%20the%20future.%0A-%20**Within%20working%20hours**%20%E2%80%94%20a%20doctor%20can%20only%20be%20booked%20during%20the%20hours%0A%20%20they&#039;ve%20set.%0A-%20**Not%20during%20leave%20or%20time-off**%20%E2%80%94%20the%20doctor&#039;s%20leave%20and%20blocked%20times%0A%20%20are%20off-limits.%0A-%20**No%20double-booking**%20%E2%80%94%20slots%20already%20taken%20for%20that%20doctor%20on%20that%20day%0A%20%20are%20shown%20so%20they%20can&#039;t%20be%20picked%20again.%0A-%20**Only%20free%20beds**%20%E2%80%94%20an%20inpatient%20visit%20can%20only%20use%20a%20vacant%20bed.%0A%3A%3A%3A%0A%0AWhen%20you%20choose%20a%20doctor%20and%20date%2C%20MedOps%20shows%20their%20upcoming%20leave%20and%0Ablocked%20times%2C%20and%20which%20slots%20are%20already%20booked%20%E2%80%94%20so%20you%20can%20pick%20a%20free%0Atime%20with%20confidence.%0A%0A%23%23%20Rescheduling%20and%20updating%0A%0AAfter%20booking%2C%20you%20can%20change%3A%0A%0A-%20The%20**date%20and%20time**%20(re-checked%20against%20the%20doctor&#039;s%20availability)%0A-%20The%20**doctor**%20(re-checked%20against%20the%20hospital%20and%20availability)%0A-%20The%20**visit%20type**%2C%20**reason**%2C%20and%20**beneficiary%20details**%0A-%20The%20**status**%20%E2%80%94%20for%20example%2C%20marking%20it%20**completed**%2C%20**cancelled**%20or%0A%20%20**no-show**%0A%0AThe%20patient%20on%20an%20appointment%20can&#039;t%20be%20changed%20%E2%80%94%20book%20a%20new%20appointment%20if%0Ait&#039;s%20for%20someone%20else.%0A%0A%23%23%20From%20appointment%20to%20consultation%0A%0AWhen%20a%20doctor%20opens%20one%20of%20their%20appointments%20and%20starts%20a%20**consultation**%2C%0Athe%20visit%20record%20and%20the%20clinical%20record%20are%20linked.%20Completing%20the%0Aconsultation%20also%20completes%20the%20appointment%20and%20generates%20the%20relevant%20bills.%0A%0A-%20%5BConsultations%5D(consultations.md)%0A-%20%5BMy%20Appointments%20%26%20Availability%5D(my-appointments.md)%0A" style="display: none;"></div>
                   
                     <nav aria-label="breadcrumb" class="docmd-breadcrumbs">
                       <ol>
@@ -2058,8 +2058,8 @@ it’s for someone else.</p>
 the visit record and the clinical record are linked. Completing the<br>
 consultation also completes the appointment and generates the relevant bills.</p>
 <ul>
-<li><a href="/features/consultations/">Consultations</a></li>
-<li><a href="/features/my-appointments/">My Appointments &amp; Availability</a></li>
+<li><a href="../consultations/">Consultations</a></li>
+<li><a href="../my-appointments/">My Appointments &amp; Availability</a></li>
 </ul>
 
                 
@@ -2192,13 +2192,13 @@ consultation also completes the appointment and generates the relevant bills.</p
         </div>
       </div>
       
-      <script src="../../assets/js/docmd-main.js?v=mqrxuyi3"></script>
+      <script src="../../assets/js/docmd-main.js?v=mqrygv4p"></script>
       
-      <script src="../../assets/js/docmd-git.js?v=mqrxuyi3"></script>
-      <script src="../../assets/js/docmd-image-lightbox.js?v=mqrxuyi3" ></script>
+      <script src="../../assets/js/docmd-git.js?v=mqrygv4p"></script>
+      <script src="../../assets/js/docmd-image-lightbox.js?v=mqrygv4p" ></script>
 <script src="https://cdn.jsdelivr.net/npm/minisearch@7.2.0/dist/umd/index.min.js" ></script>
-<script src="../../assets/js/docmd-search.js?v=mqrxuyi3" ></script>
-<script src="../../assets/js/docmd-git.js?v=mqrxuyi3" type="module"></script>
+<script src="../../assets/js/docmd-search.js?v=mqrygv4p" ></script>
+<script src="../../assets/js/docmd-git.js?v=mqrygv4p" type="module"></script>
 
   <!-- Search Modal (Injected by @docmd/plugin-search) -->
   <div id="docmd-search-modal" class="docmd-search-modal" style="display: none;" data-show-confidence="false" data-show-filters="false"
