@@ -1,0 +1,6 @@
+/*!
+ * docmd (v0.8.7)
+ * Copyright (c) 2025-present docmd.io
+ * License: MIT
+ */
+:root,:root[data-theme=light]{--accent-color: #1b5d7e;--link-color: #1b5d7e;--link-color-hover: #134457;--sidebar-link-active-bg: #1b5d7e1a;--sidebar-link-active-text: #1b5d7e;--sidebar-group-bg: #1b5d7e0d}:root[data-theme=dark]{--accent-color: #4ea7cd;--link-color: #4ea7cd;--link-color-hover: #7cc6e3;--sidebar-link-active-bg: #1b5d7e40;--sidebar-link-active-text: #9bd6ee}

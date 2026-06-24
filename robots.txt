@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://medops-hms.example.com/sitemap.xml
+Sitemap: https://the-medops.github.io/user-guide/sitemap.xml
