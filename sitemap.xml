@@ -1,167 +1,167 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://medops-hms.example.com/features/admitted-patients/</loc>
+    <loc>https://the-medops.github.io/user-guide/features/admitted-patients/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://medops-hms.example.com/features/appointments/</loc>
+    <loc>https://the-medops.github.io/user-guide/features/appointments/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://medops-hms.example.com/features/audit-logs/</loc>
+    <loc>https://the-medops.github.io/user-guide/features/audit-logs/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://medops-hms.example.com/features/bills/</loc>
+    <loc>https://the-medops.github.io/user-guide/features/bills/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://medops-hms.example.com/features/consultations/</loc>
+    <loc>https://the-medops.github.io/user-guide/features/consultations/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://medops-hms.example.com/features/dashboard/</loc>
+    <loc>https://the-medops.github.io/user-guide/features/dashboard/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://medops-hms.example.com/features/doctors/</loc>
+    <loc>https://the-medops.github.io/user-guide/features/doctors/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://medops-hms.example.com/features/hospitals-and-departments/</loc>
+    <loc>https://the-medops.github.io/user-guide/features/hospitals-and-departments/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://medops-hms.example.com/features/medicines/</loc>
+    <loc>https://the-medops.github.io/user-guide/features/medicines/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://medops-hms.example.com/features/my-appointments/</loc>
+    <loc>https://the-medops.github.io/user-guide/features/my-appointments/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://medops-hms.example.com/features/operations-team/</loc>
+    <loc>https://the-medops.github.io/user-guide/features/operations-team/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://medops-hms.example.com/features/patients/</loc>
+    <loc>https://the-medops.github.io/user-guide/features/patients/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://medops-hms.example.com/features/pharmacies/</loc>
+    <loc>https://the-medops.github.io/user-guide/features/pharmacies/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://medops-hms.example.com/features/pharmacy-portal/</loc>
+    <loc>https://the-medops.github.io/user-guide/features/pharmacy-portal/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://medops-hms.example.com/features/prescriptions/</loc>
+    <loc>https://the-medops.github.io/user-guide/features/prescriptions/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://medops-hms.example.com/getting-started/account-and-profile/</loc>
+    <loc>https://the-medops.github.io/user-guide/getting-started/account-and-profile/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://medops-hms.example.com/getting-started/</loc>
+    <loc>https://the-medops.github.io/user-guide/getting-started/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://medops-hms.example.com/</loc>
+    <loc>https://the-medops.github.io/user-guide/</loc>
     <changefreq>weekly</changefreq>
     <priority>1</priority>
   </url>
   <url>
-    <loc>https://medops-hms.example.com/introduction/</loc>
+    <loc>https://the-medops.github.io/user-guide/introduction/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://medops-hms.example.com/introduction/key-features/</loc>
+    <loc>https://the-medops.github.io/user-guide/introduction/key-features/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://medops-hms.example.com/introduction/roles-overview/</loc>
+    <loc>https://the-medops.github.io/user-guide/introduction/roles-overview/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://medops-hms.example.com/reference/faq/</loc>
+    <loc>https://the-medops.github.io/user-guide/reference/faq/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://medops-hms.example.com/reference/glossary/</loc>
+    <loc>https://the-medops.github.io/user-guide/reference/glossary/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://medops-hms.example.com/roles/doctor/</loc>
+    <loc>https://the-medops.github.io/user-guide/roles/doctor/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://medops-hms.example.com/roles/nurse/</loc>
+    <loc>https://the-medops.github.io/user-guide/roles/nurse/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://medops-hms.example.com/roles/operations/</loc>
+    <loc>https://the-medops.github.io/user-guide/roles/operations/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://medops-hms.example.com/roles/pharmacy/</loc>
+    <loc>https://the-medops.github.io/user-guide/roles/pharmacy/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://medops-hms.example.com/roles/staff/</loc>
+    <loc>https://the-medops.github.io/user-guide/roles/staff/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://medops-hms.example.com/roles/tenant-admin/</loc>
+    <loc>https://the-medops.github.io/user-guide/roles/tenant-admin/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://medops-hms.example.com/workflows/first-time-setup/</loc>
+    <loc>https://the-medops.github.io/user-guide/workflows/first-time-setup/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://medops-hms.example.com/workflows/inpatient-admission/</loc>
+    <loc>https://the-medops.github.io/user-guide/workflows/inpatient-admission/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://medops-hms.example.com/workflows/outpatient-visit/</loc>
+    <loc>https://the-medops.github.io/user-guide/workflows/outpatient-visit/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://medops-hms.example.com/workflows/pharmacy-dispensing/</loc>
+    <loc>https://the-medops.github.io/user-guide/workflows/pharmacy-dispensing/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

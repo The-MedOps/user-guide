@@ -4,199 +4,199 @@
   "pages": [
     {
       "title": "Admitted Patients (IPD)",
-      "url": "https://medops-hms.example.com/features/admitted-patients/",
+      "url": "https://the-medops.github.io/user-guide/features/admitted-patients/",
       "description": "Admit patients to beds in MedOps HMS, record ward rounds and vitals, add inpatient medications, transfer between beds, and discharge.",
       "priority": "medium"
     },
     {
       "title": "Appointments",
-      "url": "https://medops-hms.example.com/features/appointments/",
+      "url": "https://the-medops.github.io/user-guide/features/appointments/",
       "description": "Book conflict-checked appointments in MedOps HMS against doctors' real availability, manage statuses, reschedule and cancel, and connect to consultations.",
       "priority": "medium"
     },
     {
       "title": "Activity Log",
-      "url": "https://medops-hms.example.com/features/audit-logs/",
+      "url": "https://the-medops.github.io/user-guide/features/audit-logs/",
       "description": "A complete, searchable record in MedOps HMS of who did what and when across your organisation.",
       "priority": "medium"
     },
     {
       "title": "Billing & Payments",
-      "url": "https://medops-hms.example.com/features/bills/",
+      "url": "https://the-medops.github.io/user-guide/features/bills/",
       "description": "How bills are generated in MedOps HMS, recording payments, tracking unpaid bills, and cancelling mistakes.",
       "priority": "medium"
     },
     {
       "title": "Consultations",
-      "url": "https://medops-hms.example.com/features/consultations/",
+      "url": "https://the-medops.github.io/user-guide/features/consultations/",
       "description": "Record a patient consultation in MedOps HMS — clinical notes and follow-up — and have the prescription and consultation bill created automatically on completion.",
       "priority": "medium"
     },
     {
       "title": "Dashboard",
-      "url": "https://medops-hms.example.com/features/dashboard/",
+      "url": "https://the-medops.github.io/user-guide/features/dashboard/",
       "description": "The MedOps HMS home screen — a role-aware starting point with quick access to your daily work, key numbers, and global search.",
       "priority": "medium"
     },
     {
       "title": "Managing Doctors",
-      "url": "https://medops-hms.example.com/features/doctors/",
+      "url": "https://the-medops.github.io/user-guide/features/doctors/",
       "description": "Add doctors to MedOps HMS, manage their profiles and credentials, set their consultation fee, and invite them by email.",
       "priority": "medium"
     },
     {
       "title": "Hospitals & Departments",
-      "url": "https://medops-hms.example.com/features/hospitals-and-departments/",
+      "url": "https://the-medops.github.io/user-guide/features/hospitals-and-departments/",
       "description": "Set up hospitals, departments, and the physical layout of floors, rooms and beds (with room pricing) that inpatient care relies on.",
       "priority": "medium"
     },
     {
       "title": "Medicines Catalogue",
-      "url": "https://medops-hms.example.com/features/medicines/",
+      "url": "https://the-medops.github.io/user-guide/features/medicines/",
       "description": "The shared, searchable medicines catalogue in MedOps HMS used across prescriptions and pharmacy stock.",
       "priority": "medium"
     },
     {
       "title": "My Appointments & Availability",
-      "url": "https://medops-hms.example.com/features/my-appointments/",
+      "url": "https://the-medops.github.io/user-guide/features/my-appointments/",
       "description": "For doctors — view your own appointment queue and set your weekly working hours, appointment slot length, leave and time-off in MedOps HMS.",
       "priority": "medium"
     },
     {
       "title": "Operations Team",
-      "url": "https://medops-hms.example.com/features/operations-team/",
+      "url": "https://the-medops.github.io/user-guide/features/operations-team/",
       "description": "Add and manage front-desk (Operations) staff in MedOps HMS, assign them to a hospital, and invite them by email.",
       "priority": "medium"
     },
     {
       "title": "Patients",
-      "url": "https://medops-hms.example.com/features/patients/",
+      "url": "https://the-medops.github.io/user-guide/features/patients/",
       "description": "Register patients in MedOps HMS, give each a unique Medical Record Number, search and update records, and view a full visit and prescription history.",
       "priority": "medium"
     },
     {
       "title": "Pharmacies",
-      "url": "https://medops-hms.example.com/features/pharmacies/",
+      "url": "https://the-medops.github.io/user-guide/features/pharmacies/",
       "description": "Set up pharmacies in MedOps HMS with their tax rates and manage who can sign in to each pharmacy's portal.",
       "priority": "medium"
     },
     {
       "title": "Pharmacy Portal",
-      "url": "https://medops-hms.example.com/features/pharmacy-portal/",
+      "url": "https://the-medops.github.io/user-guide/features/pharmacy-portal/",
       "description": "The pharmacy team's workspace in MedOps HMS — manage stock and prices, receive supplies, dispense against prescriptions, handle walk-in sales, and bill with tax.",
       "priority": "medium"
     },
     {
       "title": "Prescriptions",
-      "url": "https://medops-hms.example.com/features/prescriptions/",
+      "url": "https://the-medops.github.io/user-guide/features/prescriptions/",
       "description": "Clear, printable prescriptions in MedOps HMS with medicines, dosage, frequency and duration — created from a consultation and ready for the pharmacy.",
       "priority": "medium"
     },
     {
       "title": "Your Account & Profile",
-      "url": "https://medops-hms.example.com/getting-started/account-and-profile/",
+      "url": "https://the-medops.github.io/user-guide/getting-started/account-and-profile/",
       "description": "View and edit your MedOps HMS profile, change your password, and understand what you can and cannot change yourself.",
       "priority": "medium"
     },
     {
       "title": "Signing In & The Basics",
-      "url": "https://medops-hms.example.com/getting-started/",
+      "url": "https://the-medops.github.io/user-guide/getting-started/",
       "description": "How to sign in to MedOps HMS, set up your password for the first time, reset a forgotten password, and understand sessions and signing out.",
       "priority": "medium"
     },
     {
       "title": "MedOps HMS — User Guide",
-      "url": "https://medops-hms.example.com/",
+      "url": "https://the-medops.github.io/user-guide/",
       "description": "The user guide for MedOps HMS, the hospital management platform that brings patients, appointments, consultations, prescriptions, inpatient care, pharmacy and billing into one place.",
       "priority": "high"
     },
     {
       "title": "Overview",
-      "url": "https://medops-hms.example.com/introduction/",
+      "url": "https://the-medops.github.io/user-guide/introduction/",
       "description": "What MedOps HMS is, who uses it, and how it is organised — one shared patient record across the front desk, doctors, wards, pharmacy and billing.",
       "priority": "medium"
     },
     {
       "title": "Key Features",
-      "url": "https://medops-hms.example.com/introduction/key-features/",
+      "url": "https://the-medops.github.io/user-guide/introduction/key-features/",
       "description": "A tour of everything MedOps HMS does — patients, appointments, consultations, prescriptions, inpatient care, pharmacy, billing, administration, search and activity logs.",
       "priority": "medium"
     },
     {
       "title": "Roles at a Glance",
-      "url": "https://medops-hms.example.com/introduction/roles-overview/",
+      "url": "https://the-medops.github.io/user-guide/introduction/roles-overview/",
       "description": "The six MedOps HMS roles — Tenant Admin, Doctor, Nurse, Staff, Operations and Pharmacy — and what each can do.",
       "priority": "medium"
     },
     {
       "title": "FAQ",
-      "url": "https://medops-hms.example.com/reference/faq/",
+      "url": "https://the-medops.github.io/user-guide/reference/faq/",
       "description": "Answers to common questions about using MedOps HMS.",
       "priority": "medium"
     },
     {
       "title": "Glossary",
-      "url": "https://medops-hms.example.com/reference/glossary/",
+      "url": "https://the-medops.github.io/user-guide/reference/glossary/",
       "description": "Plain-English definitions of the terms you'll meet in MedOps HMS.",
       "priority": "medium"
     },
     {
       "title": "Doctor",
-      "url": "https://medops-hms.example.com/roles/doctor/",
+      "url": "https://the-medops.github.io/user-guide/roles/doctor/",
       "description": "The Doctor guide for MedOps HMS — manage your appointment queue and availability, record consultations and prescriptions, and round on admitted patients.",
       "priority": "medium"
     },
     {
       "title": "Nurse",
-      "url": "https://medops-hms.example.com/roles/nurse/",
+      "url": "https://the-medops.github.io/user-guide/roles/nurse/",
       "description": "The Nurse guide for MedOps HMS — support inpatient care, view patient and ward information, and keep beds ready.",
       "priority": "medium"
     },
     {
       "title": "Operations (Front Desk)",
-      "url": "https://medops-hms.example.com/roles/operations/",
+      "url": "https://the-medops.github.io/user-guide/roles/operations/",
       "description": "The Operations guide for MedOps HMS — register patients, book appointments, admit and discharge inpatients, and take payments.",
       "priority": "medium"
     },
     {
       "title": "Pharmacy",
-      "url": "https://medops-hms.example.com/roles/pharmacy/",
+      "url": "https://the-medops.github.io/user-guide/roles/pharmacy/",
       "description": "The Pharmacy guide for MedOps HMS — manage stock, dispense against prescriptions, handle walk-in sales, and bill with tax.",
       "priority": "medium"
     },
     {
       "title": "Staff",
-      "url": "https://medops-hms.example.com/roles/staff/",
+      "url": "https://the-medops.github.io/user-guide/roles/staff/",
       "description": "The Staff guide for MedOps HMS — general hospital staff access to shared patient, ward and catalogue information.",
       "priority": "medium"
     },
     {
       "title": "Tenant Admin",
-      "url": "https://medops-hms.example.com/roles/tenant-admin/",
+      "url": "https://the-medops.github.io/user-guide/roles/tenant-admin/",
       "description": "The Tenant Admin guide for MedOps HMS — set up hospitals, departments, beds, staff and preferences, and oversee billing and activity across the organisation.",
       "priority": "medium"
     },
     {
       "title": "First-Time Setup",
-      "url": "https://medops-hms.example.com/workflows/first-time-setup/",
+      "url": "https://the-medops.github.io/user-guide/workflows/first-time-setup/",
       "description": "A step-by-step guide for the Tenant Admin to set up MedOps HMS for the first time — hospitals, wards, staff, pharmacy and preferences.",
       "priority": "medium"
     },
     {
       "title": "An Inpatient Admission",
-      "url": "https://medops-hms.example.com/workflows/inpatient-admission/",
+      "url": "https://the-medops.github.io/user-guide/workflows/inpatient-admission/",
       "description": "The end-to-end inpatient flow in MedOps HMS — admitting a patient to a bed, ward rounds and medications, transfers, and discharge.",
       "priority": "medium"
     },
     {
       "title": "An Outpatient Visit",
-      "url": "https://medops-hms.example.com/workflows/outpatient-visit/",
+      "url": "https://the-medops.github.io/user-guide/workflows/outpatient-visit/",
       "description": "The end-to-end outpatient flow in MedOps HMS — from registering a patient and booking an appointment to consultation, billing and dispensing.",
       "priority": "medium"
     },
     {
       "title": "Pharmacy Dispensing",
-      "url": "https://medops-hms.example.com/workflows/pharmacy-dispensing/",
+      "url": "https://the-medops.github.io/user-guide/workflows/pharmacy-dispensing/",
       "description": "The pharmacy flow in MedOps HMS — keeping stock current, dispensing against a prescription, handling walk-in sales, and billing with tax.",
       "priority": "medium"
     }

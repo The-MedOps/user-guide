@@ -6,7 +6,7 @@ How to use MedOps HMS, the hospital management platform: feature guides and role
 
 ---
 
-## [Admitted Patients (IPD)](https://medops-hms.example.com/features/admitted-patients/)
+## [Admitted Patients (IPD)](https://the-medops.github.io/user-guide/features/admitted-patients/)
 
 ---
 title: Admitted Patients (IPD)
@@ -104,7 +104,7 @@ bed as **reserved for cleaning** so it's prepared before the next patient.
 
 ---
 
-## [Appointments](https://medops-hms.example.com/features/appointments/)
+## [Appointments](https://the-medops.github.io/user-guide/features/appointments/)
 
 ---
 title: Appointments
@@ -194,7 +194,7 @@ consultation also completes the appointment and generates the relevant bills.
 
 ---
 
-## [Activity Log](https://medops-hms.example.com/features/audit-logs/)
+## [Activity Log](https://the-medops.github.io/user-guide/features/audit-logs/)
 
 ---
 title: Activity Log
@@ -252,7 +252,7 @@ change data are, which keeps the log meaningful and easy to scan.
 
 ---
 
-## [Billing & Payments](https://medops-hms.example.com/features/bills/)
+## [Billing & Payments](https://the-medops.github.io/user-guide/features/bills/)
 
 ---
 title: Billing & Payments
@@ -321,7 +321,7 @@ MedOps stamps the time the payment was recorded.
 
 ---
 
-## [Consultations](https://medops-hms.example.com/features/consultations/)
+## [Consultations](https://the-medops.github.io/user-guide/features/consultations/)
 
 ---
 title: Consultations
@@ -388,7 +388,7 @@ created — everything else still works the same way.
 
 ---
 
-## [Dashboard](https://medops-hms.example.com/features/dashboard/)
+## [Dashboard](https://the-medops.github.io/user-guide/features/dashboard/)
 
 ---
 title: Dashboard
@@ -451,7 +451,7 @@ across the categories you can access.
 
 ---
 
-## [Managing Doctors](https://medops-hms.example.com/features/doctors/)
+## [Managing Doctors](https://the-medops.github.io/user-guide/features/doctors/)
 
 ---
 title: Managing Doctors
@@ -525,7 +525,7 @@ their appointment queue, and records consultations. See:
 
 ---
 
-## [Hospitals & Departments](https://medops-hms.example.com/features/hospitals-and-departments/)
+## [Hospitals & Departments](https://the-medops.github.io/user-guide/features/hospitals-and-departments/)
 
 ---
 title: Hospitals & Departments
@@ -644,7 +644,7 @@ applies when a patient is admitted to a room of that type.
 
 ---
 
-## [Medicines Catalogue](https://medops-hms.example.com/features/medicines/)
+## [Medicines Catalogue](https://the-medops.github.io/user-guide/features/medicines/)
 
 ---
 title: Medicines Catalogue
@@ -703,7 +703,7 @@ past prescriptions always stay complete and accurate.
 
 ---
 
-## [My Appointments & Availability](https://medops-hms.example.com/features/my-appointments/)
+## [My Appointments & Availability](https://the-medops.github.io/user-guide/features/my-appointments/)
 
 ---
 title: My Appointments & Availability
@@ -768,7 +768,7 @@ See [Appointments](/features/appointments) for the booking side.
 
 ---
 
-## [Operations Team](https://medops-hms.example.com/features/operations-team/)
+## [Operations Team](https://the-medops.github.io/user-guide/features/operations-team/)
 
 ---
 title: Operations Team
@@ -833,7 +833,7 @@ overview.
 
 ---
 
-## [Patients](https://medops-hms.example.com/features/patients/)
+## [Patients](https://the-medops.github.io/user-guide/features/patients/)
 
 ---
 title: Patients
@@ -914,7 +914,7 @@ their records stay anchored to where they were first seen.
 
 ---
 
-## [Pharmacies](https://medops-hms.example.com/features/pharmacies/)
+## [Pharmacies](https://the-medops.github.io/user-guide/features/pharmacies/)
 
 ---
 title: Pharmacies
@@ -977,7 +977,7 @@ sees that pharmacy's stock, prices and invoices.
 
 ---
 
-## [Pharmacy Portal](https://medops-hms.example.com/features/pharmacy-portal/)
+## [Pharmacy Portal](https://the-medops.github.io/user-guide/features/pharmacy-portal/)
 
 ---
 title: Pharmacy Portal
@@ -1069,7 +1069,7 @@ flow, see [Pharmacy Dispensing](/workflows/pharmacy-dispensing).
 
 ---
 
-## [Prescriptions](https://medops-hms.example.com/features/prescriptions/)
+## [Prescriptions](https://the-medops.github.io/user-guide/features/prescriptions/)
 
 ---
 title: Prescriptions
@@ -1148,7 +1148,7 @@ than a single prescription. See
 
 ---
 
-## [Your Account & Profile](https://medops-hms.example.com/getting-started/account-and-profile/)
+## [Your Account & Profile](https://the-medops.github.io/user-guide/getting-started/account-and-profile/)
 
 ---
 title: Your Account & Profile
@@ -1217,7 +1217,7 @@ change-password screen needs an existing password to work.
 
 ---
 
-## [Signing In & The Basics](https://medops-hms.example.com/getting-started/)
+## [Signing In & The Basics](https://the-medops.github.io/user-guide/getting-started/)
 
 ---
 title: Signing In & The Basics
@@ -1328,7 +1328,7 @@ Signing out ends your session immediately.
 
 ---
 
-## [MedOps HMS — User Guide](https://medops-hms.example.com/)
+## [MedOps HMS — User Guide](https://the-medops.github.io/user-guide/)
 
 ---
 title: MedOps HMS — User Guide
@@ -1411,7 +1411,7 @@ Start with [Signing In & The Basics](/getting-started), then jump to the
 
 ---
 
-## [Overview](https://medops-hms.example.com/introduction/)
+## [Overview](https://the-medops.github.io/user-guide/introduction/)
 
 ---
 title: Overview
@@ -1517,7 +1517,7 @@ can do, or jump straight to your [Role Guide](/roles/tenant-admin).
 
 ---
 
-## [Key Features](https://medops-hms.example.com/introduction/key-features/)
+## [Key Features](https://the-medops.github.io/user-guide/introduction/key-features/)
 
 ---
 title: Key Features
@@ -1671,7 +1671,7 @@ together end to end.
 
 ---
 
-## [Roles at a Glance](https://medops-hms.example.com/introduction/roles-overview/)
+## [Roles at a Glance](https://the-medops.github.io/user-guide/introduction/roles-overview/)
 
 ---
 title: Roles at a Glance
@@ -1754,7 +1754,7 @@ access.
 
 ---
 
-## [FAQ](https://medops-hms.example.com/reference/faq/)
+## [FAQ](https://the-medops.github.io/user-guide/reference/faq/)
 
 ---
 title: FAQ
@@ -1854,7 +1854,7 @@ add upcoming absences ahead of time. See
 
 ---
 
-## [Glossary](https://medops-hms.example.com/reference/glossary/)
+## [Glossary](https://the-medops.github.io/user-guide/reference/glossary/)
 
 ---
 title: Glossary
@@ -1932,7 +1932,7 @@ Quick definitions for the terms you'll come across in MedOps.
 
 ---
 
-## [Doctor](https://medops-hms.example.com/roles/doctor/)
+## [Doctor](https://the-medops.github.io/user-guide/roles/doctor/)
 
 ---
 title: Doctor
@@ -2033,7 +2033,7 @@ blocked times.
 
 ---
 
-## [Nurse](https://medops-hms.example.com/roles/nurse/)
+## [Nurse](https://the-medops.github.io/user-guide/roles/nurse/)
 
 ---
 title: Nurse
@@ -2104,7 +2104,7 @@ frees up automatically when the patient is discharged or transferred.
 
 ---
 
-## [Operations (Front Desk)](https://medops-hms.example.com/roles/operations/)
+## [Operations (Front Desk)](https://the-medops.github.io/user-guide/roles/operations/)
 
 ---
 title: Operations (Front Desk)
@@ -2194,7 +2194,7 @@ For the full walkthrough, see
 
 ---
 
-## [Pharmacy](https://medops-hms.example.com/roles/pharmacy/)
+## [Pharmacy](https://the-medops.github.io/user-guide/roles/pharmacy/)
 
 ---
 title: Pharmacy
@@ -2281,7 +2281,7 @@ never rewrite past invoices.
 
 ---
 
-## [Staff](https://medops-hms.example.com/roles/staff/)
+## [Staff](https://the-medops.github.io/user-guide/roles/staff/)
 
 ---
 title: Staff
@@ -2332,7 +2332,7 @@ See [Roles at a Glance](/introduction/roles-overview) to compare.
 
 ---
 
-## [Tenant Admin](https://medops-hms.example.com/roles/tenant-admin/)
+## [Tenant Admin](https://the-medops.github.io/user-guide/roles/tenant-admin/)
 
 ---
 title: Tenant Admin
@@ -2454,7 +2454,7 @@ You control settings that affect everyone:
 
 ---
 
-## [First-Time Setup](https://medops-hms.example.com/workflows/first-time-setup/)
+## [First-Time Setup](https://the-medops.github.io/user-guide/workflows/first-time-setup/)
 
 ---
 title: First-Time Setup
@@ -2521,7 +2521,7 @@ you're ready to register patients and book the first appointments.
 
 ---
 
-## [An Inpatient Admission](https://medops-hms.example.com/workflows/inpatient-admission/)
+## [An Inpatient Admission](https://the-medops.github.io/user-guide/workflows/inpatient-admission/)
 
 ---
 title: An Inpatient Admission
@@ -2580,7 +2580,7 @@ so the front desk only ever assigns beds that are truly ready.
 
 ---
 
-## [An Outpatient Visit](https://medops-hms.example.com/workflows/outpatient-visit/)
+## [An Outpatient Visit](https://the-medops.github.io/user-guide/workflows/outpatient-visit/)
 
 ---
 title: An Outpatient Visit
@@ -2640,7 +2640,7 @@ updated automatically — nothing is re-typed.
 
 ---
 
-## [Pharmacy Dispensing](https://medops-hms.example.com/workflows/pharmacy-dispensing/)
+## [Pharmacy Dispensing](https://the-medops.github.io/user-guide/workflows/pharmacy-dispensing/)
 
 ---
 title: Pharmacy Dispensing

@@ -6,69 +6,69 @@ How to use MedOps HMS, the hospital management platform: feature guides and role
 
 ## Documentation Files
 
-- [Admitted Patients (IPD)](https://medops-hms.example.com/features/admitted-patients/)
+- [Admitted Patients (IPD)](https://the-medops.github.io/user-guide/features/admitted-patients/)
   Admit patients to beds in MedOps HMS, record ward rounds and vitals, add inpatient medications, transfer between beds, and discharge.
-- [Appointments](https://medops-hms.example.com/features/appointments/)
+- [Appointments](https://the-medops.github.io/user-guide/features/appointments/)
   Book conflict-checked appointments in MedOps HMS against doctors' real availability, manage statuses, reschedule and cancel, and connect to consultations.
-- [Activity Log](https://medops-hms.example.com/features/audit-logs/)
+- [Activity Log](https://the-medops.github.io/user-guide/features/audit-logs/)
   A complete, searchable record in MedOps HMS of who did what and when across your organisation.
-- [Billing & Payments](https://medops-hms.example.com/features/bills/)
+- [Billing & Payments](https://the-medops.github.io/user-guide/features/bills/)
   How bills are generated in MedOps HMS, recording payments, tracking unpaid bills, and cancelling mistakes.
-- [Consultations](https://medops-hms.example.com/features/consultations/)
+- [Consultations](https://the-medops.github.io/user-guide/features/consultations/)
   Record a patient consultation in MedOps HMS — clinical notes and follow-up — and have the prescription and consultation bill created automatically on completion.
-- [Dashboard](https://medops-hms.example.com/features/dashboard/)
+- [Dashboard](https://the-medops.github.io/user-guide/features/dashboard/)
   The MedOps HMS home screen — a role-aware starting point with quick access to your daily work, key numbers, and global search.
-- [Managing Doctors](https://medops-hms.example.com/features/doctors/)
+- [Managing Doctors](https://the-medops.github.io/user-guide/features/doctors/)
   Add doctors to MedOps HMS, manage their profiles and credentials, set their consultation fee, and invite them by email.
-- [Hospitals & Departments](https://medops-hms.example.com/features/hospitals-and-departments/)
+- [Hospitals & Departments](https://the-medops.github.io/user-guide/features/hospitals-and-departments/)
   Set up hospitals, departments, and the physical layout of floors, rooms and beds (with room pricing) that inpatient care relies on.
-- [Medicines Catalogue](https://medops-hms.example.com/features/medicines/)
+- [Medicines Catalogue](https://the-medops.github.io/user-guide/features/medicines/)
   The shared, searchable medicines catalogue in MedOps HMS used across prescriptions and pharmacy stock.
-- [My Appointments & Availability](https://medops-hms.example.com/features/my-appointments/)
+- [My Appointments & Availability](https://the-medops.github.io/user-guide/features/my-appointments/)
   For doctors — view your own appointment queue and set your weekly working hours, appointment slot length, leave and time-off in MedOps HMS.
-- [Operations Team](https://medops-hms.example.com/features/operations-team/)
+- [Operations Team](https://the-medops.github.io/user-guide/features/operations-team/)
   Add and manage front-desk (Operations) staff in MedOps HMS, assign them to a hospital, and invite them by email.
-- [Patients](https://medops-hms.example.com/features/patients/)
+- [Patients](https://the-medops.github.io/user-guide/features/patients/)
   Register patients in MedOps HMS, give each a unique Medical Record Number, search and update records, and view a full visit and prescription history.
-- [Pharmacies](https://medops-hms.example.com/features/pharmacies/)
+- [Pharmacies](https://the-medops.github.io/user-guide/features/pharmacies/)
   Set up pharmacies in MedOps HMS with their tax rates and manage who can sign in to each pharmacy's portal.
-- [Pharmacy Portal](https://medops-hms.example.com/features/pharmacy-portal/)
+- [Pharmacy Portal](https://the-medops.github.io/user-guide/features/pharmacy-portal/)
   The pharmacy team's workspace in MedOps HMS — manage stock and prices, receive supplies, dispense against prescriptions, handle walk-in sales, and bill with tax.
-- [Prescriptions](https://medops-hms.example.com/features/prescriptions/)
+- [Prescriptions](https://the-medops.github.io/user-guide/features/prescriptions/)
   Clear, printable prescriptions in MedOps HMS with medicines, dosage, frequency and duration — created from a consultation and ready for the pharmacy.
-- [Your Account & Profile](https://medops-hms.example.com/getting-started/account-and-profile/)
+- [Your Account & Profile](https://the-medops.github.io/user-guide/getting-started/account-and-profile/)
   View and edit your MedOps HMS profile, change your password, and understand what you can and cannot change yourself.
-- [Signing In & The Basics](https://medops-hms.example.com/getting-started/)
+- [Signing In & The Basics](https://the-medops.github.io/user-guide/getting-started/)
   How to sign in to MedOps HMS, set up your password for the first time, reset a forgotten password, and understand sessions and signing out.
-- [MedOps HMS — User Guide](https://medops-hms.example.com/)
+- [MedOps HMS — User Guide](https://the-medops.github.io/user-guide/)
   The user guide for MedOps HMS, the hospital management platform that brings patients, appointments, consultations, prescriptions, inpatient care, pharmacy and billing into one place.
-- [Overview](https://medops-hms.example.com/introduction/)
+- [Overview](https://the-medops.github.io/user-guide/introduction/)
   What MedOps HMS is, who uses it, and how it is organised — one shared patient record across the front desk, doctors, wards, pharmacy and billing.
-- [Key Features](https://medops-hms.example.com/introduction/key-features/)
+- [Key Features](https://the-medops.github.io/user-guide/introduction/key-features/)
   A tour of everything MedOps HMS does — patients, appointments, consultations, prescriptions, inpatient care, pharmacy, billing, administration, search and activity logs.
-- [Roles at a Glance](https://medops-hms.example.com/introduction/roles-overview/)
+- [Roles at a Glance](https://the-medops.github.io/user-guide/introduction/roles-overview/)
   The six MedOps HMS roles — Tenant Admin, Doctor, Nurse, Staff, Operations and Pharmacy — and what each can do.
-- [FAQ](https://medops-hms.example.com/reference/faq/)
+- [FAQ](https://the-medops.github.io/user-guide/reference/faq/)
   Answers to common questions about using MedOps HMS.
-- [Glossary](https://medops-hms.example.com/reference/glossary/)
+- [Glossary](https://the-medops.github.io/user-guide/reference/glossary/)
   Plain-English definitions of the terms you'll meet in MedOps HMS.
-- [Doctor](https://medops-hms.example.com/roles/doctor/)
+- [Doctor](https://the-medops.github.io/user-guide/roles/doctor/)
   The Doctor guide for MedOps HMS — manage your appointment queue and availability, record consultations and prescriptions, and round on admitted patients.
-- [Nurse](https://medops-hms.example.com/roles/nurse/)
+- [Nurse](https://the-medops.github.io/user-guide/roles/nurse/)
   The Nurse guide for MedOps HMS — support inpatient care, view patient and ward information, and keep beds ready.
-- [Operations (Front Desk)](https://medops-hms.example.com/roles/operations/)
+- [Operations (Front Desk)](https://the-medops.github.io/user-guide/roles/operations/)
   The Operations guide for MedOps HMS — register patients, book appointments, admit and discharge inpatients, and take payments.
-- [Pharmacy](https://medops-hms.example.com/roles/pharmacy/)
+- [Pharmacy](https://the-medops.github.io/user-guide/roles/pharmacy/)
   The Pharmacy guide for MedOps HMS — manage stock, dispense against prescriptions, handle walk-in sales, and bill with tax.
-- [Staff](https://medops-hms.example.com/roles/staff/)
+- [Staff](https://the-medops.github.io/user-guide/roles/staff/)
   The Staff guide for MedOps HMS — general hospital staff access to shared patient, ward and catalogue information.
-- [Tenant Admin](https://medops-hms.example.com/roles/tenant-admin/)
+- [Tenant Admin](https://the-medops.github.io/user-guide/roles/tenant-admin/)
   The Tenant Admin guide for MedOps HMS — set up hospitals, departments, beds, staff and preferences, and oversee billing and activity across the organisation.
-- [First-Time Setup](https://medops-hms.example.com/workflows/first-time-setup/)
+- [First-Time Setup](https://the-medops.github.io/user-guide/workflows/first-time-setup/)
   A step-by-step guide for the Tenant Admin to set up MedOps HMS for the first time — hospitals, wards, staff, pharmacy and preferences.
-- [An Inpatient Admission](https://medops-hms.example.com/workflows/inpatient-admission/)
+- [An Inpatient Admission](https://the-medops.github.io/user-guide/workflows/inpatient-admission/)
   The end-to-end inpatient flow in MedOps HMS — admitting a patient to a bed, ward rounds and medications, transfers, and discharge.
-- [An Outpatient Visit](https://medops-hms.example.com/workflows/outpatient-visit/)
+- [An Outpatient Visit](https://the-medops.github.io/user-guide/workflows/outpatient-visit/)
   The end-to-end outpatient flow in MedOps HMS — from registering a patient and booking an appointment to consultation, billing and dispensing.
-- [Pharmacy Dispensing](https://medops-hms.example.com/workflows/pharmacy-dispensing/)
+- [Pharmacy Dispensing](https://the-medops.github.io/user-guide/workflows/pharmacy-dispensing/)
   The pharmacy flow in MedOps HMS — keeping stock current, dispensing against a prescription, handling walk-in sales, and billing with tax.
